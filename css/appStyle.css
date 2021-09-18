@@ -1,0 +1,1542 @@
+body {
+    background-color: #151515;
+    margin: 0px;
+    padding: 0px;
+    /* width: 100vw;
+    height: 100vh; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.seperateLine {
+    background-color: white;
+    width: 85%;
+    height: 1px;
+    margin: 0px auto;
+    opacity: 0.3;
+    display: none;
+}
+#scrollTopSection {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255 , 0.3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 201;
+    bottom: 0;
+    right: 0;
+}
+#scrollTopSection:hover {
+    cursor: pointer;
+}
+
+/* Header section  */
+#headerSection {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: rgba(0,0,0,0.85);
+    z-index: 2;
+}
+.appLogo {
+    font-size: 30px;
+    /* font-family: videopac; */
+    /* font-family: 'Black Ops One', cursive; */
+    /* font-family: 'Monoton', cursive; */
+    /* font-family: 'Gugi', cursive; */
+    font-family: 'Saira Stencil One', cursive;
+    color: #FF00C5;
+    padding-left: 40px;
+}
+#headerSection .right {
+    padding-right: 10px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#headerSection .right > button {
+    margin-right: 15px;
+    width: 17%;
+    height: 38px;
+    font-size: 13px;
+    font-weight: 600;
+    border: solid 2px white;
+    border-radius: 3px;
+    color: white;
+    background-color: transparent;
+    transition: all 0.25s;
+}
+#headerSection .right button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#headerSection .right .searchBarWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 60%;
+}
+#headerSection .right .searchBarWrapper input[type=text] {
+    padding-left: 10px;
+    width: 85%;
+    height: 100%;
+    background-color: transparent;
+    border: gray 1px solid;
+    border-width: 1px 0 1px 1px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    transition: border 0.3s ease-in-out;
+}
+#headerSection .right .searchBarWrapper input[type=text]:hover {
+    border-color: white;
+}
+#headerSection .right .searchBarWrapper input[type=text]::selection {
+    color: black;
+    background-color: white;
+}
+#headerSection .right .searchBarWrapper input[type=text]:focus {
+    border-color: white;
+}
+#headerSection .right .searchBarWrapper .searchButton {
+    width: 15%;
+    background-color: white;
+    border: gray 1px solid;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+}
+
+
+/* Contact section style -------------------------------- */
+#contactSection {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    background-color: rgba(0,0,0,0.9);
+    opacity: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+#contactSection .closeButtonWrapper {
+    position: absolute;
+    color: white;
+    z-index: 101;
+    font-size: 40px;
+    top:15px;
+    right: 25px;
+}
+#contactSection .closeButtonWrapper:hover {
+    cursor: pointer;
+}
+#contactSection .contactWrapper {
+    width: 70%;
+    height: 70%;
+    background-color: #151515;
+    border: white 3px solid;
+    font-family: 'Oswald', sans-serif;
+    transform: translateY(-50%);
+    transition: all 0.4s ease-in-out;
+}
+#contactSection .contactWrapper .googleMap {
+    width: 100%;
+    height: 60%;
+}
+#contactSection .contactWrapper .contactAndSocialWrapper {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+#contactSection .contactWrapper .contactAndSocialWrapper .contactContainer {
+    text-align: left;
+    width: 60%;
+    height: 100%;
+    padding-left: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+#contactSection .contactWrapper .title {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#contactSection .contactWrapper .phoneNumber , .address , .additionalNote {
+    letter-spacing: 0.3mm;
+}
+#contactSection .contactWrapper span {
+    opacity: 0.5;
+}
+
+#contactSection .contactWrapper .contactAndSocialWrapper .socialContainer {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#contactSection .contactWrapper .contactAndSocialWrapper .socialContainer a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+#contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+    width: 20%;
+    height: 40%;
+    border: white 2px solid;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: all 0.3s ease;
+}
+#contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social:hover {
+    cursor: pointer;
+    background-color: white;
+}
+#contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social:hover i {
+    color: #151515;
+}
+
+
+/* Search Result Section Style */
+#searchResultSection {
+    background-color: transparent;
+    width: 40%;
+    height: 50%;
+    max-height: 50%;
+    position: fixed;
+    top: 70px;
+    right: 10px;
+    z-index: 150;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+#searchResultSection > div {
+    height: 20%;
+    width: 100%;
+    background: rgba(0, 0, 0 , 0.8);
+    border-color: gray;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    transition: border 0.3s ease;
+}
+#searchResultSection > div:hover {
+    border-color: white;
+    background: rgba(64, 64, 64, 0.9);
+    cursor: pointer;
+}
+#searchResultSection div .imageWrapper {
+    width: 100px;
+    height: 80%;
+    border: white 1px solid;
+}
+#searchResultSection div .imageWrapper img {
+    width: 100%;
+    height: 100%;
+}
+#searchResultSection div .detailWrapper {
+    margin: 0 20px;
+}
+#searchResultSection div .detailWrapper .title {
+    font-size: 20px;
+}
+#searchResultSection div .detailWrapper .publisher {
+    font-size: 14px;
+}
+
+
+/* Popular game section  -------------------------------- */
+
+#popularGameSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+#popularGameSection .gameBackground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#popularGameSection .gameBackground .backgroundImage {
+    transition: all 0.3s ease-in-out;
+}
+#popularGameSection .gameBackground img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#popularGameSection .gameIntro {
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 50px;
+    color: white;
+    z-index: 4;
+}
+#popularGameSection .gameIntro .title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#popularGameSection .gameIntro .genre,.publisher,.platform {
+    word-wrap: break-word;
+    opacity: 0.7;
+    margin: 2px 0;
+}
+#popularGameSection .gameIntro button {
+    margin-top: 10px;
+    width: 100px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF0087;
+    border: #FF0087 3px solid;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.15s ease;
+}
+#popularGameSection .gameIntro button:hover {
+    background-color: #FF0087;
+    color: white;
+    cursor: pointer;
+}
+#popularGameSection .gameplayImages {
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 5;
+}
+#popularGameSection .gameplayImages img {
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+}
+#popularGameSection .gameplayImages .active {
+    border: white 1px solid;
+}
+#popularGameSection .gameplayImages img:hover {
+    cursor: pointer;
+}
+.popularGameSectionShadow {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(transparent,rgba(21,21,21,1)100%);
+    z-index: 20;
+}
+
+/* Popular game Detail */
+#gameDetail {
+    width: 100%;
+    /* height: 100vh; */
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    /* display: none; */
+    /* background-color: white; */
+}
+.upAndFadeEffect {
+    transform: translateY(-100%);
+    opacity: 0.0;
+}
+.downAndFadeOutEffect {
+    transform: translateY(0%);
+    opacity: 1;
+}
+#gameDetail .titleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gameDetail .title {
+    width: 80%;
+    padding: 10px 0 5px 20px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Saira Stencil One', cursive;
+}
+#gameDetail .buttonWrapper {
+    width: 20%;
+    text-align: end;
+}
+#gameDetail .titleButtonStyle {
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    color: #FF0087;
+    border: 2px solid #FF0087;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+}
+#gameDetail .titleButtonStyle:hover {
+    background-color: #FF0087;
+    color: white;
+    cursor: pointer;
+}
+#gameDetail .logoAndDetailWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#gameDetail .logoAndDetailWrapper .logo {
+    /* margin-left: 20px; */
+    width: 40%;
+    height: 350px;
+    object-fit: cover;
+    border: white 1px solid;
+}
+#gameDetail .logoAndDetailWrapper .specWrapper {
+    width: 55%;
+}
+#gameDetail .logoAndDetailWrapper .spec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#gameDetail .specLabel {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#gameDetail .logoAndDetailWrapper .spec .minimum,.recommend {
+    width: 50%;
+}
+#gameDetail .logoAndDetailWrapper .spec .recommend {
+    text-align: left;
+}
+#gameDetail .logoAndDetailWrapper .spec .specTitle {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#gameDetail .logoAndDetailWrapper .spec .specs {
+    margin-left: 20px;
+}
+#gameDetail .logoAndDetailWrapper .specs {
+    margin: 10px 0;
+    font-size: 14px;
+}
+#gameDetail .logoAndDetailWrapper .specDetail {
+    font-size: 13px;
+    opacity: 0.8;
+}
+#gameDetail .logoAndDetailWrapper .specs .size {
+    color: #FF0087;
+    opacity: 1;
+    font-weight: 600;
+    /* font-size: 16px; */
+}
+#gameDetail .additionalImagesWrapper {
+    margin-top: 20px;
+
+}
+#gameDetail .additionalImagesWrapper .additionImageLabel {
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    margin-left: 20px;
+}
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper {
+    position: relative;
+    width: 19%;
+    height: 80%;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out,filter 0.3s ease-in-out;
+}
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+    position: absolute;
+    z-index: 2;
+    visibility: hidden;
+    font-size: 35px;
+}
+/* #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper img:hover {
+    transform: translateY(-10%);
+    transform: scale(1.2);
+    filter: blur(2px);   
+} */
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper:hover{
+    transform: translateY(-5%);
+    box-shadow: #FF0087 1px 1px 100px 1px;
+}
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper:hover img {
+    /* transform: translateY(-10%); */
+    transform: scale(1.2);
+    filter: blur(2px);   
+}
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper:hover i {
+    visibility: visible;
+}
+#gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i:hover {
+    cursor: pointer;
+}
+
+.enlargeImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 2;
+    /* opacity: 0; */
+    transition: opacity 0.5s ease;
+}
+.enlargeImageWrapper i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #FF0087;
+    z-index: 4;
+}
+.enlargeImageWrapper i:hover {
+    cursor: pointer;
+}
+.enlargeImageWrapper .imageWrapper {
+    width: 90%;
+    height: 90%;
+    border: grey 1px solid;
+    position: absolute;
+    z-index: 3;
+}
+.enlargeImageWrapper .imageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Available game list section */
+#availableGameList {
+    margin: 20px 0 0 0;
+    padding: 0px;
+}
+#availableGameList .row {
+    margin: 0px;
+    padding: 0px;
+}
+#availableGameList .gameIntroWrapper {
+    height: 350px;
+    /* border: white 1px solid; */
+    margin: 10px 0px;
+    padding: 0px;
+    border-bottom: #151515 3px solid;
+    transition: border 0.3s ease-in-out;
+}
+#availableGameList .gameIntroWrapper:hover {
+    cursor: pointer;
+    border-color: #FF0087;
+}
+#availableGameList .gameIntroWrapper:hover img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#availableGameList .gameIntroWrapper .imageWrapper {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+#availableGameList .gameIntroWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+#availableGameList .gameIntroWrapper .introWrapper {
+    padding: 10px 0 0 10px;
+}
+
+#availableGameList .gameIntroWrapper .introWrapper .title {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 18px;
+}
+#availableGameList .gameIntroWrapper .introWrapper .size {
+    font-size: 14px;
+    font-weight: bolder;
+}
+#availableGameList .gameIntroWrapper .introWrapper .size b {
+    color: #FF0087;
+}
+
+
+/* Copyright section style */
+#copyrightSection {
+    width: 100%;
+    height: 60px;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+#copyrightSection .detailWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#copyrightSection .detailWrapper div {
+ margin: 0 5px;   
+}
+#copyrightSection .detailWrapper .authorName {
+    background-color: transparent;
+    color: #FF0087;
+    width: 70px;
+    height: 23px;
+    font-size: 12px;
+    border: #FF0087 1px solid;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyrightSection .detailWrapper .authorName:hover {
+    cursor: pointer;
+}
+
+/* Responsive page style -------------------------------------------------------------------------------------------------------------- */
+/* Responsive page style -------------------------------------------------------------------------------------------------------------- */
+/* Responsive page style -------------------------------------------------------------------------------------------------------------- */
+/* Responsive page style -------------------------------------------------------------------------------------------------------------- */
+/* Responsive page style -------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1300px ) {
+    .appLogo {
+        font-size: 25px;
+    }
+    #headerSection {
+        height: 60px;
+    }
+    #headerSection .right {
+        width: 50%;
+    }
+    #searchResultSection {
+        top: 60px;
+    }
+
+    #contactSection .contactWrapper .title {
+        font-size: 25px;
+    }
+    #contactSection .contactWrapper .phoneNumber , .address , .additionalNote {
+        font-size: 14px;
+    }
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 20%;
+        height: 37%;
+        font-size: 22px;
+    }
+
+
+    #gameDetail .title {
+        font-size: 40px;
+    }
+    #gameDetail .titleButtonStyle {
+        width: 90px;
+        font-size: 12px;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+    /* margin-left: 20px; */
+    width: 40%;
+    height: 280px;
+    object-fit: cover;
+    border: white 1px solid;
+    }
+
+    #gameDetail .specLabel {
+        font-size: 30px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs {
+        margin: 5px 0;
+        font-size: 12px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs .size {
+        font-size: 13px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specTitle {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specs {
+        margin-left: 13px;
+    }
+    
+    #gameDetail .logoAndDetailWrapper .specDetail {
+        font-size: 12px;
+    }
+    #gameDetail .additionalImagesWrapper {
+        margin-top: 20px;
+    
+    }
+    #gameDetail .additionalImagesWrapper .additionImageLabel {
+        font-size: 18px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper {
+        position: relative;
+        width: 19%;
+        height: 80%;
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease-in-out,filter 0.3s ease-in-out;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+        position: absolute;
+        z-index: 2;
+        visibility: hidden;
+        font-size: 35px;
+    }
+    
+}
+    
+
+@media only screen and (max-width: 1080px ) {
+    #headerSection .right {
+        width: 60%;
+    }
+    #headerSection .right > button {
+        width: 15%;
+        height: 35px;
+        font-size: 12px;
+    }
+    #contactSection .contactWrapper .title {
+        font-size: 25px;
+    }
+    #contactSection .contactWrapper .phoneNumber , .address , .additionalNote {
+        font-size: 14px;
+        letter-spacing: 0.2mm;
+    }
+    #contactSection .contactWrapper span {
+        font-size: 13px;
+    }
+    
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 22%;
+        height: 35%;
+    }
+
+    #searchResultSection {
+        width: 45%;
+    }
+    #searchResultSection .resultWrapper .imageWrapper {
+        width: 85px;
+        height: 70%;
+    }
+    #searchResultSection .resultWrapper .detailWrapper .title {
+        font-size: 17px;
+    }
+    #searchResultSection .resultWrapper .detailWrapper .publisher {
+        font-size: 13px;
+    }
+
+    #gameDetail .logoAndDetailWrapper .logo {
+        /* margin-left: 20px; */
+        width: 40%;
+        height: 240px;
+        object-fit: cover;
+        border: white 1px solid;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 930px ) {
+    .appLogo {
+        font-size: 20px;
+    }
+    #headerSection .right {
+        width: 50%;
+    }
+    #headerSection .right > button {
+        width: 20%;
+        height: 30px;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+    #headerSection .right .searchBarWrapper {
+        height: 30px;
+        width: 50%;
+    }
+    #contactSection .contactWrapper {
+        width: 75%;
+        height: 85%;
+    }
+    #contactSection .closeButtonWrapper {
+        font-size: 30px;
+    }
+    #contactSection .contactWrapper .googleMap {
+        height: 40%;
+    }
+    #contactSection .contactWrapper .contactAndSocialWrapper {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: left;
+    }
+    #contactSection .contactWrapper .contactAndSocialWrapper .contactContainer {
+        width: 100%;
+        height: 60%;  
+        padding-left: 5px;      
+        
+    }
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer {
+        width: 100%;
+        height: 40%;        
+        
+    }
+    #contactSection .contactWrapper .title {
+        font-size: 25px;
+    }
+    #contactSection .contactWrapper .phoneNumber , .address , .additionalNote {
+        font-size: 14px;
+        letter-spacing: 0.2mm;
+    }
+    #contactSection .contactWrapper span {
+        font-size: 13px;
+    }
+    
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 15%;
+        height: 60%;
+        font-size: 25px;
+    }
+
+    #gameDetail .title {
+        font-size: 40px;
+    }
+    #gameDetail .titleButtonStyle {
+        width: 90px;
+        font-size: 12px;
+    }
+
+    #gameDetail .logoAndDetailWrapper {
+        flex-direction: column;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+    /* margin-left: 20px; */
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    margin: 10px 0;
+    }
+
+    #gameDetail .logoAndDetailWrapper .specWrapper {
+        width: 100%;
+        padding-left: 20px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .minimum,.recommend {
+        width: 49%;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper {
+        position: relative;
+        width: 19%;
+        height: 80%;
+        transition: transform 0.3s ease-in-out;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease-in-out,filter 0.3s ease-in-out;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+        position: absolute;
+        z-index: 2;
+        visibility: hidden;
+        font-size: 35px;
+    }
+
+    .enlargeImageWrapper i {
+        font-size: 35px;
+    }
+    .enlargeImageWrapper .imageWrapper {
+        width: 90%;
+        height: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 790px ) {
+    .appLogo {
+        font-size: 25px;
+        padding: 5px 0 0 0;
+        
+    }
+    #headerSection {
+        position: static;
+        flex-direction: column;
+        height: 90px;
+    }
+    #searchResultSection {
+        position: absolute;
+    }
+    #scrollTopSection {
+        display: flex;
+    }
+    #headerSection .right {
+        width: 100%;
+        padding: 0px;
+    }
+    #searchResultSection {
+        top: 90px;
+    }
+    #popularGameSection {
+        height: 90vh;
+    }
+    #popularGameSection .gameIntro {
+        width: 100%;
+        background: rgba(0, 0, 0 , 0.7);
+        align-items: center;
+        padding: 0px;
+    }
+    #popularGameSection .gameIntro .genre,.publisher,.platform {
+        display: none;
+    }
+    #popularGameSection .gameIntro .popularDetailButton {
+        font-size: 15px;
+        width: 85px;
+        height: 33px;
+        margin-top: 0px;
+    }
+    #popularGameSection .gameplayImages {
+        width: 80%;
+        height: 80px;
+        right: 10px;
+    }
+    #popularGameSection .gameplayImages img {
+        width: 18%;
+        height: 80%;
+    }
+
+    #contactSection .contactWrapper .title {
+        font-size: 25px;
+    }
+    #contactSection .contactWrapper .phoneNumber , .address , .additionalNote {
+        font-size: 15px;
+        letter-spacing: 0.2mm;
+    }
+    #contactSection .contactWrapper span {
+        font-size: 14px;
+    }
+    
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 14%;
+        height: 45%;
+        font-size: 20px;
+    }
+
+    #searchResultSection {
+        width: 50%;
+    }
+    #searchResultSection .resultWrapper {
+        height: 15%;
+    }
+    #searchResultSection .resultWrapper .imageWrapper {
+        width: 70px;
+        height: 70%;
+    }
+    #searchResultSection .resultWrapper .detailWrapper .title {
+        font-size: 15px;
+    }
+
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* .enlargeImageWrapper i {
+        font-size: 35px;
+    } */
+    .enlargeImageWrapper .imageWrapper {
+        width: 90%;
+        height: 50%;
+    }
+
+
+}
+
+@media only screen and (max-width: 620px ) {
+    /* #headerSection {
+        position: absolute;
+    } */
+    #popularGameSection {
+        height: 70vh;
+    }
+    #popularGameSection .gameplayImages {
+        display: none;
+    }
+
+    #availableGameList {
+        margin-top: 0px;
+    }
+    #availableGameList .gameIntroWrapper .introWrapper .title {
+        font-size: 16px;
+    }
+    #availableGameList .gameIntroWrapper .introWrapper .size {
+        font-size: 12px;
+    }
+
+
+    
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 14%;
+        height: 40%;
+        font-size: 18px;
+    }
+
+    #searchResultSection {
+        width: 70%;
+    }
+    #searchResultSection .resultWrapper {
+        height: 15%;
+    }
+    #searchResultSection .resultWrapper .imageWrapper {
+        width: 70px;
+        height: 70%;
+    }
+    #searchResultSection .resultWrapper .detailWrapper .title {
+        font-size: 15px;
+    }
+
+    .enlargeImageWrapper .imageWrapper {
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 580px ) {
+    #contactSection .contactWrapper {
+        width: 90%;
+    }
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 20%;
+        height: 46%;
+        font-size: 20px;
+        border-radius: 20%;
+    }
+    #contactSection .closeButtonWrapper {
+        font-size: 25px;
+        right: 10px;
+    }
+
+    #gameDetail .title {
+        font-size: 32px;
+    }
+    #gameDetail .titleButtonStyle {
+        width: 80px;
+        font-size: 10px;
+    }
+
+    #gameDetail .logoAndDetailWrapper {
+        flex-direction: column;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+    /* margin-left: 20px; */
+    height: 40vh;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .minimum,.recommend {
+        width: 49%;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper {
+        width: 17%;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+        font-size: 15px;
+    }
+
+    .enlargeImageWrapper i {
+        font-size: 30px;
+    }
+    .enlargeImageWrapper .imageWrapper {
+        width: 90%;
+        height: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 500px ) {
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 18%;
+        height: 42%;
+        font-size: 20px;
+    }
+    #contactSection .closeButtonWrapper {
+        font-size: 25px;
+        right: 10px;
+    }
+
+    #searchResultSection {
+        width: 80%;
+        right: 0px;
+    }
+    #searchResultSection .resultWrapper {
+        height: 13%;
+    }
+    #searchResultSection .resultWrapper .imageWrapper {
+        width: 60px;
+        height: 70%;
+    }
+    #searchResultSection .resultWrapper .detailWrapper .title {
+        font-size: 13px;
+    }
+
+    #gameDetail .title {
+        font-size: 30px;
+    }
+    #gameDetail .titleButtonStyle {
+        width: 90px;
+        font-size: 12px;
+        margin-right: 7px;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+    /* margin-left: 20px; */
+    width: 100%;
+    height: 40vh;
+    }
+
+    #gameDetail .logoAndDetailWrapper .specWrapper {
+        width: 100%;
+        padding-left: 10px;
+    }
+    #gameDetail .logoAndDetailWrapper .specWrapper .spec {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .minimum,.recommend {
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    #gameDetail .specLabel {
+        font-size: 22px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs .size {
+        font-size: 14px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specTitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specs {
+        margin-left: 12px;
+        font-size: 14px;
+    }
+    
+    #gameDetail .logoAndDetailWrapper .specDetail {
+        font-size: 13px;
+    }
+    #gameDetail .additionalImagesWrapper .additionImageLabel {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        height: 70px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper {
+        width: 18%;
+        height: 80%;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 440px ) {
+    #gameDetail .title {
+        font-size: 25px;
+    }
+    #gameDetail .titleButtonStyle {
+        width: 80px;
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+    /* margin-left: 20px; */
+    width: 100%;
+    height: 35vh;
+    }
+    #gameDetail .specLabel {
+        font-size: 20px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs {
+        margin: 3px 0;
+        font-size: 13px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs .size {
+        font-size: 14px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specTitle {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specs {
+        margin-left: 12px;
+        font-size: 13px;
+    }
+    
+    #gameDetail .logoAndDetailWrapper .specDetail {
+        font-size: 12px;
+    }
+    #gameDetail .additionalImagesWrapper .additionImageLabel {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        height: 60px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper {
+        width: 18%;
+        height: 80%;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+        font-size: 15px;
+    }
+
+    .enlargeImageWrapper i {
+        font-size: 25px;
+    }
+    .enlargeImageWrapper .imageWrapper {
+        height: 25%;
+    }
+}
+
+@media only screen and (max-width: 395px ) {
+    .appLogo {
+        font-size: 25px;
+    }
+    #headerSection .right > button {
+        width: 20%;
+        height: 30px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    #headerSection .right .searchBarWrapper {
+        font-size: 13px;
+    }
+    #popularGameSection {
+        height: 80vh;
+    }
+    #popularGameSection .gameIntro .title {
+        font-size: 35px;
+    }
+    #popularGameSection .gameIntro .popularDetailButton {
+        font-size: 12px;
+        width: 70px;
+        height: 30px;
+        margin-top: 0px;
+    }
+    #availableGameList .gameIntroWrapper {
+        height: 280px;
+    }
+    #availableGameList .gameIntroWrapper .introWrapper .title {
+        font-size: 15px;
+    }
+    #availableGameList .gameIntroWrapper .introWrapper .size {
+        font-size: 11px;
+    }
+
+    #contactSection .contactWrapper {
+        width: 80%;
+        height: 65%;
+    }
+    #contactSection .contactWrapper .title {
+        font-size: 20px;
+    }
+    #contactSection .contactWrapper .phoneNumber , .address , .additionalNote {
+        font-size: 13px;
+        letter-spacing: 0.2mm;
+    }
+    #contactSection .contactWrapper span {
+        font-size: 12px;
+    }
+
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 18%;
+        height: 40%;
+        font-size: 15px;
+    }
+
+    #gameDetail .title {
+        font-size: 17px;
+    }
+    #gameDetail .titleButtonStyle {
+        width: 65px;
+        height: 30px;
+        font-size: 8px;
+        margin-right: 6px;
+    }
+    #gameDetail .logoAndDetailWrapper .specWrapper {
+        padding-left: 7px;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+    /* margin-left: 20px; */
+        width: 100%;
+        height: 25vh;
+    }
+    #gameDetail .specLabel {
+        font-size: 17px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs {
+        margin: 2px 0;
+        font-size: 12px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs .size {
+        font-size: 13px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specTitle {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specs {
+        margin-left: 11px;
+        font-size: 12px;
+    }
+    
+    #gameDetail .logoAndDetailWrapper .specDetail {
+        font-size: 11px;
+    }
+    #gameDetail .additionalImagesWrapper .additionImageLabel {
+        font-size: 16px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        height: 50px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+        font-size: 13px;
+    }
+
+    .enlargeImageWrapper .imageWrapper {
+        width: 90%;
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 360px ) {
+    .appLogo {
+        font-size: 20px;
+    }
+    #headerSection .right > button {
+        width: 20%;
+        height: 27px;
+        font-size: 9px;
+        font-weight: lighter;
+        margin-right: 5px;
+    }
+    #headerSection .right .searchBarWrapper {
+        height: 27px;
+        width: 50%;
+        font-size: 10px;
+    }
+
+    #searchResultSection {
+        width: 90%;
+    }
+    #searchResultSection .resultWrapper {
+        height: 11%;
+    }
+    #searchResultSection .resultWrapper .imageWrapper {
+        width: 50px;
+        height: 70%;
+    }
+    #searchResultSection .resultWrapper .detailWrapper .title {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 330px ) {
+    #headerSection .right > button {
+        width: 20%;
+        height: 27px;
+        font-size: 8px;
+        font-weight: lighter;
+        margin-right: 5px;
+    }
+
+    #contactSection .contactWrapper .title {
+        font-size: 17px;
+    }
+    #contactSection .contactWrapper .phoneNumber , .address , .additionalNote {
+        font-size: 12px;
+        letter-spacing: 0.1mm;
+    }
+    #contactSection .contactWrapper span {
+        font-size: 11px;
+    }
+
+    #contactSection .contactWrapper .contactAndSocialWrapper .socialContainer .social {
+        width: 18%;
+        height: 36%;
+        font-size: 13px;
+    }
+
+    #gameDetail .title {
+        font-size: 18px;
+    }
+    #gameDetail .titleButtonStyle {
+        width: 55px;
+        height: 28px;
+        font-size: 6px;
+    }
+    #gameDetail .logoAndDetailWrapper .specWrapper {
+        padding-left: 4px;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+        height: 20vh;
+    }
+    #gameDetail .specLabel {
+        font-size: 17px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs {
+        margin: 1px 0;
+        font-size: 11px;
+    }
+    #gameDetail .logoAndDetailWrapper .specs .size {
+        font-size: 12px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specTitle {
+        font-size: 13px;
+    }
+    #gameDetail .logoAndDetailWrapper .spec .specs {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+    #gameDetail .logoAndDetailWrapper .specDetail {
+        font-size: 10px;
+    }
+    #gameDetail .additionalImagesWrapper .additionImageLabel {
+        font-size: 15px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper {
+        height: 40px;
+    }
+    #gameDetail .additionalImagesWrapper .gameplayImagesWrapper .imageWrapper i {
+        font-size: 12px;
+    }
+
+    .enlargeImageWrapper i {
+        font-size: 20px;
+    }
+    .enlargeImageWrapper .imageWrapper {
+        height: 18%;
+    }
+}
