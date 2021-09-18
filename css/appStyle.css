@@ -1540,3 +1540,9 @@ body {
         height: 18%;
     }
 }
+
+@media only screen and (max-height: 790px ) {
+    .enlargeImageWrapper .imageWrapper {
+        height: 22%;
+    }
+}
