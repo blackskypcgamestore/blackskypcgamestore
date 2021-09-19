@@ -1542,7 +1542,18 @@ body {
 }
 
 @media only screen and (max-height: 790px ) {
+    @media only screen and ( max-width: 400px ) {
+        .enlargeImageWrapper .imageWrapper {
+            height: 24%;
+        }
+    }
+}
+
+@media only screen and (max-height: 500px ) {
     .enlargeImageWrapper .imageWrapper {
-        height: 22%;
+        height: 90%;
+    }
+    #gameDetail .logoAndDetailWrapper .logo {
+        height: 100vh;
     }
 }
