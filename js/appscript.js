@@ -18,8 +18,8 @@ let popularDetailButton = document.querySelector(".popularDetailButton");
 let additionalImagesWrapper = document.querySelectorAll(".additionalImagesWrapper .gameplayImagesWrapper .imageWrapper");
 let delayInMilliseconds = 300; //1 second
 let smoothScrollBar = { behavior: 'smooth'};
-const pageMessengerLink = "https://m.me/106852994268347";
-const pageLink = "https://facebook.com/Blacksky-Tech-Channel-106852994268347";
+const pageMessengerLink = "https://m.me/blackskypcgamestore";
+const pageLink = "https://www.facebook.com/blackskypcgamestore";
 const phoneNumber = "+959769952798";
 
 
