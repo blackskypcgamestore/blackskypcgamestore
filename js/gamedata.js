@@ -1,4 +1,99 @@
 gameData = [
+
+    {
+        title: "World War Z: Aftermath",
+        genre: "Action, TPS",
+        publisher: "Saber Interactive",
+        platform: "PC",
+        size: "23.5 GB",
+        logoLink: "https://i.ibb.co/9VJ03Vf/World-War-Z-Aftermath-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/MNw6XMj/World-War-Z-Aftermath-gameplay-4.jpg",
+            "https://i.ibb.co/zPP2c6y/World-War-Z-Aftermath-gameplay-3.jpg",
+            "https://i.ibb.co/DGmH391/World-War-Z-Aftermath-gameplay-2.jpg",
+            "https://i.ibb.co/PwbG5FJ/World-War-Z-Aftermath-gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 64-bit",
+                cpu: "Intel Core i3-3220 / AMD A10-5700",
+                gpu: "Nvidia GeForce 650Ti / Intel 630 / Radeon HD 5870",
+                ram: "8 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windows® 10 64bit",
+                cpu: "Intel Core i7-3970X",
+                gpu: "Nvidia GeForce GTX 960 / AMD Radeon R9 280",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Aragami 2",
+        genre: "Action, Stealth",
+        publisher: "Lince Works",
+        platform: "PC",
+        size: "3.33 GB",
+        logoLink: "https://i.ibb.co/Yk6bqxQ/Argami-2-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/4mBcQb5/Argami-2-gameplay-3.png",
+            "https://i.ibb.co/k2562kg/Argami-2-gameplay-2.jpg",
+            "https://i.ibb.co/9bNGsjy/Argami-2-gameplay-1.jpg",
+            "https://i.ibb.co/1vLWhnj/Argami-2-gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD FX-6100/Intel i3-3220 or Equivalent",
+                gpu: "AMD Radeon HD 7750, NVIDIA GeForce GTX 650 or Equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD Ryzen 7 1700/Intel i7-6700K or Equivalent",
+                gpu: "AMD RX Vega 56, Nvidia GTX 1070/GTX 1660 Ti or Equivalent",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    } , 
+
+
+    {
+        title: "Aragami 2",
+        genre: "Action, Stealth",
+        publisher: "Lince Works",
+        platform: "PC",
+        size: "3.33 GB",
+        logoLink: "https://i.ibb.co/Yk6bqxQ/Argami-2-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/4mBcQb5/Argami-2-gameplay-3.png",
+            "https://i.ibb.co/k2562kg/Argami-2-gameplay-2.jpg",
+            "https://i.ibb.co/9bNGsjy/Argami-2-gameplay-1.jpg",
+            "https://i.ibb.co/1vLWhnj/Argami-2-gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD FX-6100/Intel i3-3220 or Equivalent",
+                gpu: "AMD Radeon HD 7750, NVIDIA GeForce GTX 650 or Equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD Ryzen 7 1700/Intel i7-6700K or Equivalent",
+                gpu: "AMD RX Vega 56, Nvidia GTX 1070/GTX 1660 Ti or Equivalent",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    } , 
+
     {
         title: "Outriders",
         genre: "Third person shooter",
@@ -1761,6 +1856,68 @@ gameData = [
                 cpu: "Intel i5 2300 @ 2.8GHz OR AMD FX 6100 @ 3.3 GHz",
                 gpu: "AMD Radeon R9 270 OR Nvidia GTX 670",
                 ram: "6 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+	
+	{
+        title: "Little Nightmares",
+        genre: "Adventure, Platform, Puzzle",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "2.07 GB",
+        logoLink: "https://i.ibb.co/RyMbPty/Little-Nightmare-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/1Rv0bRw/Little-Nightmare-gameplay-4.jpg",
+            "https://i.ibb.co/0CQ8B6p/Little-Nightmare-gameplay-3.jpg",
+            "https://i.ibb.co/cLDHvHT/Little-Nightmare-gameplay-1.jpg",
+            "https://i.ibb.co/XLFkgzw/Little-Nightmare-gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 64-bit",
+                cpu: "Intel CPU Core i3",
+                gpu: "Nvidia GTX 460",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7, 64-bit",
+                cpu: "Intel CPU Core i7",
+                gpu: "Nvidia GPU GeForce GTX 660",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Little Nightmares 2",
+        genre: "Adventure, Platform, Puzzle",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "3.41 GB",
+        logoLink: "https://i.ibb.co/t3zCKcq/Little-Nightmare-2-logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/fGGf0ww/Little-Nightmare-2-gameplay-1.jpg",
+            "https://i.ibb.co/wrcPYK4/Little-Nightmare-2-gameplay-4.png",
+            "https://i.ibb.co/YbMwKzP/Little-Nightmare-2-gameplay-3.jpg",
+            "https://i.ibb.co/GtS9zgm/Little-Nightmare-2-gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10, 64-bit",
+                cpu: "Intel Core i5-2300 | AMD FX-4350",
+                gpu: "Nvidia GeForce GTX 570, 1 GB | AMD Radeon HD 7850, 2 GB",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10, 64-bit",
+                cpu: "Intel Core i7-3770 | AMD FX-8350",
+                gpu: "Nvidia GeForce GTX 760, 2 GB | AMD Radeon HD 7870, 2 GB",
+                ram: "8 GB",
                 directX: "Version 11",
             }
         }
