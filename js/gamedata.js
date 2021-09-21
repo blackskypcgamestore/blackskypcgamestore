@@ -62,38 +62,6 @@ gameData = [
         }
     } , 
 
-
-    {
-        title: "Aragami 2",
-        genre: "Action, Stealth",
-        publisher: "Lince Works",
-        platform: "PC",
-        size: "3.33 GB",
-        logoLink: "https://i.ibb.co/Yk6bqxQ/Argami-2-logo.jpg",
-        gameplayLinks: [
-            "https://i.ibb.co/4mBcQb5/Argami-2-gameplay-3.png",
-            "https://i.ibb.co/k2562kg/Argami-2-gameplay-2.jpg",
-            "https://i.ibb.co/9bNGsjy/Argami-2-gameplay-1.jpg",
-            "https://i.ibb.co/1vLWhnj/Argami-2-gameplay-4.jpg"
-        ],
-        systemRequirements: {
-            minimum: {
-                os: "64-bit Windows 7/8.1/10",
-                cpu: "AMD FX-6100/Intel i3-3220 or Equivalent",
-                gpu: "AMD Radeon HD 7750, NVIDIA GeForce GTX 650 or Equivalent",
-                ram: "8 GB",
-                directX: "Version 11",
-            },
-            recommend: {
-                os: "64-bit Windows 7/8.1/10",
-                cpu: "AMD Ryzen 7 1700/Intel i7-6700K or Equivalent",
-                gpu: "AMD RX Vega 56, Nvidia GTX 1070/GTX 1660 Ti or Equivalent",
-                ram: "16 GB",
-                directX: "Version 11",
-            }
-        }
-    } , 
-
     {
         title: "Outriders",
         genre: "Third person shooter",
