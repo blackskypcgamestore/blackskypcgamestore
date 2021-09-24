@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Kena: Bridge of Spirits",
+        genre: "Action, Adventure",
+        publisher: "Ember Lab",
+        platform: "PC",
+        size: "13.5 GB",
+        logoLink: "https://i.ibb.co/fkT1NJc/Kena-Bridge-of-Spirits-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/rZHMzJ4/Kena-Bridge-of-Spirits-gameplay-2.png",
+            "https://i.ibb.co/qMV58DH/Kena-Bridge-of-Spirits-gameplay-1.jpg",
+            "https://i.ibb.co/nMrkgzz/Kena-Bridge-of-Spirits-gameplay-4.jpg",
+            "https://i.ibb.co/2kSQ4C4/Kena-Bridge-of-Spirits-gameplay-3.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD FX-6100/Intel i3-3220 or Equivalent",
+                gpu: "AMD Radeon R7 360 2GB/NVIDIA GeForce GTX 650 Ti 2GB or Equivalent",
+                ram: "12 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD Ryzen 5 2600X/Intel i7-6700K or Equivalent",
+                gpu: "AMD Radeon RX Vega 56 8GB/ Nvidia GeForce GTX 1070 8GB or Equivalent",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "World War Z: Aftermath",
         genre: "Action, TPS",
         publisher: "Saber Interactive",
@@ -1451,6 +1482,37 @@ gameData = [
                 os: "Windows 10 - 64bit",
                 cpu: "Intel Core i7-3770 / AMD FX 8350",
                 gpu: "NVIDIA GTX 760 / AMD Radeon R9 270X",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Football Manager 2021",
+        genre: "Simulation, Sports",
+        publisher: "SEGA",
+        platform: "PC",
+        size: "3.87 GB",
+        logoLink: "https://i.ibb.co/yXyXyKD/Football-Manager-2021-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/C1VtGpb/Football-Manager-2021-gameplay-4.jpg",
+            "https://i.ibb.co/tCqNgL0/Football-Manager-2021-gameplay-3.jpg",
+            "https://i.ibb.co/znsrpP6/Football-Manager-2021-gameplay-2.jpg",
+            "https://i.ibb.co/Hrp6Sqw/Football-Manager-2021-gameplay-1.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 64-bit",
+                cpu: "Intel Core 2 or AMD Athlon 64 – 1.8 GHz +",
+                gpu: "Intel GMA X4500, NVIDIA GeForce 9600M GT or AMD/ATI Mobility Radeon HD 3650 – 256MB VRAM",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64bit",
+                cpu: "Intel Core 2 or AMD Athlon 64 – 1.8 GHz +",
+                gpu: "Intel GMA X4500, NVIDIA GeForce 9600M GT or AMD/ATI Mobility Radeon HD 3650 – 256MB VRAM",
                 ram: "8 GB",
                 directX: "Version 11",
             }
