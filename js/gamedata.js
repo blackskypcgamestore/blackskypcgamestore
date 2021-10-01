@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "F1 2020",
+        genre: "Sport, Racing",
+        publisher: "Codemasters, Electronic Arts",
+        platform: "PC",
+        size: "21.5 GB",
+        logoLink: "https://i.ibb.co/WDWPzJf/F1-2020-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/J37yFYx/F1-2020-gameplay-4.jpg",
+            "https://i.ibb.co/8NdpWH6/F1-2020-gameplay-2.png",
+            "https://i.ibb.co/TRNrZF2/F1-2020-gameplay-3.jpg",
+            "https://i.ibb.co/VL7Sp3D/F1-2020-gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64 bit Windows 10",
+                cpu: "Intel Core i3 2130 / AMD FX 4300",
+                gpu: "NVIDIA GT 640 / AMD HD 7750 (DirectX11 Graphics Card)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64 bit Windows 10",
+                cpu: "Intel Core i5 9600K / AMD Ryzen 5 2600X",
+                gpu: "NVIDIA GTX 1660 Ti / AMD RX 590 (DirectX12 Graphics Card)",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Kena: Bridge of Spirits",
         genre: "Action, Adventure",
         publisher: "Ember Lab",
