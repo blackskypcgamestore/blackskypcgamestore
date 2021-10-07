@@ -1861,6 +1861,37 @@ gameData = [
     },
 
     {
+        title: "Crusader Kings 3",
+        genre: "Role-playing game, Simulation, Strategy",
+        publisher: "Paradox Interactive",
+        platform: "PC",
+        size: "1.54 GB",
+        logoLink: "https://i.ibb.co/QYWG8y7/Crusader-King-3-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/hytcrr8/Crusader-King-3-gameplay-1.jpg",
+            "https://i.ibb.co/7W1YG9d/Crusader-King-3-gameplay-2.jpg",
+            "https://i.ibb.co/sqc011h/Crusader-King-3-gameplay-3.jpg",
+            "https://i.ibb.co/HTSNHzq/Crusader-King-3-gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64 bit Windows 8.1",
+                cpu: "Intel® Core™ i3-2120 / AMD® FX 6350",
+                gpu: "Nvidia® GeForce™ GTX 460 (1GB) / AMD® Radeon™ HD 7870 (2GB)",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64 bit Windows 10",
+                cpu: "Intel® iCore™ i5-4670K or AMD® Ryzen™ 5 2400G",
+                gpu: "Nvidia® GeForce™ GTX 1650 (4GB) / AMD® Radeon™ R9 390X (8GB)",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Unravel",
         genre: "Platform, Puzzle",
         publisher: "Electronic Arts",
