@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "The Smurfs: Mission Vileaf",
+        genre: "Action, Adventure",
+        publisher: "Microids",
+        platform: "PC",
+        size: "1.26 GB",
+        logoLink: "https://i.ibb.co/YTtqcLG/The-Smurfs-Mission-Vileaf-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/KLzJyv4/The-Smurfs-Mission-Vileaf-gameplay-4.jpg",
+            "https://i.ibb.co/PjPf7pf/The-Smurfs-Mission-Vileaf-gameplay-3.jpg",
+            "https://i.ibb.co/yYFQV6p/The-Smurfs-Mission-Vileaf-gameplay-1.jpg",
+            "https://i.ibb.co/PmzG4LC/The-Smurfs-Mission-Vileaf-gameplay-2.jpg",
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: " Intel Core-i5, 2.5 GHz or faster",
+                gpu: "Intel HD 4400 or faster",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: " Intel Core-i5, 2.5 GHz or faster",
+                gpu: "Intel HD 4400 or faster",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "F1 2020",
         genre: "Sport, Racing",
         publisher: "Codemasters, Electronic Arts",
