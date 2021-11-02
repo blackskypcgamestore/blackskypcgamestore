@@ -63,37 +63,6 @@ gameData = [
     },
 
     {
-        title: "World War Z: Aftermath",
-        genre: "Action, TPS",
-        publisher: "Saber Interactive",
-        platform: "PC",
-        size: "23.5 GB",
-        logoLink: "https://i.ibb.co/9VJ03Vf/World-War-Z-Aftermath-logo.jpg",
-        gameplayLinks: [
-            "https://i.ibb.co/MNw6XMj/World-War-Z-Aftermath-gameplay-4.jpg",
-            "https://i.ibb.co/zPP2c6y/World-War-Z-Aftermath-gameplay-3.jpg",
-            "https://i.ibb.co/DGmH391/World-War-Z-Aftermath-gameplay-2.jpg",
-            "https://i.ibb.co/PwbG5FJ/World-War-Z-Aftermath-gameplay-1.jpg"
-        ],
-        systemRequirements: {
-            minimum: {
-                os: "Windows 7, 64-bit",
-                cpu: "Intel Core i3-3220 / AMD A10-5700",
-                gpu: "Nvidia GeForce 650Ti / Intel 630 / Radeon HD 5870",
-                ram: "8 GB",
-                directX: "Version 9.0",
-            },
-            recommend: {
-                os: "Windows® 10 64bit",
-                cpu: "Intel Core i7-3970X",
-                gpu: "Nvidia GeForce GTX 960 / AMD Radeon R9 280",
-                ram: "16 GB",
-                directX: "Version 11",
-            }
-        }
-    },
-
-    {
         title: "Aragami 2",
         genre: "Action, Stealth",
         publisher: "Lince Works",
