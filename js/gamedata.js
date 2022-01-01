@@ -6,12 +6,12 @@ gameData = [
         publisher: "Xbox Game Studios",
         platform: "PC",
         size: "50 GB",
-        logoLink: "https://i.ibb.co/7px9Qqq/Age-Of-Empires-IV-logo.png",
+        logoLink: "https://i.ibb.co/mHJd1Mt/Age-Of-Empires-IV-logo.png",
         gameplayLinks: [
-            "https://i.ibb.co/tqhjvw7/Age-Of-Empires-IV-gameplay-3.jpg",
-            "https://i.ibb.co/KXSZpkz/Age-Of-Empires-IV-gameplay-4.jpg",
-            "https://i.ibb.co/ftQ0N32/Age-Of-Empires-IV-gameplay-1.jpg",
-            "https://i.ibb.co/GHCLf7M/Age-Of-Empires-IV-gameplay-2.jpg"
+            "https://i.ibb.co/7kqcLzv/Age-Of-Empires-IV-gameplay-3.jpg",
+            "https://i.ibb.co/Xx3q0m7/Age-Of-Empires-IV-gameplay-4.jpg",
+            "https://i.ibb.co/3vFydnm/Age-Of-Empires-IV-gameplay-1.jpg",
+            "https://i.ibb.co/bdFDwpz/Age-Of-Empires-IV-gameplay-2.jpg"
         ],
         systemRequirements: {
             minimum: {
@@ -37,12 +37,12 @@ gameData = [
         publisher: "IO Interactive",
         platform: "PC",
         size: "60 GB",
-        logoLink: "https://i.ibb.co/7gxRvnN/Hitman-3-logo.png",
+        logoLink: "https://i.ibb.co/D4J9hzZ/Hitman-3-logo.png",
         gameplayLinks: [
-            "https://i.ibb.co/48fyhd1/Hitman-3-gameplay-4.jpg",
-            "https://i.ibb.co/zmH66K7/Hitman-3-gameplay-3.jpg",
-            "https://i.ibb.co/xG8Tfv8/Hitman-3-gameplay-2.jpg",
-            "https://i.ibb.co/RB4s1rT/Hitman-3-gameplay-1.jpg"
+            "https://i.ibb.co/SmS0Dc8/Hitman-3-gameplay-4.jpg",
+            "https://i.ibb.co/QNVtwfZ/Hitman-3-gameplay-3.jpg",
+            "https://i.ibb.co/Bndw9Hy/Hitman-3-gameplay-2.jpg",
+            "https://i.ibb.co/9bqhg1f/Hitman-3-gameplay-1.jpg"
         ],
         systemRequirements: {
             minimum: {
@@ -68,12 +68,12 @@ gameData = [
         publisher: "IO Interactive",
         platform: "PC",
         size: "60 GB",
-        logoLink: "https://i.ibb.co/XxY2gxv/Hitman-2-logo.jpg",
+        logoLink: "https://i.ibb.co/DQk30WB/Hitman-2-logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/ysNqqVy/Hitman-2-gameplay-4.jpg",
-            "https://i.ibb.co/wgFMvHj/Hitman-2-gameplay-3.jpg",
-            "https://i.ibb.co/D5cdv1B/Hitman-2-gameplay-2.jpg",
-            "https://i.ibb.co/DgHdWrY/Hitman-2-gameplay-1.jpg"
+            "https://i.ibb.co/2F03JQT/Hitman-2-gameplay-4.jpg",
+            "https://i.ibb.co/KKzRC8Q/Hitman-2-gameplay-3.jpg",
+            "https://i.ibb.co/QD7nm5V/Hitman-2-gameplay-2.jpg",
+            "https://i.ibb.co/wCSQsyL/Hitman-2-gameplay-1.jpg"
         ],
         systemRequirements: {
             minimum: {
@@ -99,12 +99,12 @@ gameData = [
         publisher: "Bandai Namco Entertainment",
         platform: "PC",
         size: "30 GB",
-        logoLink: "https://i.ibb.co/r0kbrHR/Naruto-Shippuden-Ultimate-Ninja-Storm-4-logo.jpg",
+        logoLink: "https://i.ibb.co/6vFHbzR/Naruto-Shippuden-Ultimate-Ninja-Storm-4-logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/Zc74rzM/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-4.jpg",
-            "https://i.ibb.co/b7CbsVD/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-3.jpg",
-            "https://i.ibb.co/2yKcpMP/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-2.jpg",
-            "https://i.ibb.co/mqTYyF5/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-1.jpg"
+            "https://i.ibb.co/NFf0gpY/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-4.jpg",
+            "https://i.ibb.co/8c7c5X7/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-3.jpg",
+            "https://i.ibb.co/vXMKBrM/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-2.jpg",
+            "https://i.ibb.co/PM2zW0S/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-1.jpg"
         ],
         systemRequirements: {
             minimum: {
@@ -1587,12 +1587,12 @@ gameData = [
         publisher: "CAPCOM",
         platform: "PC",
         size: "12 GB",
-        logoLink: "https://i.ibb.co/XD9nVXq/Resident-Evil-6-logo.jpg",
+        logoLink: "https://i.ibb.co/NLGnFJb/Resident-Evil-6-logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/3hqCGrz/Resident-Evil-6-gameplay-3.jpg",
-            "https://i.ibb.co/xCN9Kmh/Resident-Evil-6-gameplay-4.jpg",
-            "https://i.ibb.co/sVjRGqY/Resident-Evil-6-gameplay-2.jpg",
-            "https://i.ibb.co/JnqY6hv/Resident-Evil-6-gameplay-1.jpg"
+            "https://i.ibb.co/mJ3R67n/Resident-Evil-6-gameplay-4.jpg",
+            "https://i.ibb.co/g93Vtsm/Resident-Evil-6-gameplay-3.jpg",
+            "https://i.ibb.co/zh0b8Tj/Resident-Evil-6-gameplay-2.jpg",
+            "https://i.ibb.co/J7R5cK8/Resident-Evil-6-gameplay-1.jpg"
         ],
         systemRequirements: {
             minimum: {
