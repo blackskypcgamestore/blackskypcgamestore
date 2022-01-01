@@ -1,6 +1,130 @@
 gameData = [
 
     {
+        title: "Age of Empires IV",
+        genre: "Strategy, RTS",
+        publisher: "Xbox Game Studios",
+        platform: "PC",
+        size: "50 GB",
+        logoLink: "https://i.ibb.co/7px9Qqq/Age-Of-Empires-IV-logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/tqhjvw7/Age-Of-Empires-IV-gameplay-3.jpg",
+            "https://i.ibb.co/KXSZpkz/Age-Of-Empires-IV-gameplay-4.jpg",
+            "https://i.ibb.co/ftQ0N32/Age-Of-Empires-IV-gameplay-1.jpg",
+            "https://i.ibb.co/GHCLf7M/Age-Of-Empires-IV-gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-6300U or AMD Ryzen 5 2400G",
+                gpu: "Intel HD 520 or AMD Radeon RX Vega 11",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "3.6 GHz 6-core (Intel i5) or AMD Ryzen 5 1600",
+                gpu: "Nvidia GeForce 970 GPU or AMD Radeon RX 570 GPU with 4GB of VRAM",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Hitman 3",
+        genre: "Action, Stealth",
+        publisher: "IO Interactive",
+        platform: "PC",
+        size: "60 GB",
+        logoLink: "https://i.ibb.co/7gxRvnN/Hitman-3-logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/48fyhd1/Hitman-3-gameplay-4.jpg",
+            "https://i.ibb.co/zmH66K7/Hitman-3-gameplay-3.jpg",
+            "https://i.ibb.co/xG8Tfv8/Hitman-3-gameplay-2.jpg",
+            "https://i.ibb.co/RB4s1rT/Hitman-3-gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+                gpu: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel CPU Core i7 4790 4 GHz",
+                gpu: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Hitman 2",
+        genre: "Action, Stealth",
+        publisher: "IO Interactive",
+        platform: "PC",
+        size: "60 GB",
+        logoLink: "https://i.ibb.co/XxY2gxv/Hitman-2-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/ysNqqVy/Hitman-2-gameplay-4.jpg",
+            "https://i.ibb.co/wgFMvHj/Hitman-2-gameplay-3.jpg",
+            "https://i.ibb.co/D5cdv1B/Hitman-2-gameplay-2.jpg",
+            "https://i.ibb.co/DgHdWrY/Hitman-2-gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+                gpu: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel CPU Core i7 4790 4 GHz",
+                gpu: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Naruto Shippuden: Ultimate Ninja STORM 4",
+        genre: "Fighting",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "30 GB",
+        logoLink: "https://i.ibb.co/r0kbrHR/Naruto-Shippuden-Ultimate-Ninja-Storm-4-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/Zc74rzM/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-4.jpg",
+            "https://i.ibb.co/b7CbsVD/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-3.jpg",
+            "https://i.ibb.co/2yKcpMP/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-2.jpg",
+            "https://i.ibb.co/mqTYyF5/Naruto-Shippuden-Ultimate-Ninja-Storm-4-gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i3-530, 2.93Ghz / AMD Phenom II X4 940, 3.0GHz",
+                gpu: "2048 MB video card, Pixel Shader 5.0",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i3-530, 2.93Ghz / AMD Phenom II X4 940, 3.0GHz",
+                gpu: "2048 MB video card, Pixel Shader 5.0",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "The Smurfs: Mission Vileaf",
         genre: "Action, Adventure",
         publisher: "Microids",
@@ -1452,6 +1576,37 @@ gameData = [
                 cpu: "Intel® Core™ i7-3770 or AMD FX™-9590 or better",
                 gpu: "NVIDIA® GeForce® GTX 1060 or AMD Radeon™ RX 480 with 3GB VRAM",
                 ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Resident Evil 6",
+        genre: "Action, TPS, Survival horror",
+        publisher: "CAPCOM",
+        platform: "PC",
+        size: "12 GB",
+        logoLink: "https://i.ibb.co/XD9nVXq/Resident-Evil-6-logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/3hqCGrz/Resident-Evil-6-gameplay-3.jpg",
+            "https://i.ibb.co/xCN9Kmh/Resident-Evil-6-gameplay-4.jpg",
+            "https://i.ibb.co/sVjRGqY/Resident-Evil-6-gameplay-2.jpg",
+            "https://i.ibb.co/JnqY6hv/Resident-Evil-6-gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "WINDOWS® 7, 8.1, 10 (64-BIT Required)",
+                cpu: "Intel® CoreTM2 Duo 2.4 Ghz or better, AMD AthlonTM X2 2.8 Ghz or better",
+                gpu: "NVIDIA® GeForce® 8800GTS or better",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "WINDOWS® 10 (64-BIT Required)",
+                cpu: "Intel® CoreTM 2 Quad 2.7 Ghz or better, AMD PhenomTM II X4 3 Ghz or better",
+                gpu: "NVIDIA® GeForce® GTX 560 or better",
+                ram: "4 GB",
                 directX: "Version 12",
             }
         }
