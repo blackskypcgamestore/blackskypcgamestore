@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "God Of War",
+        genre: "Action, Adventure",
+        publisher: "PlayStation PC",
+        platform: "PC",
+        size: "26.1 GB",
+        logoLink: "https://i.ibb.co/PCT4nqF/God-Of-War-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/CQ1vv6H/God-Of-War-Gameplay-1.jpg",
+            "https://i.ibb.co/6ysFk1x/God-Of-War-Gameplay-2.jpg",
+            "https://i.ibb.co/ydBCjqw/God-Of-War-Gameplay-3.png",
+            "https://i.ibb.co/TcYCVB1/God-Of-War-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i5-2500K (4 core 3.3 GHz) or AMD Ryzen 3 1200 (4 core 3.1 GHz)",
+                gpu: "NVIDIA GTX 960 (4 GB) or AMD R9 290X (4 GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i5-6600K (4 core 3.5 GHz) or AMD Ryzen 5 2400G (4 core 3.6 GHz)",
+                gpu: "NVIDIA GTX 1060 (6 GB) or AMD RX 570 (4 GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Age of Empires IV",
         genre: "Strategy, RTS",
         publisher: "Xbox Game Studios",
