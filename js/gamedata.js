@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Watch Dogs Legion",
+        genre: "Action, Adventure",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "105 GB",
+        logoLink: "https://i.ibb.co/hcGqv25/Watch-Dog-Legion-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/xgDRCGt/Watch-Dog-Legion-Gameplay-4.jpg",
+            "https://i.ibb.co/q94RQxV/Watch-Dog-Legion-Gameplay-3.jpg",
+            "https://i.ibb.co/yXY1SC0/Watch-Dog-Legion-Gameplay-1.jpg",
+            "https://i.ibb.co/0V7jwJw/Watch-Dog-Legion-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-4460 / AMD Ryzen 5 1400",
+                gpu: "VRAM: 4 GB, NVIDIA GeForce GTX 970 / NVIDIA GeForce GTX 1650 / AMD Radeon R9 290X",
+                ram: "8 GB ( Dual Channel Setup )",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-4790 / AMD Ryzen 5 1600",
+                gpu: "VRAM: 6 GB, NVIDIA GeForce GTX 1060 / NVIDIA GeForce GTX 1660 S / AMD Radeon RX 480",
+                ram: "8 GB ( Dual Channel Setup )",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "God Of War",
         genre: "Action, Adventure",
         publisher: "PlayStation PC",
@@ -32,6 +63,99 @@ gameData = [
     },
 
     {
+        title: "Batman: Arkham Knight",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "70 GB",
+        logoLink: "https://i.ibb.co/dKm3cMw/Batman-Arkham-Knight-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/9HpLfG8/Batman-Arkham-Knight-Gameplay-4.jpg",
+            "https://i.ibb.co/pZ9ZFTt/Batman-Arkham-Knight-Gameplay-2.jpg",
+            "https://i.ibb.co/kSjBR6f/Batman-Arkham-Knight-Gameplay-3.jpg",
+            "https://i.ibb.co/x8ZhRrx/Batman-Arkham-Knight-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-750, 2.67 GHz | AMD Phenom II X4 965, 3.4 GHz",
+                gpu: "Graphics: NVIDIA GeForce GTX 660 (2 GB Memory Minimum)",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-3770, 3.4 GHz | AMD FX-8350, 4.0 GHz",
+                gpu: "NVIDIA GeForce GTX 760 - 3 GB Memory Recommended",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "LEGO Marvel Super Heroes 2",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "25 GB",
+        logoLink: "https://i.ibb.co/7NVLw80/Lego-Marvel-Superheros-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/85LzK8Z/Lego-Marvel-Superheros-2-Gameplay-4.jpg",
+            "https://i.ibb.co/VLY4rdD/Lego-Marvel-Superheros-2-Gameplay-3.jpg",
+            "https://i.ibb.co/NpnSKSj/Lego-Marvel-Superheros-2-Gameplay-1.jpg",
+            "https://i.ibb.co/Ky1RV4x/Lego-Marvel-Superheros-2-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i3-3240 (2 * 3400) or equivalent, AMD Athlon X4 740 (2 * 3200) or equivalent",
+                gpu: "GeForce GTX 460 (1024 MB), Intel Iris Pro 5200 (shared), Radeon HD 5850 (1024 MB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-4570T (2*2900) or equivalent, AMD FX-6350 (6 * 3900) or equivalent",
+                gpu: "GeForce GTX 750 Ti (2048 MB), Radeon HD 7970 (3072 MB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "LEGO Marvel Super Heroes",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "10 GB",
+        logoLink: "https://i.ibb.co/6mX2yPJ/Lego-Marvel-Superheros-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/yRTvL18/Lego-Marvel-Superheros-Gameplay-4.jpg",
+            "https://i.ibb.co/NWPdftv/Lego-Marvel-Superheros-Gameplay-3.jpg",
+            "https://i.ibb.co/x1F4Z2Q/Lego-Marvel-Superheros-Gameplay-2.jpg",
+            "https://i.ibb.co/Bg5J6RR/Lego-Marvel-Superheros-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core 2 Duo @ 2GHz or AMD Athlon 64 X2 3800+ - 2 * 2000 Mhz",
+                gpu: "NVIDIA 7600, 7800, 8xxx or better, ATI 1950 or better",
+                ram: "1 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Quad core CPU @ 2.7 GHz",
+                gpu: "NVIDIA GF GTX 460 or better; ATI Radeon HD58xx or better",
+                ram: "4 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
         title: "Age of Empires IV",
         genre: "Strategy, RTS",
         publisher: "Xbox Game Studios",
@@ -58,6 +182,68 @@ gameData = [
                 gpu: "Nvidia GeForce 970 GPU or AMD Radeon RX 570 GPU with 4GB of VRAM",
                 ram: "16 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Sniper Elite 4",
+        genre: "Action, Adventure, TPS",
+        publisher: "Rebellion",
+        platform: "PC",
+        size: "53 GB",
+        logoLink: "https://i.ibb.co/NgqTZPn/Sniper-Elite-4-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/rHLB1p6/Sniper-Elite-4-Gameplay-4.jpg",
+            "https://i.ibb.co/tb6gHtv/Sniper-Elite-4-Gameplay-3.jpg",
+            "https://i.ibb.co/ByrY5M2/Sniper-Elite-4-Gameplay-1.jpg",
+            "https://i.ibb.co/42CqWN6/Sniper-Elite-4-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel CPU Core i3-2100 or AMD equivalent",
+                gpu: "AMD Radeon HD 7870 (2GB) or NVIDIA GeForce GTX 660 (2GB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel CPU Core i7-3770 or AMD equivalent",
+                gpu: "Nvidia GPU GeForce GTX 970 / AMD GPU Radeon RX 480",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Planet Zoo",
+        genre: "Simulation, Construction and management simula",
+        publisher: "Frontier Developments",
+        platform: "PC",
+        size: "11 GB",
+        logoLink: "https://i.ibb.co/0s7r77L/Planet-Zoo-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/wYmXk8V/Planet-Zoo-Gameplay-4.jpg",
+            "https://i.ibb.co/Vw8Mh4q/Planet-Zoo-Gameplay-3.jpg",
+            "https://i.ibb.co/7v3Bqyg/Planet-Zoo-Gameplay-2.jpg",
+            "https://i.ibb.co/yfWpLRy/Planet-Zoo-Gameplay-1.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i5-2500 / AMD FX-6350",
+                gpu: "NVIDIA GeForce GTX 770 (2GB) / AMD Radeon R9 270X (2GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i7-4770k / AMD Ryzen 5 1600",
+                gpu: "NVIDIA GeForce GTX 1070 (8GB) or AMD Radeon RX 580 (8GB)",
+                ram: "16 GB",
+                directX: "Version 11",
             }
         }
     },
@@ -111,6 +297,37 @@ gameData = [
                 os: "Windows® 10 64-bit",
                 cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
                 gpu: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel CPU Core i7 4790 4 GHz",
+                gpu: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "A Way Out",
+        genre: "Action, Adventure",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "23 GB",
+        logoLink: "https://i.ibb.co/2cm64pv/A-Way-Out-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/G3rtKhk/A-Way-Out-Gameplay-4.png",
+            "https://i.ibb.co/WW6NDSR/A-Way-Out-Gameplay-3.jpg",
+            "https://i.ibb.co/7Wfwm9r/A-Way-Out-Gameplay-1.jpg",
+            "https://i.ibb.co/vdh8PyS/A-Way-Out-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel core i3-2100T @ 2.5GHz/AMD FX 6100, or better",
+                gpu: "NVIDIA GeForce GTX 650Ti 2GB, AMD Radeon HD 7750 2GB",
                 ram: "8 GB",
                 directX: "Version 11",
             },
@@ -399,6 +616,37 @@ gameData = [
                 gpu: "GeForce GTX 970 (4096 MB) or Radeon RX 5700 (8192 MB)",
                 ram: "8 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Spider-man: Shattered Dimensions",
+        genre: "Action, Adventure",
+        publisher: "Activision",
+        platform: "PC",
+        size: "12.0 GB",
+        logoLink: "https://i.ibb.co/TvNzZ6D/Spiderman-Shattered-Dimensions-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/nQmJXby/Spiderman-Shattered-Dimensions-Gameplay-4.jpg",
+            "https://i.ibb.co/S3gRVkK/Spiderman-Shattered-Dimensions-Gameplay-3.jpg",
+            "https://i.ibb.co/VCC0dRc/Spiderman-Shattered-Dimensions-Gameplay-2.jpg",
+            "https://i.ibb.co/RgBW5bC/Spiderman-Shattered-Dimensions-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel® Core™2 Duo 2.6 GHz or AMD Athlon™ 64 X2 3800+ or better",
+                gpu: "GeForce® 7800 256 MB / Radeon™ X1800 256 MB",
+                ram: "1 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel® Core™2 Duo 2.6 GHz or AMD Athlon™ 64 X2 3800+ or better",
+                gpu: "GeForce® 7800 256 MB / Radeon™ X1800 256 MB",
+                ram: "2 GB",
+                directX: "Version 9",
             }
         }
     },
@@ -1142,6 +1390,37 @@ gameData = [
                 cpu: "Intel Core i7-3770 @ 3.4 GHz or AMD FX-8350 @ 4.0 GHz or better",
                 gpu: "NVIDIA GeForce GTX 780 or AMD Radeon R9 290X (3 GB VRAM)",
                 ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Assassin's Creed Rogue",
+        genre: "Action, Adventure, Role-playing game",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "12 GB",
+        logoLink: "https://i.ibb.co/RSbKzVf/Assassin-s-Creed-Rogue-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/VgQcVD1/Assassin-s-Creed-Rogue-Gameplay-3.jpg",
+            "https://i.ibb.co/9Wvv9Gx/Assassin-s-Creed-Rogue-Gameplay-4.jpg",
+            "https://i.ibb.co/x5Tn8C5/Assassin-s-Creed-Rogue-Gameplay-2.jpg",
+            "https://i.ibb.co/c8q3G44/Assassin-s-Creed-Rogue-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 SP1 or Windows 8.1 or Windows 10 (64bit only)",
+                cpu: "Intel Core2Quad Q6600 @ 2.4 GHz or AMD Athlon II X4 620 @ 2.6 GHzH",
+                gpu: "nVidia GeForce GTS450 or AMD Radeon HD5670 (1024MB VRAM) or Intel HD4600",
+                ram: "2 GB",
+                directX: "Version 10",
+            },
+            recommend: {
+                os: "Windows 10 (64bit only)",
+                cpu: "Intel Core i7 3770K @ 3.5 GHz, AMD FX 8350 @ 4.0 GHz",
+                gpu: "Nvidia GeForce GTX 970, AMD Radeon R9 290X",
+                ram: "4 GB",
                 directX: "Version 11",
             }
         }
