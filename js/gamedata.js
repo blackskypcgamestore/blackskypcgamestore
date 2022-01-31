@@ -1086,6 +1086,37 @@ gameData = [
     },
 
     {
+        title: "Green Hell",
+        genre: "Survival",
+        publisher: "Creepy Jar",
+        platform: "PC",
+        size: "5 GB",
+        logoLink: "https://i.ibb.co/gRwK706/Green-Hell-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/k5Kv1p2/Green-Hell-Gameplay-1.jpg",
+            "https://i.ibb.co/WBYDZBT/Green-Hell-Gameplay-2.jpg",
+            "https://i.ibb.co/MSnKwYS/Green-Hell-Gameplay-3.jpg",
+            "https://i.ibb.co/5kQqCYL/Green-Hell-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64-Bit",
+                cpu: "3.2 GHz Dual Core Processor",
+                gpu: "GeForce GTX 660, Radeon RX 460 or equivalent with 2GB of video RAM",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit latest update",
+                cpu: "3.2 GHz Dual Core Processor",
+                gpu: "GeForce 970, Radeon RX 580 or equivalent with 4GB of video RAM",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Crysis Remastered",
         genre: "Action, FPS",
         publisher: "Crytek",
@@ -1173,6 +1204,38 @@ gameData = [
                 cpu: "Intel Core i3-3225 @ 3.30GHz or equivalent",
                 gpu: "NVIDIA GeForce GTX 660 2GB / AMD Radeon HD 7850 2GB",
                 ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Company Of Heros",
+        genre: "Action, Strategy, RTS",
+        publisher: "SEGA",
+        platform: "PC",
+        size: "13 GB",
+        logoLink: "https://i.ibb.co/7CmS63Z/Company-Of-Heros-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/7vsR0FX/Company-Of-Heros-Gameplay-1.jpg",
+            "https://i.ibb.co/VHmvC9q/Company-Of-Heros-Gameplay-2.jpg",
+            "https://i.ibb.co/k5gZ2cX/Company-Of-Heros-Gameplay-3.jpg",
+            "https://i.ibb.co/sFPHfmB/Company-Of-Heros-Gameplay-4.jpg"
+
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows XP or Vista",
+                cpu: "2.0 Ghz Intel Pentium IV or equivalent or AMD Athlon XP or equivalent",
+                gpu: "DirectX 9.0c compatible 64MB video card with Pixel Shader 1.1 support",
+                ram: "2 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows XP or Vista",
+                cpu: "3.0 Ghz Intel Pentium IV or equivalent",
+                gpu: "256 MB NVIDIA GeForce 6800 series or better",
+                ram: "4 GB",
                 directX: "Version 11",
             }
         }
