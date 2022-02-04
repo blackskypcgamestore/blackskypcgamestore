@@ -530,6 +530,37 @@ gameData = [
     },
 
     {
+        title: "Phasmophobia",
+        genre: "Survival horror",
+        publisher: "Kinetic Games",
+        platform: "PC",
+        size: "7.2 GB",
+        logoLink: "https://i.ibb.co/cDQscCR/Phasmophobia-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/zG0Mfrb/Phasmophobia-Gameplay-1.jpg",
+            "https://i.ibb.co/0jJN2NQ/Phasmophobia-Gameplay-2.jpg",
+            "https://i.ibb.co/djz7MmM/Phasmophobia-Gameplay-3.jpg",
+            "https://i.ibb.co/MDZwyHZ/Phasmophobia-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 10",
+                cpu: "Intel Core i5-4590 / AMD FX 8350",
+                gpu: "NVIDIA GTX 970 / AMD Radeon R9 290",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 10",
+                cpu: "Intel i5-4590 / AMD Ryzen 5 1500X or greater",
+                gpu: "NVIDIA GTX 970 / AMD Radeon R9 290 or greater",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    } , 
+
+    {
         title: "Aragami 2",
         genre: "Action, Stealth",
         publisher: "Lince Works",
@@ -555,6 +586,68 @@ gameData = [
                 cpu: "AMD Ryzen 7 1700/Intel i7-6700K or Equivalent",
                 gpu: "AMD RX Vega 56, Nvidia GTX 1070/GTX 1660 Ti or Equivalent",
                 ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    } , 
+
+    {
+        title: "Nier Replicant",
+        genre: "Action, Adventure, Role-playing game, Hack and Slas",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "18.49 GB",
+        logoLink: "https://i.ibb.co/B4vQ9fC/Nier-Replicant-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/JmK4vWp/Nier-Replicant-Gameplay-1.jpg",
+            "https://i.ibb.co/RHPk5LQ/Nier-Replicant-Gameplay-2.jpg",
+            "https://i.ibb.co/sVgRj4J/Nier-Replicant-Gameplay-3.jpg",
+            "https://i.ibb.co/DtTWTB5/Nier-Replicant-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 10",
+                cpu: "AMD Ryzen™ 3 1300X; Intel® Core™ i5-6400",
+                gpu: "AMD Radeon™ R9 270X; NVIDIA® GeForce® GTX 960",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 10",
+                cpu: "AMD Ryzen™ 3 1300X; Intel® Core™ i5-6400",
+                gpu: "AMD Radeon™ RX Vega 56; NVIDIA® GeForce® GTX 1660",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    } , 
+
+    {
+        title: "Ninja Gaiden: Master Collection",
+        genre: "Action, Adventure, Hack and Slash",
+        publisher: "Koei Tecmo",
+        platform: "PC",
+        size: "4.2 GB",
+        logoLink: "https://i.ibb.co/6XxsKB8/Ninja-Gaiden-Master-Collection-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/fpMdys5/Ninja-Gaiden-Master-Collection-Gameplay-1.jpg",
+            "https://i.ibb.co/7NKnQr5/Ninja-Gaiden-Master-Collection-Gameplay-2.jpg",
+            "https://i.ibb.co/h9q8sv9/Ninja-Gaiden-Master-Collection-Gameplay-3.jpg",
+            "https://i.ibb.co/0BTF2t6/Ninja-Gaiden-Master-Collection-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "Intel Core i3-4130 or over",
+                gpu: "NVIDIA GeForce GTX 970 VRAM 4GB or over, AMD R7 370 VRAM 4GB or over",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "Intel Core i5-4460 or over, AMD Ryzen 5 1400 or over",
+                gpu: "NVIDIA GeForce GTX 1060 VRAM 6GB or over, AMD RX 580 VRAM 8GB or over",
+                ram: "8 GB",
                 directX: "Version 11",
             }
         }
@@ -1176,6 +1269,68 @@ gameData = [
                 gpu: "NVIDIA GeForce GTX 1070 (6GB VRAM or better) | AMD Vega 56 (6GB VRAM or better)",
                 ram: "16 GB",
                 directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Prison Break: The Conspiracy",
+        genre: "Action",
+        publisher: "Creepy Jar",
+        platform: "PC",
+        size: "1.65 GB",
+        logoLink: "https://i.ibb.co/BG2NP1f/Prison-Break-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/2Y8KcxS/Prison-Break-wallpapers-HD-for-desktop-backgrounds-jpg.jpg",
+            "https://i.ibb.co/ww6QxnW/Prison-Break-Gameplay-3.jpg",
+            "https://i.ibb.co/1mnXzNJ/Prison-Break-Gameplay-2.jpg",
+            "https://i.ibb.co/Fgw6ffW/Prison-Break-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7",
+                cpu: "Intel Pentium IV at 2.0 GHz or Equivalent AMD",
+                gpu: "256 MB VRAM – nVidia GeForce 7800 / ATI Radeon X1800",
+                ram: "1 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7",
+                cpu: "3.2 GHz Dual Core Processor",
+                gpu: "512 MB VRAM – nVidia GeForce 8800 / ATI Radeon HD 3870",
+                ram: "2 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "The Forest",
+        genre: "Simulation, Survival horror, First-person",
+        publisher: "Endnight Games",
+        platform: "PC",
+        size: "3.76 GB",
+        logoLink: "https://i.ibb.co/HDNhkwg/The-Forest-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/pjpByJY/The-Forest-Gameplay-1.jpg",
+            "https://i.ibb.co/BcdjPH6/The-Forest-Gameplay-2.jpg",
+            "https://i.ibb.co/C7b924J/The-Forest-Gameplay-3.png",
+            "https://i.ibb.co/RPJkDCY/The-Forest-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit",
+                cpu: "Intel Dual-Core 2.4 GHz",
+                gpu: "NVIDIA GeForce 8800GT",
+                ram: "4 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windwows 10 64-bit",
+                cpu: "Quad Core Processor",
+                gpu: "NVIDIA GeForce GTX 560",
+                ram: "4 GB",
+                directX: "Version 9.0",
             }
         }
     },
