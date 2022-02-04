@@ -17,7 +17,7 @@ let gameplayImages = document.querySelectorAll("#popularGameSection .gameplayIma
 let popularDetailButton = document.querySelector(".popularDetailButton");
 let additionalImagesWrapper = document.querySelectorAll(".additionalImagesWrapper .gameplayImagesWrapper .imageWrapper");
 let delayInMilliseconds = 300; //1 second
-let smoothScrollBar = { behavior: 'smooth'};
+// let smoothScrollBar = { behavior: 'auto'};
 const pageMessengerLink = "https://m.me/blackskypcgamestore";
 const pageLink = "https://www.facebook.com/blackskypcgamestore";
 const phoneNumber = "+959769952798";
@@ -25,7 +25,7 @@ const phoneNumber = "+959769952798";
 
 
 // Initiate application...
-scrollTopSection.onclick = () => availableGameListSection.scrollIntoView(smoothScrollBar);
+scrollTopSection.onclick = () => availableGameListSection.scrollIntoView();
 let sectionHider = (section,isHide) => {
     if ( isHide ) {
         section.style.display = "none";
@@ -138,7 +138,7 @@ for ( let id=0 ; id < gameplayImages.length ; id++ ) {
 for ( let id=1 ; id < gameData.length ; id++ ) {
     $("#availableGameList .row").append(
         `
-        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 gameIntroWrapper" id="AGID${id}">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 gameIntroWrapper" id="AGID${id}">
             <div class="imageWrapper">
                 <img src="${gameData[id].logoLink}"  loading="lazy">
             </div>
@@ -298,7 +298,7 @@ let gameDetailManipulator = ( clickedId , oldNode ) => {
             // Viewing additional image manipulation...
 
             
-            gameDetailSection.scrollIntoView(smoothScrollBar);
+            gameDetailSection.scrollIntoView();
             gameDetailSection.style.opacity = 1;
             
 
@@ -314,7 +314,7 @@ let gameDetailManipulator = ( clickedId , oldNode ) => {
                     sectionHider(availableGameListSection,false);
                     sectionHider(scrollTopSection,false);
                     sectionHider(copyrightSection,false);
-                    oldNode.scrollIntoView(smoothScrollBar);
+                    oldNode.scrollIntoView();
                 },1000);
             } );
             // Close Detail Button Manipulation

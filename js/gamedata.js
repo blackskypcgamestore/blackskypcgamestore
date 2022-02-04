@@ -416,7 +416,6 @@ gameData = [
             "https://i.ibb.co/3mr68ng/Lego-The-Incredibles-Gameplay-2.jpg",
             "https://i.ibb.co/5s4rjtX/Lego-The-Incredibles-Gameplay-3.png",
             "https://i.ibb.co/frm3R7k/Lego-The-Incredibles-Gameplay-4.png"
-
         ],
         systemRequirements: {
             minimum: {
@@ -959,6 +958,37 @@ gameData = [
                 gpu: "NVIDIA GeForce GTX 1660/1060 / AMD Radeon RX 580 For Ray Tracing: NVIDIA GeForce RTX 2060",
                 ram: "16 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Forza Horizon 5",
+        genre: "Simulation, Racing",
+        publisher: "Xbox Game Studios",
+        platform: "PC",
+        size: "102 GB",
+        logoLink: "https://i.ibb.co/mbN5h6F/Forza-Horizon-5-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/YhNRGWX/Forza-Horizon-5-Gameplay-1.jpg",
+            "https://i.ibb.co/2hfDf3D/Forza-Horizon-5-Gameplay-2.jpg",
+            "https://i.ibb.co/KqyJtZS/Forza-Horizon-5-Gameplay-3.jpg",
+            "https://i.ibb.co/NN9p2h6/Forza-Horizon-5-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 version 15063.0 or higher, (64-bit)",
+                cpu: "Intel i5-4460 or AMD Ryzen 3 1200",
+                gpu: "NVidia GTX 970 OR AMD Radeon RX 470, 4 GB VRAM",
+                ram: "8 GB",
+                directX: "DirectX 12",
+            },
+            recommend: {
+                os: "Windows 10 version 15063.0 or higher, x64",
+                cpu: "Intel i5-8400 or AMD Ryzen 5 1500X",
+                gpu: "NVidia GTX 1070 OR AMD Radeon RX 590, 8 GB VRAM",
+                ram: "16 GB",
+                directX: "DirectX 12",
             }
         }
     },
