@@ -63,31 +63,31 @@ gameData = [
     },
 
     {
-        title: "Batman: Arkham Knight",
+        title: "Days Gone",
         genre: "Action, Adventure",
-        publisher: "Warner Bros. Interactive Entertainment",
+        publisher: "PlayStation PC",
         platform: "PC",
-        size: "70 GB",
-        logoLink: "https://i.ibb.co/dKm3cMw/Batman-Arkham-Knight-Logo.jpg",
+        size: "54.5 GB",
+        logoLink: "https://i.ibb.co/XX6ZxmF/Days-Gone-Logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/9HpLfG8/Batman-Arkham-Knight-Gameplay-4.jpg",
-            "https://i.ibb.co/pZ9ZFTt/Batman-Arkham-Knight-Gameplay-2.jpg",
-            "https://i.ibb.co/kSjBR6f/Batman-Arkham-Knight-Gameplay-3.jpg",
-            "https://i.ibb.co/x8ZhRrx/Batman-Arkham-Knight-Gameplay-1.jpg"
+            "https://i.ibb.co/TMSv3Mq/Days-Gone-Gameplay-1.jpg",
+            "https://i.ibb.co/8PNRxdM/Days-Gone-Gameplay-2.jpg",
+            "https://i.ibb.co/s1Kc0g7/Days-Gone-Gameplay-3.jpg",
+            "https://i.ibb.co/NpjCZt3/Days-Gone-Gameplay-4.jpg"
         ],
         systemRequirements: {
             minimum: {
                 os: "Windows® 10 64-bit",
-                cpu: "Intel Core i5-750, 2.67 GHz | AMD Phenom II X4 965, 3.4 GHz",
-                gpu: "Graphics: NVIDIA GeForce GTX 660 (2 GB Memory Minimum)",
-                ram: "6 GB",
+                cpu: "Intel Core i5-2500K@3.3GHz or AMD FX 6300@3.5GHz",
+                gpu: "Nvidia GeForce GTX 780 (3 GB) or AMD Radeon R9 290 (4 GB)",
+                ram: "8 GB",
                 directX: "Version 11",
             },
             recommend: {
                 os: "Windows® 10 64-bit",
-                cpu: "Intel Core i7-3770, 3.4 GHz | AMD FX-8350, 4.0 GHz",
-                gpu: "NVIDIA GeForce GTX 760 - 3 GB Memory Recommended",
-                ram: "8 GB",
+                cpu: "Intel Core i7-4770K@3.5GHz or Ryzen 5 1500X@3.5GHz",
+                gpu: "Nvidia GeForce GTX 1060 (6 GB) or AMD Radeon RX 580 (8 GB)",
+                ram: "16 GB",
                 directX: "Version 11",
             }
         }
@@ -185,6 +185,37 @@ gameData = [
             }
         }
     },
+    
+    {
+        title: "Life Is Strange: True Colors",
+        genre: "Action, Adventure",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "54.5 GB",
+        logoLink: "https://i.ibb.co/dj9qjqN/Life-Is-Strange-True-Colors-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/cD5DB1t/Life-Is-Strange-True-Colors-Gameplay-1.jpg",
+            "https://i.ibb.co/cvksvjj/Life-Is-Strange-True-Colors-Gameplay-2.jpg",
+            "https://i.ibb.co/8XfQ7X3/Life-Is-Strange-True-Colors-Gameplay-3.jpg",
+            "https://i.ibb.co/RbLyTsS/Life-Is-Strange-True-Colors-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD Phenom II X4 965, 3.40 GHz / Intel Core i5-2300, 2.80 GHz",
+                gpu: "Radeon HD 7790, 2 GB / GeForce GTX 750Ti, 2 GB",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD FX-8350, 4.00 GHz / Intel Core i5-3470, 3.20 GHz",
+                gpu: "Radeon RX 590, 8 GB / GeForce GTX 1060, 6 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
 
     {
         title: "Age of Empires IV",
@@ -213,6 +244,37 @@ gameData = [
                 gpu: "Nvidia GeForce 970 GPU or AMD Radeon RX 570 GPU with 4GB of VRAM",
                 ram: "16 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Batman: Arkham Knight",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "70 GB",
+        logoLink: "https://i.ibb.co/dKm3cMw/Batman-Arkham-Knight-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/9HpLfG8/Batman-Arkham-Knight-Gameplay-4.jpg",
+            "https://i.ibb.co/pZ9ZFTt/Batman-Arkham-Knight-Gameplay-2.jpg",
+            "https://i.ibb.co/kSjBR6f/Batman-Arkham-Knight-Gameplay-3.jpg",
+            "https://i.ibb.co/x8ZhRrx/Batman-Arkham-Knight-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-750, 2.67 GHz | AMD Phenom II X4 965, 3.4 GHz",
+                gpu: "Graphics: NVIDIA GeForce GTX 660 (2 GB Memory Minimum)",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-3770, 3.4 GHz | AMD FX-8350, 4.0 GHz",
+                gpu: "NVIDIA GeForce GTX 760 - 3 GB Memory Recommended",
+                ram: "8 GB",
+                directX: "Version 11",
             }
         }
     },
