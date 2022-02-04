@@ -94,63 +94,94 @@ gameData = [
     },
 
     {
-        title: "LEGO Marvel Super Heroes 2",
-        genre: "Action, Adventure",
-        publisher: "Warner Bros. Interactive Entertainment",
+        title: "Hitman 3",
+        genre: "Action, Stealth",
+        publisher: "IO Interactive",
         platform: "PC",
-        size: "25 GB",
-        logoLink: "https://i.ibb.co/7NVLw80/Lego-Marvel-Superheros-2-Logo.jpg",
+        size: "60 GB",
+        logoLink: "https://i.ibb.co/D4J9hzZ/Hitman-3-logo.png",
         gameplayLinks: [
-            "https://i.ibb.co/85LzK8Z/Lego-Marvel-Superheros-2-Gameplay-4.jpg",
-            "https://i.ibb.co/VLY4rdD/Lego-Marvel-Superheros-2-Gameplay-3.jpg",
-            "https://i.ibb.co/NpnSKSj/Lego-Marvel-Superheros-2-Gameplay-1.jpg",
-            "https://i.ibb.co/Ky1RV4x/Lego-Marvel-Superheros-2-Gameplay-2.jpg"
+            "https://i.ibb.co/SmS0Dc8/Hitman-3-gameplay-4.jpg",
+            "https://i.ibb.co/QNVtwfZ/Hitman-3-gameplay-3.jpg",
+            "https://i.ibb.co/Bndw9Hy/Hitman-3-gameplay-2.jpg",
+            "https://i.ibb.co/9bqhg1f/Hitman-3-gameplay-1.jpg"
         ],
         systemRequirements: {
             minimum: {
                 os: "Windows® 7 64-bit",
-                cpu: "Intel Core i3-3240 (2 * 3400) or equivalent, AMD Athlon X4 740 (2 * 3200) or equivalent",
-                gpu: "GeForce GTX 460 (1024 MB), Intel Iris Pro 5200 (shared), Radeon HD 5850 (1024 MB)",
-                ram: "4 GB",
+                cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+                gpu: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
+                ram: "8 GB",
                 directX: "Version 11",
             },
             recommend: {
                 os: "Windows® 10 64-bit",
-                cpu: "Intel Core i5-4570T (2*2900) or equivalent, AMD FX-6350 (6 * 3900) or equivalent",
-                gpu: "GeForce GTX 750 Ti (2048 MB), Radeon HD 7970 (3072 MB)",
-                ram: "4 GB",
+                cpu: "Intel CPU Core i7 4790 4 GHz",
+                gpu: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+                ram: "16 GB",
                 directX: "Version 11",
             }
         }
     },
 
     {
-        title: "LEGO Marvel Super Heroes",
-        genre: "Action, Adventure",
-        publisher: "Warner Bros. Interactive Entertainment",
+        title: "Hitman 2",
+        genre: "Action, Stealth",
+        publisher: "IO Interactive",
         platform: "PC",
-        size: "10 GB",
-        logoLink: "https://i.ibb.co/6mX2yPJ/Lego-Marvel-Superheros-Logo.jpg",
+        size: "60 GB",
+        logoLink: "https://i.ibb.co/DQk30WB/Hitman-2-logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/yRTvL18/Lego-Marvel-Superheros-Gameplay-4.jpg",
-            "https://i.ibb.co/NWPdftv/Lego-Marvel-Superheros-Gameplay-3.jpg",
-            "https://i.ibb.co/x1F4Z2Q/Lego-Marvel-Superheros-Gameplay-2.jpg",
-            "https://i.ibb.co/Bg5J6RR/Lego-Marvel-Superheros-Gameplay-1.jpg"
+            "https://i.ibb.co/2F03JQT/Hitman-2-gameplay-4.jpg",
+            "https://i.ibb.co/KKzRC8Q/Hitman-2-gameplay-3.jpg",
+            "https://i.ibb.co/QD7nm5V/Hitman-2-gameplay-2.jpg",
+            "https://i.ibb.co/wCSQsyL/Hitman-2-gameplay-1.jpg"
         ],
         systemRequirements: {
             minimum: {
-                os: "Windows® 7 64-bit",
-                cpu: "Intel Core 2 Duo @ 2GHz or AMD Athlon 64 X2 3800+ - 2 * 2000 Mhz",
-                gpu: "NVIDIA 7600, 7800, 8xxx or better, ATI 1950 or better",
-                ram: "1 GB",
-                directX: "Version 9",
+                os: "Windows® 10 64-bit",
+                cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
+                gpu: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
+                ram: "8 GB",
+                directX: "Version 11",
             },
             recommend: {
                 os: "Windows® 10 64-bit",
-                cpu: "Quad core CPU @ 2.7 GHz",
-                gpu: "NVIDIA GF GTX 460 or better; ATI Radeon HD58xx or better",
-                ram: "4 GB",
-                directX: "Version 9",
+                cpu: "Intel CPU Core i7 4790 4 GHz",
+                gpu: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Mass Effect Legendary Edition",
+        genre: "Action, Role-playing game, TPS",
+        publisher: "IO Interactive",
+        platform: "PC",
+        size: "36 GB",
+        logoLink: "https://i.ibb.co/6nC7tSj/Mass-Effect-Lenendary-Edition-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/z5XyK1m/Mass-Effect-Lenendary-Edition-Gameplay-1.jpg",
+            "https://i.ibb.co/jRWD8PF/Mass-Effect-Lenendary-Edition-Gameplay-2.jpg",
+            "https://i.ibb.co/yyYqKST/Mass-Effect-Lenendary-Edition-Gameplay-3.jpg",
+            "https://i.ibb.co/Fbfy1MF/Mass-Effect-Lenendary-Edition-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3570 or AMD FX-8350",
+                gpu: "NVIDIA GTX 760, AMD Radeon 7970 / R9 280X GPU RAM: 2 GB Video Memory",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-7700 or AMD Ryzen 7 3700X",
+                gpu: "NVIDIA GTX 1070 / RTX 200, Radeon Vega 56, GPU RAM: 4 GB Video Memory",
+                ram: "16 GB",
+                directX: "Version 11",
             }
         }
     },
@@ -218,6 +249,132 @@ gameData = [
     },
 
     {
+        title: "LEGO Marvel Super Heroes 2",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "25 GB",
+        logoLink: "https://i.ibb.co/7NVLw80/Lego-Marvel-Superheros-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/85LzK8Z/Lego-Marvel-Superheros-2-Gameplay-4.jpg",
+            "https://i.ibb.co/VLY4rdD/Lego-Marvel-Superheros-2-Gameplay-3.jpg",
+            "https://i.ibb.co/NpnSKSj/Lego-Marvel-Superheros-2-Gameplay-1.jpg",
+            "https://i.ibb.co/Ky1RV4x/Lego-Marvel-Superheros-2-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i3-3240 (2 * 3400) or equivalent, AMD Athlon X4 740 (2 * 3200) or equivalent",
+                gpu: "GeForce GTX 460 (1024 MB), Intel Iris Pro 5200 (shared), Radeon HD 5850 (1024 MB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-4570T (2*2900) or equivalent, AMD FX-6350 (6 * 3900) or equivalent",
+                gpu: "GeForce GTX 750 Ti (2048 MB), Radeon HD 7970 (3072 MB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "LEGO Marvel Super Heroes",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "10 GB",
+        logoLink: "https://i.ibb.co/6mX2yPJ/Lego-Marvel-Superheros-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/yRTvL18/Lego-Marvel-Superheros-Gameplay-4.jpg",
+            "https://i.ibb.co/NWPdftv/Lego-Marvel-Superheros-Gameplay-3.jpg",
+            "https://i.ibb.co/x1F4Z2Q/Lego-Marvel-Superheros-Gameplay-2.jpg",
+            "https://i.ibb.co/Bg5J6RR/Lego-Marvel-Superheros-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core 2 Duo @ 2GHz or AMD Athlon 64 X2 3800+ - 2 * 2000 Mhz",
+                gpu: "NVIDIA 7600, 7800, 8xxx or better, ATI 1950 or better",
+                ram: "1 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Quad core CPU @ 2.7 GHz",
+                gpu: "NVIDIA GF GTX 460 or better; ATI Radeon HD58xx or better",
+                ram: "4 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "LEGO DC Super-Villains",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "6.58 GB",
+        logoLink: "https://i.ibb.co/f8552Vs/Lego-DC-Super-Villains-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/pWQNCzF/Lego-DC-Super-Villains-Gameplay-1.jpg",
+            "https://i.ibb.co/qMwT9BS/Lego-DC-Super-Villains-Gameplay-2.jpg",
+            "https://i.ibb.co/KzKMTvX/Lego-DC-Super-Villains-Gameplay-3.jpg",
+            "https://i.ibb.co/zS86TS3/Lego-DC-Super-Villains-Gameplay-4.jpg"
+
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i3-4130",
+                gpu: "Radeon R9 280X or GTX 660 Ti",
+                ram: "4 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD Ryzen 3 1200 or Intel Core i5-3470",
+                gpu: "GeForce GTX 750 Ti or Radeon HD 7770",
+                ram: "4 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "LEGO DC Incredibles",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "4.57 GB",
+        logoLink: "https://i.ibb.co/KVRHTXc/Lego-The-Incredibles-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/hMzzGdk/Lego-The-Incredibles-Gameplay-1.jpg",
+            "https://i.ibb.co/3mr68ng/Lego-The-Incredibles-Gameplay-2.jpg",
+            "https://i.ibb.co/5s4rjtX/Lego-The-Incredibles-Gameplay-3.png",
+            "https://i.ibb.co/frm3R7k/Lego-The-Incredibles-Gameplay-4.png"
+
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i3-3240 (2 * 3400) or equivalent",
+                gpu: "GeForce GTX 560 (1024 MB), Intel Iris Pro 5200 (shared), Radeon HD 5850 (1024 MB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i3-3240 (2 * 3400) or equivalent",
+                gpu: "GeForce GTX 560 (1024 MB), Intel Iris Pro 5200 (shared), Radeon HD 5850 (1024 MB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Planet Zoo",
         genre: "Simulation, Construction and management simula",
         publisher: "Frontier Developments",
@@ -242,68 +399,6 @@ gameData = [
                 os: "Windows® 10 64-bit",
                 cpu: "Intel i7-4770k / AMD Ryzen 5 1600",
                 gpu: "NVIDIA GeForce GTX 1070 (8GB) or AMD Radeon RX 580 (8GB)",
-                ram: "16 GB",
-                directX: "Version 11",
-            }
-        }
-    },
-
-    {
-        title: "Hitman 3",
-        genre: "Action, Stealth",
-        publisher: "IO Interactive",
-        platform: "PC",
-        size: "60 GB",
-        logoLink: "https://i.ibb.co/D4J9hzZ/Hitman-3-logo.png",
-        gameplayLinks: [
-            "https://i.ibb.co/SmS0Dc8/Hitman-3-gameplay-4.jpg",
-            "https://i.ibb.co/QNVtwfZ/Hitman-3-gameplay-3.jpg",
-            "https://i.ibb.co/Bndw9Hy/Hitman-3-gameplay-2.jpg",
-            "https://i.ibb.co/9bqhg1f/Hitman-3-gameplay-1.jpg"
-        ],
-        systemRequirements: {
-            minimum: {
-                os: "Windows® 7 64-bit",
-                cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
-                gpu: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
-                ram: "8 GB",
-                directX: "Version 11",
-            },
-            recommend: {
-                os: "Windows® 10 64-bit",
-                cpu: "Intel CPU Core i7 4790 4 GHz",
-                gpu: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
-                ram: "16 GB",
-                directX: "Version 11",
-            }
-        }
-    },
-
-    {
-        title: "Hitman 2",
-        genre: "Action, Stealth",
-        publisher: "IO Interactive",
-        platform: "PC",
-        size: "60 GB",
-        logoLink: "https://i.ibb.co/DQk30WB/Hitman-2-logo.jpg",
-        gameplayLinks: [
-            "https://i.ibb.co/2F03JQT/Hitman-2-gameplay-4.jpg",
-            "https://i.ibb.co/KKzRC8Q/Hitman-2-gameplay-3.jpg",
-            "https://i.ibb.co/QD7nm5V/Hitman-2-gameplay-2.jpg",
-            "https://i.ibb.co/wCSQsyL/Hitman-2-gameplay-1.jpg"
-        ],
-        systemRequirements: {
-            minimum: {
-                os: "Windows® 10 64-bit",
-                cpu: "Intel CPU Core i5-2500K 3.3GHz / AMD CPU Phenom II X4 940",
-                gpu: "NVIDIA GeForce GTX 660 / Radeon HD 7870",
-                ram: "8 GB",
-                directX: "Version 11",
-            },
-            recommend: {
-                os: "Windows® 10 64-bit",
-                cpu: "Intel CPU Core i7 4790 4 GHz",
-                gpu: "Nvidia GPU GeForce GTX 1070 / AMD GPU Radeon RX Vega 56 8GB",
                 ram: "16 GB",
                 directX: "Version 11",
             }
@@ -1774,7 +1869,7 @@ gameData = [
         publisher: "Electronic Artsl",
         platform: "PC",
         size: "41.1 GB",
-        logoLink: "https://i.ibb.co/YP8ws6b/The-Sims-4-logo.jpg",
+        logoLink: "https://i.ibb.co/BsvGGZq/The-Sims-4-Logo.jpg",
         gameplayLinks: [
             "https://i.ibb.co/cNPsVNQ/The-Sims-4-gameplay-1.jpg",
             "https://i.ibb.co/d41sNqH/The-Sims-4-gameplay-2.jpg",
