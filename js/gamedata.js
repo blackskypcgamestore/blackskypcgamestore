@@ -2049,6 +2049,37 @@ gameData = [
     },
 
     {
+        title: "Dying Light",
+        genre: "Action, Role-playing game, Survival horror",
+        publisher: "Techland",
+        platform: "PC",
+        size: "32 GB",
+        logoLink: "https://i.ibb.co/68rpwc5/Dying-Light-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/DbJg3sK/Dying-Light-Gameplay-1.jpg",
+            "https://i.ibb.co/Vw14xCK/Dying-Light-Gameplay-2.jpg",
+            "https://i.ibb.co/GPH7Y3h/Dying-Light-Gameplay-3.jpg",
+            "https://i.ibb.co/s6xbP8L/Dying-Light-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 and later",
+                cpu: "Intel® Core™ i5-2500 @3.3 GHz / AMD FX-8320 @3.5 GHz",
+                gpu: "NVIDIA® GeForce® GTX 560 / AMD Radeon™ HD 6870 (1GB VRAM)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64bit",
+                cpu: "Intel® Core™ i5-4670K @3.4 GHz / AMD FX-8350 @4.0 GHz",
+                gpu: "NVIDIA® GeForce® GTX 780 / AMD Radeon™ R9 290 (2GB VRAM)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "World War Z",
         genre: "Action, TPS",
         publisher: "Mad Dog Games",
