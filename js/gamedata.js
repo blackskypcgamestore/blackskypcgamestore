@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "SIFU",
+        genre: "Action, Fighting",
+        publisher: "Sloclap",
+        platform: "PC",
+        size: "16.5 GB",
+        logoLink: "https://i.ibb.co/XVyRy7c/SIFU-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/K9SJpdv/SIFU-Gameplay-3.png",
+            "https://i.ibb.co/FmGG13k/SIFU-Gameplay-4.jpg",
+            "https://i.ibb.co/z7r2FHq/SIFU-Gameplay-1.png",
+            "https://i.ibb.co/ts1vnyr/SIFU-Gameplay-2.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD FX-4350 or Intel Core i5-3470 or equivalent",
+                gpu: "Radeon R7 250 or GeForce GT 640 or equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD FX-9590 or Intel Core i7-6700K or equivalent",
+                gpu: "GeForce GTX 970 or Radeon R9 390X or equivalent",
+                ram: "10 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Watch Dogs Legion",
         genre: "Action, Adventure",
         publisher: "Ubisoft",
@@ -211,6 +242,37 @@ gameData = [
                 os: "Windows® 10 64-bit",
                 cpu: "AMD FX-8350, 4.00 GHz / Intel Core i5-3470, 3.20 GHz",
                 gpu: "Radeon RX 590, 8 GB / GeForce GTX 1060, 6 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Tales of Arise",
+        genre: "Action, Role-playing game, Japanese RPG",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "34.2 GB",
+        logoLink: "https://i.ibb.co/B6XpSk8/Tales-Of-Arise-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/M8YcJtw/Tales-Of-Arise-Gameplay-4.jpg",
+            "https://i.ibb.co/xM6nn7H/Tales-Of-Arise-Gameplay-3.jpg",
+            "https://i.ibb.co/Kw96Zqj/Tales-Of-Arise-Gameplay-2.jpg",
+            "https://i.ibb.co/99r24M4/Tales-Of-Arise-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-2300 or AMD Ryzen 3 1200",
+                gpu: "GeForce GTX 760 or Radeon HD 7950",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-4590 or AMD FX-8350",
+                gpu: "GeForce GTX 970 or Radeon R9 390",
                 ram: "8 GB",
                 directX: "Version 11",
             }
@@ -498,6 +560,99 @@ gameData = [
     },
 
     {
+        title: "DOOM Eternal",
+        genre: "Action, FPS",
+        publisher: "Bethesda Softworks",
+        platform: "PC",
+        size: "32 GB",
+        logoLink: "https://i.ibb.co/dcLC9Kg/Doom-Eternals-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/FK2DnCH/Doom-Eternals-Gameplay-1.jpg",
+            "https://i.ibb.co/R2MjFZF/Doom-Eternals-Gameplay-2.jpg",
+            "https://i.ibb.co/rQH4KSg/Doom-Eternals-Gameplay-3.png",
+            "https://i.ibb.co/BPkYmM9/Doom-Eternals-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5 @ 3.3 GHz or better, or AMD Ryzen 3 @ 3.1 GHz or better",
+                gpu: "NVIDIA GeForce 1050Ti (4GB), GTX 1060 (3GB), GTX 1650 (4GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-6700K or better, or AMD Ryzen 7 1800X or better",
+                gpu: "NVIDIA GeForce GTX 1060 (6GB), NVIDIA GeForce 970 (4GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Outlast 2",
+        genre: "Action, Adventure, Survival horror",
+        publisher: "Red Barrels",
+        platform: "PC",
+        size: "23.4 GB",
+        logoLink: "https://i.ibb.co/9wpHKHs/Outlast-2-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/JKzPyHG/Outlast-2-Gameplay-4.jpg",
+            "https://i.ibb.co/72qttX5/Outlast-2-Gameplay-2.png",
+            "https://i.ibb.co/zm4RRWT/Outlast-2-Gameplay-3.jpg",
+            "https://i.ibb.co/RQLfDzX/Outlast-2-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i3-530",
+                gpu: "1GB VRAM, NVIDIA Geforce GTX 260 / ATI Radeon HD 4870",
+                ram: "4 GB",
+                directX: "Version 10",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5",
+                gpu: "1.5GB VRAM, NVIDIA Geforce GTX 660 / ATI Radeon HD 7850",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "The Medium",
+        genre: "Adventure",
+        publisher: "Bloober Team",
+        platform: "PC",
+        size: "40.6 GB",
+        logoLink: "https://i.ibb.co/9wpHKHs/Outlast-2-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/znZrJ7f/The-Medium-Gameplay-4.jpg",
+            "https://i.ibb.co/2j19TKx/The-Medium-Gameplay-3.jpg",
+            "https://i.ibb.co/p4zQPmJ/The-Medium-Gameplay-1.jpg",
+            "https://i.ibb.co/QH3FQpb/The-Medium-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel® Core™ i5-6600 / AMD Ryzen™ 5 2500X",
+                gpu: "@1080p NVIDIA GEFORCE® GTX 1650 Super or GTX 1060 / Radeon™ R9 390X",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel® Core™ i5-9600 / AMD Ryzen™ 7 3700X",
+                gpu: "@1080p NVIDIA GeForce® GTX 1660 Super / Radeon™ RX 5600XT",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Naruto Shippuden: Ultimate Ninja STORM 4",
         genre: "Fighting",
         publisher: "Bandai Namco Entertainment",
@@ -558,6 +713,39 @@ gameData = [
             }
         }
     },
+
+    {
+        title: "Desperados III",
+        genre: "Strategy, Stealth, RTT",
+        publisher: "THQ Nordic",
+        platform: "PC",
+        size: "13.5 GB",
+        logoLink: "https://i.ibb.co/XXVrBb6/Desperados-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/L1nrNPv/Desperados-3-Gameplay-4.jpg",
+            "https://i.ibb.co/VwdWqXx/Desperados-3-Gameplay-3.jpg",
+            "https://i.ibb.co/DCF8M5V/Desperados-3-Gameplay-1.jpg",
+            "https://i.ibb.co/3pCBGV0/Desperados-3-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "3.0 GHz Dual Core (Intel i3-530 / AMD Athlon II X3 460)",
+                gpu: "Nvidia GTX 560 / Radeon HD 5850, 2GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "3.0 GHz Quad Core (Intel i5-750 / AMD Athlon X4 740)",
+                gpu: "Nvidia GTX 760, AMD Radeon HD 7870, 3GB",
+                ram: "12 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    
 
     {
         title: "Kena: Bridge of Spirits",
@@ -899,6 +1087,101 @@ gameData = [
             }
         }
     },
+
+    {
+        title: "Cooking Simulator",
+        genre: "Simulation, Casual",
+        publisher: "Big Cheese Studio",
+        platform: "PC",
+        size: "9.36 GB",
+        logoLink: "https://i.ibb.co/VpYVq6Z/Cooking-Simulator-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/0Ys40Zv/Cooking-Simulator-Gameplay-4.jpg",
+            "https://i.ibb.co/5G0p64c/Cooking-Simulator-Gameplay-3.jpg",
+            "https://i.ibb.co/K7htwFC/Cooking-Simulator-Gameplay-1.jpg",
+            "https://i.ibb.co/VBFNRrg/Cooking-Simulator-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 x64",
+                cpu: "i5 3550 / FX-8350",
+                gpu: "GTX 660Ti 3GB / R9 270X 4GB",
+                ram: "6 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "i5 4570 / Ryzen 7 1700x",
+                gpu: "GTX 1060 6GB / RX 480 GB 8GB",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Bus Simulator 21",
+        genre: "Simulation",
+        publisher: "Astragon",
+        platform: "PC",
+        size: "5.33 GB",
+        logoLink: "https://i.ibb.co/tw0tGVd/Bus-Simulator-21-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/GVzcY62/Bus-Simulator-21-Gameplay-4.jpg",
+            "https://i.ibb.co/sRSCrR6/Bus-Simulator-21-Gameplay-3.jpg",
+            "https://i.ibb.co/5FHqjRf/Bus-Simulator-21-Gameplay-1.jpg",
+            "https://i.ibb.co/vxbh77n/Bus-Simulator-21-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 x64",
+                cpu: "Intel Core i3-2120 / AMD Phenom II X4 830 or equivalent",
+                gpu: "NVIDIA GeForce GTX 760 (2GB VRAM) / AMD Radeon R9 280 (2GB VRAM) or higher",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "Intel Core i5-4440 / AMD FX-8140 or equivalent",
+                gpu: "NVIDIA GeForce GTX 1070 (8GB VRAM) ",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Car Mechanic Simulator 2021",
+        genre: "Simulation, Racing, Sandbox",
+        publisher: "PlayWay",
+        platform: "PC",
+        size: "11.1 GB",
+        logoLink: "https://i.ibb.co/chN1wb5/Car-Mechanic-Simulator-2021-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/cbvP4qr/Car-Mechanic-Simulator-2021-Gameplay-4.jpg",
+            "https://i.ibb.co/K2Z17MF/Car-Mechanic-Simulator-2021-Gameplay-3.jpg",
+            "https://i.ibb.co/Bs7st7d/Car-Mechanic-Simulator-2021-Gameplay-2.jpg",
+            "https://i.ibb.co/ggRCcpJ/Car-Mechanic-Simulator-2021-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 x64",
+                cpu: "Intel Core i5 4690 / AMD Ryzen 5 1500X",
+                gpu: "NVidia GeForce GTX 760 2GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "Intel Core i5 6600K / AMD Ryzen 7 1700X",
+                gpu: "NVidia GeForce GTX 1070 8GB",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+
 
     {
         title: "Horizon Zero Dawn Complete Edition",
@@ -2142,6 +2425,37 @@ gameData = [
     },
 
     {
+        title: "Tropico 6",
+        genre: "Simulation, Strategy, City builder",
+        publisher: "Kalypso Media",
+        platform: "PC",
+        size: "10.3 GB",
+        logoLink: "https://i.ibb.co/z574Yh7/Tropico-6-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/CBNjBYX/Tropico-6-Gameplay-4.jpg",
+            "https://i.ibb.co/cNLj29v/Tropico-6-Gameplay-3.jpg",
+            "https://i.ibb.co/7W9jzrv/Tropico-6-Gameplay-1.jpg",
+            "https://i.ibb.co/bKTphQ6/Tropico-6-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64bit",
+                cpu: "AMD or Intel, 3 GHz (AMD A10 7850K, Intel i3-2000)",
+                gpu: "AMD/NVIDIA dedicated GPU, 2GB dedicated VRAM (Radeon HD 7870, Geforce GTX 750)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "AMD or Intel, 3.3 GHz (AMD FX 8300, Intel i5 3000)",
+                gpu: "AMD/NVIDIA dedicated GPU, 4GB dedicated VRAM",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "The Sims 4",
         genre: "Simulation",
         publisher: "Electronic Artsl",
@@ -2266,6 +2580,37 @@ gameData = [
     },
 
     {
+        title: "Resident Evil Village",
+        genre: "Action, Survival horror, First-person",
+        publisher: "CAPCOM",
+        platform: "PC",
+        size: "27.3 GB",
+        logoLink: "https://i.ibb.co/0tRnWXT/Resident-Evil-Village-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/R6HFD6X/Resident-Evil-Village-Gameplay-4.jpg",
+            "https://i.ibb.co/BZx44Pg/Resident-Evil-Village-Gameplay-3.jpg",
+            "https://i.ibb.co/5Fy2PZr/Resident-Evil-Village-Gameplay-1.jpg",
+            "https://i.ibb.co/nf0N8g3/Resident-Evil-Village-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "WINDOWS® 10 (64-BIT Required)",
+                cpu: "Intel Core i5-7500 ／ AMD Ryzen 3 1200",
+                gpu: "NVIDIA® GeForce® GTX 760 or AMD Radeon™ R7 260x with 2GB Video RAM",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "WINDOWS® 10 (64-BIT Required)",
+                cpu: "Intel Core i7-8700 ／ AMD Ryzen 5 3600",
+                gpu: "NVIDIA GeForce GTX 1070 ／ AMD Radeon RX 5700",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Resident Evil 2",
         genre: "Survival horror",
         publisher: "CAPCOM",
@@ -2384,6 +2729,68 @@ gameData = [
                 cpu: "Intel Core 2 or AMD Athlon 64 – 1.8 GHz +",
                 gpu: "Intel GMA X4500, NVIDIA GeForce 9600M GT or AMD/ATI Mobility Radeon HD 3650 – 256MB VRAM",
                 ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Command & Conquer Generals - Zero Hour",
+        genre: "Strategy, RTS",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "4.3 GB",
+        logoLink: "https://i.ibb.co/StH20Jw/Command-And-Conquer-Generals-Zero-Hours-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/2PtyXTM/Command-And-Conquer-Generals-Zero-Hours-Gameplay-4.jpg",
+            "https://i.ibb.co/NZVL90L/Command-And-Conquer-Generals-Zero-Hours-Gameplay-1.jpg",
+            "https://i.ibb.co/qFzM9jR/Command-And-Conquer-Generals-Zero-Hours-Gameplay-3.jpg",
+            "https://i.ibb.co/5sw90Cn/Command-And-Conquer-Generals-Zero-Hours-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64 Bit",
+                cpu: "800 MHz Intel Pentium III or AMD Athlon processor",
+                gpu: "32 MB AGP video card with DirectX 8.1 compatible driver",
+                ram: "128 MB",
+                directX: "Version 8.1",
+            },
+            recommend: {
+                os: "Windows 7 64 bit",
+                cpu: "1.8 GHz or faster Intel Pentium IV or AMD Athlon processor",
+                gpu: "Nvidia GeForce3 or better Direct3D capable video card",
+                ram: "256 MB",
+                directX: "Version 8.1",
+            }
+        }
+    },
+
+    {
+        title: "Grand Theft Auto: San Andreas",
+        genre: "Action, Adventure",
+        publisher: "Rockstar Games",
+        platform: "PC",
+        size: "4 GB",
+        logoLink: "https://i.ibb.co/X4zw2hc/Grand-Theft-Auto-San-Andreas-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/df9LNd0/Gta-San-Wallpaper-Gta-San-Andreas-Wallpapers-4k-Download-jpg.jpg",
+            "https://i.ibb.co/vdcft7R/Grand-Theft-Auto-San-Andreas-Gameplay-3.jpg",
+            "https://i.ibb.co/YcS18jR/Grand-Theft-Auto-San-Andreas-Gameplay-1.jpg",
+            "https://i.ibb.co/MkHJy16/Grand-Theft-Auto-San-Andreas-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 2000 or Windows XP",
+                cpu: "1Ghz Pentium III or AMD Athlon Processor",
+                gpu: "NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)",
+                ram: "256 MB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7",
+                cpu: "Intel Pentium 4 or AMD Athlon XP Processor",
+                gpu: "128MB (or greater) Video Card (Geforce 6 Series Recommended)",
+                ram: "384 MB",
                 directX: "Version 11",
             }
         }
