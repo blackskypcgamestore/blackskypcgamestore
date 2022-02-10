@@ -627,7 +627,7 @@ gameData = [
         publisher: "Bloober Team",
         platform: "PC",
         size: "40.6 GB",
-        logoLink: "https://i.ibb.co/9wpHKHs/Outlast-2-Logo.png",
+        logoLink: "https://i.ibb.co/9qBqcTZ/The-Medium-Logo.jpg",
         gameplayLinks: [
             "https://i.ibb.co/znZrJ7f/The-Medium-Gameplay-4.jpg",
             "https://i.ibb.co/2j19TKx/The-Medium-Gameplay-3.jpg",
