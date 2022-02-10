@@ -1120,6 +1120,37 @@ gameData = [
     },
 
     {
+        title: "SnowRunner",
+        genre: "Simulation, Sandbox",
+        publisher: "Focus Home Interactive",
+        platform: "PC",
+        size: "23 GB",
+        logoLink: "https://i.ibb.co/DDftx0Y/Snow-Runner-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/gwshNfC/Snow-Runner-Gameplay-4.jpg",
+            "https://i.ibb.co/1zP3CsX/Snow-Runner-Gameplay-3.jpg",
+            "https://i.ibb.co/x64jWNj/Snow-Runner-Gameplay-1.jpg",
+            "https://i.ibb.co/6PJvXYD/Snow-Runner-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Window 10",
+                cpu: "Intel i3-4130 3.4 GHz / AMD Ryzen 3 2200U 3.4 GHz",
+                gpu: "2 GB, GeForce GTX 660 / Radeon R9 270",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "Intel i7-8700 3.2 GHz / AMD Ryzen 7 2700 3.2 GHz",
+                gpu: "4 GB, GeForce GTX 970 / Radeon RX 580",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Bus Simulator 21",
         genre: "Simulation",
         publisher: "Astragon",
