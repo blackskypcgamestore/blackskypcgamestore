@@ -249,6 +249,37 @@ gameData = [
     },
 
     {
+        title: "Final Fantasy VII Remake",
+        genre: "Role-playing game, Japanese RPG",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "75.8 GB",
+        logoLink: "https://i.ibb.co/s24BWg0/Final-Fantasy-VII-Remake-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/NngYS9Z/Final-Fantasy-VII-Remake-Gameplay-4.jpg",
+            "https://i.ibb.co/bv3N9xD/Final-Fantasy-VII-Remake-Gameplay-3.jpg",
+            "https://i.ibb.co/nPWdPf2/Final-Fantasy-VII-Remake-Gameplay-1.jpg",
+            "https://i.ibb.co/YDY868z/Final-Fantasy-VII-Remake-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3330 / AMD FX-8350",
+                gpu: "GeForce GTX 780 / Radeon RX 480 (3 GB VRAM)",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-3770 / AMD Ryzen 3 3100",
+                gpu: "GeForce GTX 1080 / Radeon RX 5700 (8 GB VRAM)",
+                ram: "12 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Tales of Arise",
         genre: "Action, Role-playing game, Japanese RPG",
         publisher: "Bandai Namco Entertainment",
@@ -1182,6 +1213,37 @@ gameData = [
     },
 
     {
+        title: "Euro Truck Simulator 2",
+        genre: "Simulation",
+        publisher: "SCS Software",
+        platform: "PC",
+        size: "12.2 GB",
+        logoLink: "https://i.ibb.co/tLhT06f/Euro-Truck-Simulator-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/7vm88Dn/Euro-Truck-Simulator-2-Gameplay-4.jpg",
+            "https://i.ibb.co/ZNkPYnv/Euro-Truck-Simulator-2-Gameplay-2.png",
+            "https://i.ibb.co/jZKn0t7/Euro-Truck-Simulator-2-Gameplay-3.jpg",
+            "https://i.ibb.co/PDqXxKH/Euro-Truck-Simulator-2-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 x64",
+                cpu: "Dual core CPU 2.4 GHz",
+                gpu: "GeForce GTS 450-class (Intel HD 4000)",
+                ram: "4 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "Quad core CPU 3.0 GHz",
+                gpu: "GeForce GTX 760-class (2 GB)",
+                ram: "6 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
         title: "Car Mechanic Simulator 2021",
         genre: "Simulation, Racing, Sandbox",
         publisher: "PlayWay",
@@ -1334,6 +1396,37 @@ gameData = [
                 gpu: "4 GB, NVidia GTX 970 OR NVidia GTX 1060 3GB OR AMD R9 290x OR AMD RX 470",
                 ram: "12 GB",
                 directX: "DirectX 12 API, Hardware Feature Level 11",
+            }
+        }
+    },
+
+    {
+        title: "WRC 10",
+        genre: "Simulation, Sports, Racing",
+        publisher: "Nacon",
+        platform: "PC",
+        size: "33.5 GB",
+        logoLink: "https://i.ibb.co/wzChmQ7/Wrc-10-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/prxpsfb/Wrc-10-Gameplay-1.jpg",
+            "https://i.ibb.co/485JDyG/Wrc-10-Gameplay-2.jpg",
+            "https://i.ibb.co/09HS94r/Wrc-10-Gameplay-3.jpg",
+            "https://i.ibb.co/2PYQbD6/Wrc-10-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Window 10",
+                cpu: "Intel Core i5-2300 or AMD FX-6300",
+                gpu: "NVIDIA GeForce GTX 650 Ti, 2 GB or AMD Radeon HD 7790, 2 GB",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "Intel Core i7-4790K or AMD Ryzen 5 2600",
+                gpu: "NVIDIA GeForce GTX 1070, 8 GB or AMD Radeon RX Vega 56, 8 GB",
+                ram: "8 GB",
+                directX: "Version 12",
             }
         }
     },
