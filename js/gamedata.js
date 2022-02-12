@@ -404,6 +404,37 @@ gameData = [
     },
 
     {
+        title: "Psychonauts 2",
+        genre: "Adventure, Platformer",
+        publisher: "Xbox Game Studios",
+        platform: "PC",
+        size: "28.5 GB",
+        logoLink: "https://i.ibb.co/SPMyMLZ/Psychonauts-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/KX73W8T/Psychonauts-2-Gameplay-3.jpg",
+            "https://i.ibb.co/pJ87MmV/Psychonauts-2-Gameplay-4.jpg",
+            "https://i.ibb.co/BqGxJYY/Psychonauts-2-Gameplay-2.jpg",
+            "https://i.ibb.co/gjt0W6m/Psychonauts-2-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i3-3225, AMD Phenom II X6 1100T",
+                gpu: "2 GB VRAM, Nvidia GeForce GTX 1050, AMD Radeon RX 560",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-7700K, Ryzen 5 1600",
+                gpu: "6 GB VRAM, Nvidia GeForce GTX 1060, AMD Radeon RX 580",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "LEGO Marvel Super Heroes 2",
         genre: "Action, Adventure",
         publisher: "Warner Bros. Interactive Entertainment",
@@ -679,6 +710,37 @@ gameData = [
                 gpu: "@1080p NVIDIA GeForce® GTX 1660 Super / Radeon™ RX 5600XT",
                 ram: "16 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "The Evil Within 2",
+        genre: "Action, Adventure, Survival horror",
+        publisher: "Bethesda Softworks",
+        platform: "PC",
+        size: "24.5 GB",
+        logoLink: "https://i.ibb.co/0YHz4kp/The-Evil-Within-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/Sn2YYsW/The-Evil-Within-2-Gameplay-4.png",
+            "https://i.ibb.co/wBnxM6n/The-Evil-Within-2-Gameplay-3.jpg",
+            "https://i.ibb.co/dMhGTXc/The-Evil-Within-2-Gameplay-2.jpg",
+            "https://i.ibb.co/02k1JN0/The-Evil-Within-2-Gameplay-1.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7/10 64-bit",
+                cpu: "Intel Core i5-2400 / AMD FX-8320 or better",
+                gpu: "NVIDIA GTX 660 2GB / AMD HD 7970 3GB or better",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-4770 / AMD Ryzen 5 1600X or better",
+                gpu: "NVIDIA GTX 1060 6GB / AMD RX 480 8GB or better",
+                ram: "16 GB",
+                directX: "Version 11",
             }
         }
     },
