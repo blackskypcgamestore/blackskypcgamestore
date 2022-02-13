@@ -311,6 +311,37 @@ gameData = [
     },
 
     {
+        title: "Red Dead Redemption 2",
+        genre: "Action, Adventure",
+        publisher: "Rockstar Games",
+        platform: "PC",
+        size: "112 GB",
+        logoLink: "https://i.ibb.co/D47ZpxF/Red-Dead-Redemption-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/GM4NJ74/Red-Dead-Redemption-2-Gameplay-1.jpg",
+            "https://i.ibb.co/v44RtBz/Red-Dead-Redemption-2-Gameplay-2.jpg",
+            "https://i.ibb.co/1LKWBhs/Red-Dead-Redemption-2-Gameplay-3.jpg",
+            "https://i.ibb.co/RjqkFch/Red-Dead-Redemption-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 - Service Pack 1 (6.1.7601), 64-bit",
+                cpu: "Intel Core i5-2500K / AMD FX-6300",
+                gpu: "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-4770K / AMD Ryzen 5 1500X",
+                gpu: "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+                ram: "12 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Age of Empires IV",
         genre: "Strategy, RTS",
         publisher: "Xbox Game Studios",
@@ -1146,6 +1177,37 @@ gameData = [
                 gpu: "GeForce GTX 970 (4096 MB) or Radeon RX 5700 (8192 MB)",
                 ram: "8 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "DEADPOOL",
+        genre: "Action, Beat 'em up",
+        publisher: "Activision",
+        platform: "PC",
+        size: "8 GB",
+        logoLink: "https://i.ibb.co/G3h0DRq/Deadpool-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/fXw7KjY/Deadpool-Gameplay-1.jpg",
+            "https://i.ibb.co/LNK9DDL/Deadpool-Gameplay-2.jpg",
+            "https://i.ibb.co/n1kBHBL/Deadpool-Gameplay-3.jpg",
+            "https://i.ibb.co/TRqBDDJ/Deadpool-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core 2 Duo E8200 @ 2.66 GHz or AMD Phenom X3 8750",
+                gpu: "GeForce 8800 GT series with 512 MB RAM or ATI Radeon HD4850 with 512MB RAM",
+                ram: "2 GB",
+                directX: "Version 9"
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core 2 Duo E8200 @ 2.66 GHz or AMD Phenom X3 8750",
+                gpu: "GeForce 8800 GT series with 512 MB RAM or ATI Radeon HD4850 with 512MB RAM",
+                ram: "2 GB",
+                directX: "Version 9"
             }
         }
     },
@@ -2947,6 +3009,37 @@ gameData = [
                 gpu: "Nvidia GeForce3 or better Direct3D capable video card",
                 ram: "256 MB",
                 directX: "Version 8.1",
+            }
+        }
+    },
+
+    {
+        title: "Bully Scholarship Edition",
+        genre: "Action, Adventure",
+        publisher: "Rockstar Games",
+        platform: "PC",
+        size: "4 GB",
+        logoLink: "https://i.ibb.co/HNH5p3r/Bully-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/dt51hjG/Bully-Gameplay-1.jpg",
+            "https://i.ibb.co/jJtNG1J/Bully-Gameplay-2.jpg",
+            "https://i.ibb.co/pnVnjQ2/Bully-Gameplay-3.jpg",
+            "https://i.ibb.co/9hz9CGF/Bully-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 2000 or Windows XP",
+                cpu: "Intel Pentium 4 (3+ GHZ) / AMD Athlon 3000+",
+                gpu: "DirectX 9.0c Shader 3.0 supported, Nvidia 6800 or 7300 or better, ATI Radeon X1300 or better",
+                ram: "1 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7",
+                cpu: "Intel Pentium 4 (3+ GHZ) / AMD Athlon 3000+",
+                gpu: "DirectX 9.0c Shader 3.0 supported, Nvidia 6800 or 7300 or better, ATI Radeon X1300 or better",
+                ram: "1 GB",
+                directX: "Version 9",
             }
         }
     },
