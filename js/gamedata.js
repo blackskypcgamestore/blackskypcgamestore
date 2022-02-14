@@ -435,6 +435,37 @@ gameData = [
     },
 
     {
+        title: "Wasteland 3",
+        genre: "Role-playing game, Strategy",
+        publisher: "inXile Entertainment",
+        platform: "PC",
+        size: "23.5 GB",
+        logoLink: "https://i.ibb.co/GPVy1yt/Wasteland-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/7nzKCdZ/Wasteland-3-Gameplay-1.jpg",
+            "https://i.ibb.co/tKYb455/Wasteland-3-Gameplay-2.jpg",
+            "https://i.ibb.co/vXcgwCC/Wasteland-3-Gameplay-3.jpg",
+            "https://i.ibb.co/rkQTPS0/Wasteland-3-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3.3 GHz or better, or AMD Equivalent",
+                gpu: "Nvidia GTX 760 or AMD Equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-3770 GHz or better, or AMD Equivalent",
+                gpu: "NVIDIA GeForce GTX 1060 (6GB), or AMD RX 480 (8GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Psychonauts 2",
         genre: "Adventure, Platformer",
         publisher: "Xbox Game Studios",
@@ -3101,6 +3132,37 @@ gameData = [
                 cpu: "Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)",
                 gpu: "NVIDIA GTX 660 2GB / AMD HD7870 2GB",
                 ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Mafia: Definitive Edition",
+        genre: "Action, Adventure",
+        publisher: "2K Games",
+        platform: "PC",
+        size: "35 GB",
+        logoLink: "https://i.ibb.co/bRhrCk1/Mafia-Definitive-Edition-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/SrKDRcR/Mafia-Definitive-Edition-Gameplay-1.png",
+            "https://i.ibb.co/VSbZhWf/Mafia-Definitive-Edition-Gameplay-2.jpg",
+            "https://i.ibb.co/C62QWmd/Mafia-Definitive-Edition-Gameplay-3.jpg",
+            "https://i.ibb.co/bFHMwsR/Mafia-Definitive-Edition-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64",
+                cpu: "Intel Core i5-2550K 3.4GHz / AMD FX-8120 3.1 GHz",
+                gpu: "NVIDIA GeForce GTX 660 / AMD Radeon HD 7870",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 - 64bit",
+                cpu: "Intel Core i7-3770 3.4GHz / AMD FX-8350 4.2GHz",
+                gpu: "NVIDIA GeForce GTX 1080 / AMD Radeon RX 5700",
+                ram: "16 GB",
                 directX: "Version 11",
             }
         }
