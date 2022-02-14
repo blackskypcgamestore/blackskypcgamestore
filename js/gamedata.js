@@ -1213,6 +1213,37 @@ gameData = [
     },
 
     {
+        title: "Monkey King: Hero Is Back",
+        genre: "Fantasy/Adventure",
+        publisher: "Oasis Games, THQ Nordic",
+        platform: "PC",
+        size: "11 GB",
+        logoLink: "https://i.ibb.co/sm0VhNw/Monkey-King-Hero-Is-Back-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/dG2DSRw/Monkey-King-Hero-Is-Back-Gameplay-1.jpg",
+            "https://i.ibb.co/f8czscj/Monkey-King-Hero-Is-Back-Gameplay-2.jpg",
+            "https://i.ibb.co/cwVbWV9/Monkey-King-Hero-Is-Back-Gameplay-3.jpg",
+            "https://i.ibb.co/DkJ68CK/Monkey-King-Hero-Is-Back-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "i3-3220 INTEL or AMD Equivalent",
+                gpu: "Nvidia GTX 660/GTX 1050 or AMD Radeon HD 7770",
+                ram: "8 GB",
+                directX: "Version 11"
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "Intel Core i7 4770K, 3.40 Ghz or AMD Ryzen 5 1600, 3.20 Ghz",
+                gpu: "Nvidia GTX 1060 6GB or AMD Radeon RX 480, 8GB",
+                ram: "16 GB",
+                directX: "Version 11"
+            }
+        }
+    },
+
+    {
         title: "DEADPOOL",
         genre: "Action, Beat 'em up",
         publisher: "Activision",
