@@ -2797,6 +2797,37 @@ gameData = [
     },
 
     {
+        title: "Harvest Moon: One World",
+        genre: "Adventure, RPG, Simulation",
+        publisher: "Natsume Inc.",
+        platform: "PC",
+        size: "1 GB",
+        logoLink: "https://i.ibb.co/PTNcmVX/Harvest-Moon-One-World-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/vzT6hQw/Harvest-Moon-One-World-Gameplay-1.jpg",
+            "https://i.ibb.co/fMn0NYJ/Harvest-Moon-One-World-Gameplay-2.jpg",
+            "https://i.ibb.co/TMrv1bg/Harvest-Moon-One-World-Gameplay-3.jpg",
+            "https://i.ibb.co/xmjNqcj/Harvest-Moon-One-World-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64 Bit",
+                cpu: "Intel(R) Core(TM) i5-8265U",
+                gpu: "Intel(R) UHD Graphics620",
+                ram: "8 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windows 10 64 Bit",
+                cpu: "Intel(R) Core(TM) i5-8265U",
+                gpu: "Intel(R) UHD Graphics620",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "TEKKEN 7",
         genre: "Action, Fighting",
         publisher: "Bandai Namco Entertainment",
