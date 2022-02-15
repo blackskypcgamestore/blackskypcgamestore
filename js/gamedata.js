@@ -3602,36 +3602,36 @@ gameData = [
         }
     },
 
-    {
-        title: "Secret Neighbor",
-        genre: "Action, Adventure",
-        publisher: "tinyBuild",
-        platform: "PC",
-        size: "5 GB",
-        logoLink: "https://i.ibb.co/RbQQx5y/Secret-Neighbor-Logo.jpg",
-        gameplayLinks: [
-            "https://i.ibb.co/SrWmLYP/Secret-Neighbor-Gameplay-1.jpg",
-            "https://i.ibb.co/nRDsTJr/Secret-Neighbor-Gameplay-2.jpg",
-            "https://i.ibb.co/P1x8NxN/Secret-Neighbor-Gameplay-3.jpg",
-            "https://i.ibb.co/cDrCGty/Secret-Neighbor-Gameplay-4.jpg"
-        ],
-        systemRequirements: {
-            minimum: {
-                os: "Windows 7, 64-bit",
-                cpu: "Intel Core i5-3330 3.0 GHz, AMD FX-8300 3.3 GHz",
-                gpu: "NVIDIA GeForce GTX 760, Radeon R9 270",
-                ram: "6 GB",
-                directX: "Version 11",
-            },
-            recommend: {
-                os: "Windows 10, 64-bit",
-                cpu: "Intel Core i5-4690 3.5 GHz, AMD Ryzen 3 1300X 3.5 GHz",
-                gpu: "NVIDIA GeForce GTX 1060, Radeon RX 580",
-                ram: "8 GB",
-                directX: "Version 11",
-            }
-        }
-    },
+    // {
+    //     title: "Secret Neighbor",
+    //     genre: "Action, Adventure",
+    //     publisher: "tinyBuild",
+    //     platform: "PC",
+    //     size: "5 GB",
+    //     logoLink: "https://i.ibb.co/RbQQx5y/Secret-Neighbor-Logo.jpg",
+    //     gameplayLinks: [
+    //         "https://i.ibb.co/SrWmLYP/Secret-Neighbor-Gameplay-1.jpg",
+    //         "https://i.ibb.co/nRDsTJr/Secret-Neighbor-Gameplay-2.jpg",
+    //         "https://i.ibb.co/P1x8NxN/Secret-Neighbor-Gameplay-3.jpg",
+    //         "https://i.ibb.co/cDrCGty/Secret-Neighbor-Gameplay-4.jpg"
+    //     ],
+    //     systemRequirements: {
+    //         minimum: {
+    //             os: "Windows 7, 64-bit",
+    //             cpu: "Intel Core i5-3330 3.0 GHz, AMD FX-8300 3.3 GHz",
+    //             gpu: "NVIDIA GeForce GTX 760, Radeon R9 270",
+    //             ram: "6 GB",
+    //             directX: "Version 11",
+    //         },
+    //         recommend: {
+    //             os: "Windows 10, 64-bit",
+    //             cpu: "Intel Core i5-4690 3.5 GHz, AMD Ryzen 3 1300X 3.5 GHz",
+    //             gpu: "NVIDIA GeForce GTX 1060, Radeon RX 580",
+    //             ram: "8 GB",
+    //             directX: "Version 11",
+    //         }
+    //     }
+    // },
 	
 	{
         title: "Little Nightmares",
