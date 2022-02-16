@@ -3632,6 +3632,37 @@ gameData = [
     //         }
     //     }
     // },
+
+    {
+        title: "Time Master",
+        genre: "Indie",
+        publisher: "MorpheusZ",
+        platform: "PC",
+        size: "1 GB",
+        logoLink: "https://i.ibb.co/9YrdFg6/Time-Master-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/2vHXxjp/Time-Master-Gameplay-1.jpg",
+            "https://i.ibb.co/j3YpVPv/Time-Master-Gameplay-2.jpg",
+            "https://i.ibb.co/DgYN5np/Time-Master-Gameplay-3.jpg",
+            "https://i.ibb.co/jkMWsTT/Time-Master-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 64-bit",
+                cpu: "Intel Pentium G2030 or higher",
+                gpu: "Nvidia GeForce 500 series or higher",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10, 64-bit",
+                cpu: "Intel Core i5 3.00GHz or higher",
+                gpu: "Nvidia GeForce GTX960 or higher",
+                ram: "6 GB",
+                directX: "Version 11",
+            }
+        }
+    },
 	
 	{
         title: "Little Nightmares",
