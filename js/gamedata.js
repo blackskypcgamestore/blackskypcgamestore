@@ -373,6 +373,68 @@ gameData = [
     },
 
     {
+        title: "Stronghold: Warlords",
+        genre: "Simulation, Strategy, RTS, City builder",
+        publisher: "FireFly Studios",
+        platform: "PC",
+        size: "9 GB",
+        logoLink: "https://i.ibb.co/J2s6ncr/Stronghold-Warlords-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/sWPQhfD/Stronghold-Warlords-Gameplay-1.jpg",
+            "https://i.ibb.co/tXhnT6w/Stronghold-Warlords-Gameplay-2.jpg",
+            "https://i.ibb.co/swsJzqz/Stronghold-Warlords-Gameplay-3.png",
+            "https://i.ibb.co/M7NXj9t/Stronghold-Warlords-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel i5-3330 3.0Ghz or AMD equivalent",
+                gpu: "nVidia GeForce GTX 680 or AMD Radeon HD7970 (2 GB VRAM)",
+                ram: "8 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core i7-3770 3.4GHz or AMD equivalent",
+                gpu: "nVidia GeForce GTX 970 or AMD Radeon R9 290",
+                ram: "16 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "Total War: ROME REMASTERED",
+        genre: "Action, Strategy, 4X, RTS",
+        publisher: "SEGA",
+        platform: "PC",
+        size: "28.5 GB",
+        logoLink: "https://i.ibb.co/MZkzd9x/Total-War-Rome-Remastered-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/r2JPCgk/Total-War-Rome-Remastered-Gameplay-1.jpg",
+            "https://i.ibb.co/V3jNcd4/Total-War-Rome-Remastered-Gameplay-2.jpg",
+            "https://i.ibb.co/zG9Q939/Total-War-Rome-Remastered-Gameplay-3.jpg",
+            "https://i.ibb.co/n0tLvSf/Total-War-Rome-Remastered-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core i3-4130 3.4GHz or AMD FX-6300 3.5GHz",
+                gpu: "NVIDIA GeForce GTX 660 2GB or AMD Radeon R9 270 2GB - for 30FPS @ 1080p",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core i7-4770K 3.5GHz or AMD Ryzen 5 2600X 3.6GHz",
+                gpu: "NVIDIA GeForce GTX 1070 8GB or AMD Radeon RX VEGA 56 8GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Batman: Arkham Knight",
         genre: "Action, Adventure",
         publisher: "Warner Bros. Interactive Entertainment",
@@ -1087,6 +1149,37 @@ gameData = [
             }
         }
     } , 
+
+    {
+        title: "Life is Strange 2 Complete Edition",
+        genre: "Adventure",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "41.8 GB",
+        logoLink: "https://i.ibb.co/94pVCQx/Life-Is-Strange-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/tqsJgqW/Life-Is-Strange-2-Gameplay-1.jpg",
+            "https://i.ibb.co/v3jsM15/Life-Is-Strange-2-Gameplay-2.png",
+            "https://i.ibb.co/xgDcy8h/Life-Is-Strange-2-Gameplay-3.jpg",
+            "https://i.ibb.co/tXJrqn6/Life-Is-Strange-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7/8/10 (64 bits)",
+                cpu: "Intel Core i3-2100 (3.1GHz) or AMD Phenom X4 945 (3.0GHz)",
+                gpu: "Nvidia GeForce GTX 650 2GB or AMD Radeon HD 7770 2GB",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 ( 64 bit )",
+                cpu: "Intel Core i5 3470, (3.20 Ghz) or AMD FX-8350, (4.00 Ghz)",
+                gpu: "Nvidia GeForce GTX 970 4GB or AMD Radeon R9 280X 3GB",
+                ram: "6 GB",
+                directX: "Version 11",
+            }
+        }
+    },
 
     {
         title: "A Plague Tale: Innocence",
@@ -2076,6 +2169,37 @@ gameData = [
                 os: "Windows 10 64-Bit latest update",
                 cpu: "Intel(R) Core(TM) i5-7600k or higher / AMD Ryzen 5 or higher",
                 gpu: "NVIDIA GeForce GTX 1660 TI / AMD Radeon Vega 56, 6-8 GB VRAM",
+                ram: "12 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Call of Duty: WWII",
+        genre: "Action, FPS",
+        publisher: "Activision",
+        platform: "PC",
+        size: "70 GB",
+        logoLink: "https://i.ibb.co/KKW7Dmt/Call-Of-Duty-World-War-2-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/PcYRw11/Call-Of-Duty-World-War-2-Gameplay-1.jpg",
+            "https://i.ibb.co/SP3pbfS/Call-Of-Duty-World-War-2-Gameplay-2.png",
+            "https://i.ibb.co/PZ6qHd4/Call-Of-Duty-World-War-2-Gameplay-3.jpg",
+            "https://i.ibb.co/19tVr5W/Call-Of-Duty-World-War-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel® Core™ i3 3225 3.3 GHz or AMD Ryzen™ 5 1400",
+                gpu: "NVIDIA® GeForce® GTX 660 @ 2 GB / GTX 1050 or ATI® Radeon™ HD 7850 @ 2GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit",
+                cpu: "Intel® Core™ i5-2400 / AMD Ryzen R5 1600X",
+                gpu: "NVIDIA® GeForce® GTX 970 / GTX 1060 @ 6GB or AMD Radeon™ R9 390",
                 ram: "12 GB",
                 directX: "Version 11",
             }
