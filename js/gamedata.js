@@ -434,6 +434,68 @@ gameData = [
         }
     },
 
+    // {
+    //     title: "Mordhau",
+    //     genre: "Action, Hack and Slash",
+    //     publisher: "Triternion",
+    //     platform: "PC",
+    //     size: "12.1 GB",
+    //     logoLink: "https://i.ibb.co/MZkzd9x/Total-War-Rome-Remastered-Logo.jpg",
+    //     gameplayLinks: [
+    //         "https://i.ibb.co/r2JPCgk/Total-War-Rome-Remastered-Gameplay-1.jpg",
+    //         "https://i.ibb.co/V3jNcd4/Total-War-Rome-Remastered-Gameplay-2.jpg",
+    //         "https://i.ibb.co/zG9Q939/Total-War-Rome-Remastered-Gameplay-3.jpg",
+    //         "https://i.ibb.co/n0tLvSf/Total-War-Rome-Remastered-Gameplay-4.jpg"
+    //     ],
+    //     systemRequirements: {
+    //         minimum: {
+    //             os: "Windows 7, 8.1, 10 x64",
+    //             cpu: "Intel Core i5 - 4670 or AMD equivalent",
+    //             gpu: "NVIDIA GTX 680 or AMD equivalent",
+    //             ram: "8 GB",
+    //             directX: "Version 11",
+    //         },
+    //         recommend: {
+    //             os: "Windows 7, 8.1, 10 x64",
+    //             cpu: "Intel Core i5 - 6600k or AMD equivalent",
+    //             gpu: "NVIDIA GTX 1060 or AMD equivalent",
+    //             ram: "16 GB",
+    //             directX: "Version 11",
+    //         }
+    //     }
+    // },
+
+    // {
+    //     title: "Mount & Blade II: Bannerlord",
+    //     genre: "Action, Role-playing game",
+    //     publisher: "TaleWorlds Entertainment",
+    //     platform: "PC",
+    //     size: "38.57 GB",
+    //     logoLink: "https://i.ibb.co/MZkzd9x/Total-War-Rome-Remastered-Logo.jpg",
+    //     gameplayLinks: [
+    //         "https://i.ibb.co/r2JPCgk/Total-War-Rome-Remastered-Gameplay-1.jpg",
+    //         "https://i.ibb.co/V3jNcd4/Total-War-Rome-Remastered-Gameplay-2.jpg",
+    //         "https://i.ibb.co/zG9Q939/Total-War-Rome-Remastered-Gameplay-3.jpg",
+    //         "https://i.ibb.co/n0tLvSf/Total-War-Rome-Remastered-Gameplay-4.jpg"
+    //     ],
+    //     systemRequirements: {
+    //         minimum: {
+    //             os: "Windows 7 x64",
+    //             cpu: "Intel® Core™ i3-8100 / AMD Ryzen™ 3 1200",
+    //             gpu: "Intel® UHD Graphics 630 / NVIDIA® GeForce® GTX 660 2GB",
+    //             ram: "6 GB",
+    //             directX: "Version 11",
+    //         },
+    //         recommend: {
+    //             os: "Windows 10 x64",
+    //             cpu: "Intel® Core™ i5-9600K / AMD Ryzen™ 5 3600X",
+    //             gpu: "NVIDIA® GeForce® GTX 1060 3GB / AMD Radeon™ RX 580",
+    //             ram: "8 GB",
+    //             directX: "Version 11",
+    //         }
+    //     }
+    // },
+
     {
         title: "Batman: Arkham Knight",
         genre: "Action, Adventure",
@@ -2269,6 +2331,69 @@ gameData = [
     },
 
     {
+        title: "Battlefield 4",
+        genre: "Action, FPS",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "22.2 GB",
+        logoLink: "https://i.ibb.co/ByW6b4f/BATTLEFIELD-4-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/PC0hxwX/BATTLEFIELD-4-Gameplay-1.jpg",
+            "https://i.ibb.co/4d9gNfS/BATTLEFIELD-4-Gameplay-2.jpg",
+            "https://i.ibb.co/WDNSY1N/BATTLEFIELD-4-Gameplay-3.jpg",
+            "https://i.ibb.co/4NVR9ZQ/BATTLEFIELD-4-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 8 64-Bit or later",
+                cpu: "AMD: Athlon X2 2.8 GHz, Intel: Core 2 Duo 2.4 GHz",
+                gpu: "AMD: AMD Radeon HD 3870, NVIDIA: Nvidia GeForce 8800 GT Graphics memory: 512 MB",
+                ram: "4 GB",
+                directX: "Version 10",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "AMD: Six-core CPU, Intel: Quad-core CPU",
+                gpu: "AMD: AMD Radeon HD 7870, Nvidia: NVIDIA GeForce GTX 660 Graphics memory: 3 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    // {
+    //     title: "Battlefield 5",
+    //     genre: "Action, FPS",
+    //     publisher: "Electronic Arts",
+    //     platform: "PC",
+    //     size: "22.2 GB",
+    //     logoLink: "https://i.ibb.co/ByW6b4f/BATTLEFIELD-4-Logo.jpg",
+    //     gameplayLinks: [
+    //         "https://i.ibb.co/PC0hxwX/BATTLEFIELD-4-Gameplay-1.jpg",
+    //         "https://i.ibb.co/4d9gNfS/BATTLEFIELD-4-Gameplay-2.jpg",
+    //         "https://i.ibb.co/WDNSY1N/BATTLEFIELD-4-Gameplay-3.jpg",
+    //         "https://i.ibb.co/4NVR9ZQ/BATTLEFIELD-4-Gameplay-4.jpg"
+    //     ],
+    //     systemRequirements: {
+    //         minimum: {
+    //             os: "Windows 7 64-Bit or later",
+    //             cpu: "AMD FX-8350 / Intel Core i5 6600K",
+    //             gpu: "NVIDIA GeForce® GTX 1050 / NVIDIA GeForce® GTX 660 2GB",
+    //             ram: "8 GB",
+    //             directX: "Version 11",
+    //         },
+    //         recommend: {
+    //             os: "Windows 10 64-Bit",
+    //             cpu: "AMD Ryzen 3 1300X / Intel Core i7 4790 or equivalent",
+    //             gpu: "NVIDIA GeForce® GTX 1060 6GB / AMD Radeon™ RX 580 8GB",
+    //             ram: "12 GB",
+    //             directX: "Version 11",
+    //         }
+    //     }
+    // },
+    
+
+    {
         title: "Company Of Heros",
         genre: "Action, Strategy, RTS",
         publisher: "SEGA",
@@ -3009,6 +3134,37 @@ gameData = [
                 gpu: "NVIDIA® GeForce™ GTX 780 or NVIDIA® GeForce™ GTX 1060-6GB / AMD® Radeon™ R9 290 or RX 570",
                 ram: "8 GB",
                 directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Marvel's Avengers",
+        genre: "Action, Adventure, Role-playing game",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "130 GB",
+        logoLink: "https://i.ibb.co/VQ3j7rx/Marvel-Avengers-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/56DQz05/Marvel-Avengers-Gameplay-1.jpg",
+            "https://i.ibb.co/Sskz4NB/Marvel-Avengers-Gameplay-2.jpg",
+            "https://i.ibb.co/XSq6tnp/Marvel-Avengers-Gameplay-3.jpg",
+            "https://i.ibb.co/yqnKrTb/Marvel-Avengers-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10",
+                cpu: "Intel Core i3-4160 or AMD equivalent",
+                gpu: "NVIDIA GTX 950 / AMD R9 270 (min 2GB video ram)",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "Intel Core i7-4770K, 3.4 Ghz or AMD Ryzen 5 1600, 3.2 Ghz",
+                gpu: "NVIDIA GTX 1060 6GB or AMD Radeon RX 480, 8GB",
+                ram: "16 GB",
+                directX: "Version 12",
             }
         }
     },
