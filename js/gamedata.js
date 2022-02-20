@@ -440,12 +440,12 @@ gameData = [
         publisher: "SEGA",
         platform: "PC",
         size: "17.2 GB",
-        logoLink: "https://i.ibb.co/MZkzd9x/Total-War-Rome-Remastered-Logo.jpg",
+        logoLink: "https://i.ibb.co/QMdNdk1/Total-War-Rome-2-Rise-Of-The-Republic-Logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/r2JPCgk/Total-War-Rome-Remastered-Gameplay-1.jpg",
-            "https://i.ibb.co/V3jNcd4/Total-War-Rome-Remastered-Gameplay-2.jpg",
-            "https://i.ibb.co/zG9Q939/Total-War-Rome-Remastered-Gameplay-3.jpg",
-            "https://i.ibb.co/n0tLvSf/Total-War-Rome-Remastered-Gameplay-4.jpg"
+            "https://i.ibb.co/1K6CLTB/Total-War-Rome-2-Rise-Of-The-Republic-Gameplay-1.jpg",
+            "https://i.ibb.co/XVZwjh3/Total-War-Rome-2-Rise-Of-The-Republic-Gameplay-2.jpg",
+            "https://i.ibb.co/vh09x4h/Total-War-Rome-2-Rise-Of-The-Republic-Gameplay-3.jpg",
+            "https://i.ibb.co/Xb2rYgG/Total-War-Rome-2-Rise-Of-The-Republic-Gameplay-4.jpg"
         ],
         systemRequirements: {
             minimum: {
