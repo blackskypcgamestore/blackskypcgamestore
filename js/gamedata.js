@@ -435,6 +435,37 @@ gameData = [
     },
 
     {
+        title: "Total War: ROME II - Rise of the Republic",
+        genre: "Strategy",
+        publisher: "SEGA",
+        platform: "PC",
+        size: "17.2 GB",
+        logoLink: "https://i.ibb.co/MZkzd9x/Total-War-Rome-Remastered-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/r2JPCgk/Total-War-Rome-Remastered-Gameplay-1.jpg",
+            "https://i.ibb.co/V3jNcd4/Total-War-Rome-Remastered-Gameplay-2.jpg",
+            "https://i.ibb.co/zG9Q939/Total-War-Rome-Remastered-Gameplay-3.jpg",
+            "https://i.ibb.co/n0tLvSf/Total-War-Rome-Remastered-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7",
+                cpu: "2 GHz Intel Dual Core processor / 2.6 GHz Intel Single Core processor",
+                gpu: "512 MB DirectX 9.0c compatible card",
+                ram: "2 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "2nd Generation Intel Core i5 processor (or greater)",
+                gpu: "1024 MB DirectX 11 compatible graphics card.",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Mordhau",
         genre: "Action, Hack and Slash",
         publisher: "Triternion",
@@ -1609,6 +1640,37 @@ gameData = [
                 os: "Windows 10 x64",
                 cpu: "Intel Core i5 6600K / AMD Ryzen 7 1700X",
                 gpu: "NVidia GeForce GTX 1070 8GB",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Microsoft Flight Simulator",
+        genre: "Simulation",
+        publisher: "Xbox Game Studios",
+        platform: "PC",
+        size: "74.4 GB",
+        logoLink: "https://i.ibb.co/nQZMZPc/Microsoft-Flight-Simulator-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/th1q2GG/Microsoft-Flight-Simulator-Gameplay-1.jpg",
+            "https://i.ibb.co/g9LKczd/Microsoft-Flight-Simulator-Gameplay-2.png",
+            "https://i.ibb.co/VTkg8C3/Microsoft-Flight-Simulator-Gameplay-3.jpg",
+            "https://i.ibb.co/vH8vbBN/Microsoft-Flight-Simulator-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 x64",
+                cpu: "Intel i5-4460 | AMD Ryzen 3 1200",
+                gpu: "NVIDIA GTX 770 | AMD Radeon RX 570, 2 GB VRAM",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "Intel i5-8400 | AMD Ryzen 5 1500X",
+                gpu: "NVIDIA GTX 970 | AMD Radeon RX 590, 4 GB VRAM",
                 ram: "16 GB",
                 directX: "Version 11",
             }
