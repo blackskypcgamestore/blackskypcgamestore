@@ -434,67 +434,67 @@ gameData = [
         }
     },
 
-    // {
-    //     title: "Mordhau",
-    //     genre: "Action, Hack and Slash",
-    //     publisher: "Triternion",
-    //     platform: "PC",
-    //     size: "12.1 GB",
-    //     logoLink: "https://i.ibb.co/MZkzd9x/Total-War-Rome-Remastered-Logo.jpg",
-    //     gameplayLinks: [
-    //         "https://i.ibb.co/r2JPCgk/Total-War-Rome-Remastered-Gameplay-1.jpg",
-    //         "https://i.ibb.co/V3jNcd4/Total-War-Rome-Remastered-Gameplay-2.jpg",
-    //         "https://i.ibb.co/zG9Q939/Total-War-Rome-Remastered-Gameplay-3.jpg",
-    //         "https://i.ibb.co/n0tLvSf/Total-War-Rome-Remastered-Gameplay-4.jpg"
-    //     ],
-    //     systemRequirements: {
-    //         minimum: {
-    //             os: "Windows 7, 8.1, 10 x64",
-    //             cpu: "Intel Core i5 - 4670 or AMD equivalent",
-    //             gpu: "NVIDIA GTX 680 or AMD equivalent",
-    //             ram: "8 GB",
-    //             directX: "Version 11",
-    //         },
-    //         recommend: {
-    //             os: "Windows 7, 8.1, 10 x64",
-    //             cpu: "Intel Core i5 - 6600k or AMD equivalent",
-    //             gpu: "NVIDIA GTX 1060 or AMD equivalent",
-    //             ram: "16 GB",
-    //             directX: "Version 11",
-    //         }
-    //     }
-    // },
+    {
+        title: "Mordhau",
+        genre: "Action, Hack and Slash",
+        publisher: "Triternion",
+        platform: "PC",
+        size: "12.1 GB",
+        logoLink: "https://i.ibb.co/wBwKNw5/MORDHAU-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/Dp0gBrJ/MORDHAU-Gameplay-4.jpg",
+            "https://i.ibb.co/Z2tGrtC/MORDHAU-Gameplay-3.jpg",
+            "https://i.ibb.co/fN8Kk8W/MORDHAU-Gameplay-2.jpg",
+            "https://i.ibb.co/SXnpK8g/MORDHAU-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core i5 - 4670 or AMD equivalent",
+                gpu: "NVIDIA GTX 680 or AMD equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core i5 - 6600k or AMD equivalent",
+                gpu: "NVIDIA GTX 1060 or AMD equivalent",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
 
-    // {
-    //     title: "Mount & Blade II: Bannerlord",
-    //     genre: "Action, Role-playing game",
-    //     publisher: "TaleWorlds Entertainment",
-    //     platform: "PC",
-    //     size: "38.57 GB",
-    //     logoLink: "https://i.ibb.co/MZkzd9x/Total-War-Rome-Remastered-Logo.jpg",
-    //     gameplayLinks: [
-    //         "https://i.ibb.co/r2JPCgk/Total-War-Rome-Remastered-Gameplay-1.jpg",
-    //         "https://i.ibb.co/V3jNcd4/Total-War-Rome-Remastered-Gameplay-2.jpg",
-    //         "https://i.ibb.co/zG9Q939/Total-War-Rome-Remastered-Gameplay-3.jpg",
-    //         "https://i.ibb.co/n0tLvSf/Total-War-Rome-Remastered-Gameplay-4.jpg"
-    //     ],
-    //     systemRequirements: {
-    //         minimum: {
-    //             os: "Windows 7 x64",
-    //             cpu: "Intel® Core™ i3-8100 / AMD Ryzen™ 3 1200",
-    //             gpu: "Intel® UHD Graphics 630 / NVIDIA® GeForce® GTX 660 2GB",
-    //             ram: "6 GB",
-    //             directX: "Version 11",
-    //         },
-    //         recommend: {
-    //             os: "Windows 10 x64",
-    //             cpu: "Intel® Core™ i5-9600K / AMD Ryzen™ 5 3600X",
-    //             gpu: "NVIDIA® GeForce® GTX 1060 3GB / AMD Radeon™ RX 580",
-    //             ram: "8 GB",
-    //             directX: "Version 11",
-    //         }
-    //     }
-    // },
+    {
+        title: "Mount & Blade II: Bannerlord",
+        genre: "Action, Role-playing game",
+        publisher: "TaleWorlds Entertainment",
+        platform: "PC",
+        size: "38.57 GB",
+        logoLink: "https://i.ibb.co/QMMG3qN/Mount-And-Blade-2-Bannerlord-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/LYvn21T/Mount-And-Blade-2-Bannerlord-Gameplay-4.jpg",
+            "https://i.ibb.co/zb2JtN4/Mount-And-Blade-2-Bannerlord-Gameplay-3.jpg",
+            "https://i.ibb.co/8mRnZ4s/Mount-And-Blade-2-Bannerlord-Gameplay-2.jpg",
+            "https://i.ibb.co/Cw3zWTG/Mount-And-Blade-2-Bannerlord-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 x64",
+                cpu: "Intel® Core™ i3-8100 / AMD Ryzen™ 3 1200",
+                gpu: "Intel® UHD Graphics 630 / NVIDIA® GeForce® GTX 660 2GB",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "Intel® Core™ i5-9600K / AMD Ryzen™ 5 3600X",
+                gpu: "NVIDIA® GeForce® GTX 1060 3GB / AMD Radeon™ RX 580",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
 
     {
         title: "Batman: Arkham Knight",
@@ -2361,36 +2361,36 @@ gameData = [
         }
     },
 
-    // {
-    //     title: "Battlefield 5",
-    //     genre: "Action, FPS",
-    //     publisher: "Electronic Arts",
-    //     platform: "PC",
-    //     size: "22.2 GB",
-    //     logoLink: "https://i.ibb.co/ByW6b4f/BATTLEFIELD-4-Logo.jpg",
-    //     gameplayLinks: [
-    //         "https://i.ibb.co/PC0hxwX/BATTLEFIELD-4-Gameplay-1.jpg",
-    //         "https://i.ibb.co/4d9gNfS/BATTLEFIELD-4-Gameplay-2.jpg",
-    //         "https://i.ibb.co/WDNSY1N/BATTLEFIELD-4-Gameplay-3.jpg",
-    //         "https://i.ibb.co/4NVR9ZQ/BATTLEFIELD-4-Gameplay-4.jpg"
-    //     ],
-    //     systemRequirements: {
-    //         minimum: {
-    //             os: "Windows 7 64-Bit or later",
-    //             cpu: "AMD FX-8350 / Intel Core i5 6600K",
-    //             gpu: "NVIDIA GeForce® GTX 1050 / NVIDIA GeForce® GTX 660 2GB",
-    //             ram: "8 GB",
-    //             directX: "Version 11",
-    //         },
-    //         recommend: {
-    //             os: "Windows 10 64-Bit",
-    //             cpu: "AMD Ryzen 3 1300X / Intel Core i7 4790 or equivalent",
-    //             gpu: "NVIDIA GeForce® GTX 1060 6GB / AMD Radeon™ RX 580 8GB",
-    //             ram: "12 GB",
-    //             directX: "Version 11",
-    //         }
-    //     }
-    // },
+    {
+        title: "Battlefield 5",
+        genre: "Action, FPS",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "22.2 GB",
+        logoLink: "https://i.ibb.co/YTkGBtJ/Battlefield-5-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/cwmFqgP/Battlefield-5-Gameplay-4.png",
+            "https://i.ibb.co/FgV542M/Battlefield-5-Gameplay-3.png",
+            "https://i.ibb.co/WPR5nKx/Battlefield-5-Gameplay-1.png",
+            "https://i.ibb.co/QFWy4Lj/Battlefield-5-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "AMD FX-8350 / Intel Core i5 6600K",
+                gpu: "NVIDIA GeForce® GTX 1050 / NVIDIA GeForce® GTX 660 2GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "AMD Ryzen 3 1300X / Intel Core i7 4790 or equivalent",
+                gpu: "NVIDIA GeForce® GTX 1060 6GB / AMD Radeon™ RX 580 8GB",
+                ram: "12 GB",
+                directX: "Version 11",
+            }
+        }
+    },
     
 
     {
