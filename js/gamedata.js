@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Elden Ring",
+        genre: "Action, Role-playing game, Souls-like",
+        publisher: "Bandai Namco Entertainment, FromSoftware",
+        platform: "PC",
+        size: "46.4 GB",
+        logoLink: "https://i.ibb.co/f2b7Hpw/Elden-RIng-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/wRKRhHM/Elden-RIng-Gameplay-1.jpg",
+            "https://i.ibb.co/JQqJ0V6/Elden-RIng-Gameplay-2.jpg",
+            "https://i.ibb.co/znyDy01/Elden-RIng-Gameplay-3.jpg",
+            "https://i.ibb.co/qJKFtpV/Elden-RIng-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-8400 or AMD Ryzen 3 3300X",
+                gpu: "NVIDIA GeForce GTX 1060, 3 GB or AMD Radeon RX 580, 4 GB",
+                ram: "12 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-8700K or AMD Ryzen 5 3600X",
+                gpu: "NVIDIA GeForce GTX 1070, 8 GB or AMD Radeon RX Vega 56, 8 GB",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "SIFU",
         genre: "Action, Fighting",
         publisher: "Sloclap",
