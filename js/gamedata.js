@@ -2646,12 +2646,12 @@ gameData = [
         publisher: "Ubisoft",
         platform: "PC",
         size: "34.8 GB",
-        logoLink: "https://i.ibb.co/10m6X3R/Farcry-4-Logo.jpg",
+        logoLink: "https://i.ibb.co/4ZFPQZF/Farcry-5-Logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/Ny8Prwk/Farcry-4-Gameplay-4.jpg",
-            "https://i.ibb.co/PcS0XGF/Farcry-4-Gameplay-3.jpg",
-            "https://i.ibb.co/cxVS2Nq/Farcry-4-Gameplay-2.jpg",
-            "https://i.ibb.co/wQyvf7z/Farcry-4-Gameplay-1.jpg"
+            "https://i.ibb.co/Bsx7hFK/Farcry-5-Gameplay-4.jpg",
+            "https://i.ibb.co/8mdLDbR/Farcry-5-Gameplay-3.jpg",
+            "https://i.ibb.co/Jqw0JQ7/Farcry-5-Gameplay-2.jpg",
+            "https://i.ibb.co/r7CrR82/Farcry-5-Gameplay-1.jpg"
         ],
         systemRequirements: {
             minimum: {
