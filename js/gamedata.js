@@ -373,6 +373,37 @@ gameData = [
     },
 
     {
+        title: "Cyberpunk 2077",
+        genre: "Action, Adventure, Role-playing game",
+        publisher: "CD Projekt RED",
+        platform: "PC",
+        size: "54.8 GB",
+        logoLink: "https://i.ibb.co/JthZQ4W/Cyberpunk-2077-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/MRVNvBM/Cyberpunk-2077-Gameplay-4.png",
+            "https://i.ibb.co/dkBrx0T/Cyberpunk-2077-Gameplay-3.png",
+            "https://i.ibb.co/b1hVDgh/Cyberpunk-2077-Gameplay-2.png",
+            "https://i.ibb.co/2jxmp50/Cyberpunk-2077-Gameplay-1.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64-bit",
+                cpu: "Intel Core i5-3570K or AMD FX-8310",
+                gpu: "NVIDIA GeForce GTX 970 or AMD Radeon RX 470",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-4790 or AMD Ryzen 3 3200G",
+                gpu: "GTX 1060 6GB / GTX 1660 Super or Radeon RX 590",
+                ram: "12 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Age of Empires IV",
         genre: "Strategy, RTS",
         publisher: "Xbox Game Studios",
@@ -497,6 +528,37 @@ gameData = [
     },
 
     {
+        title: "Total War: THREE KINGDOMS",
+        genre: "Action, Strategy",
+        publisher: "SEGA",
+        platform: "PC",
+        size: "29.5 GB",
+        logoLink: "https://i.ibb.co/mDrQBW0/Total-War-Three-Kingdoms-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/wNNbfx6/Total-War-Three-Kingdoms-Gameplay-4.jpg",
+            "https://i.ibb.co/kQzkKLK/Total-War-Three-Kingdoms-Gameplay-3.jpg",
+            "https://i.ibb.co/Nx4FpD1/Total-War-Three-Kingdoms-Gameplay-2.jpg",
+            "https://i.ibb.co/1fY8qgJ/Total-War-Three-Kingdoms-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7",
+                cpu: "Intel Core 2 Duo 3.00Ghz",
+                gpu: "GTX 650 Ti 1GB|HD 7850 1GB|Intel UHD Graphics 620",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel i5-6600 | Ryzen 5 2600X",
+                gpu: "GTX 970 | R9 Fury X 4GB VRAM",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Mordhau",
         genre: "Action, Hack and Slash",
         publisher: "Triternion",
@@ -590,6 +652,99 @@ gameData = [
     },
 
     {
+        title: "Batman: Arkham Asylum",
+        genre: "Action, Adventure",
+        publisher: "Eidos Interactive, Warner Bros. Interactive E",
+        platform: "PC",
+        size: "7.32 GB",
+        logoLink: "https://i.ibb.co/JdbYCwk/Batman-Arkham-Asylum-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/P6pQsfF/Batman-Arkham-Asylum-Gameplay-4.jpg",
+            "https://i.ibb.co/DryKs5Y/Batman-Arkham-Asylum-Gameplay-3.jpg",
+            "https://i.ibb.co/LkXBdnR/Batman-Arkham-Asylum-Gameplay-2.jpg",
+            "https://i.ibb.co/p1gdC0n/Batman-Arkham-Asylum-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® XP",
+                cpu: "Intel Pentium 4 3GHz or AMD Athlon 64 3500+",
+                gpu: "nVidia 6600 or ATI 1300",
+                ram: "2 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windows® 7 64-bit",
+                cpu: "Core 2 Duo E6600 (2.4Ghz) or Athlon 64 X2 4600+",
+                gpu: "nVidia 9800GTX or ATI 3870",
+                ram: "3 GB",
+                directX: "Version 9.0",
+            }
+        }
+    },
+
+    {
+        title: "Batman: Arkham City",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "16.6 GB",
+        logoLink: "https://i.ibb.co/bvDZfHp/Batman-Arkham-City-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/b6RPmH5/Batman-Arkham-City-Gameplay-4.jpg",
+            "https://i.ibb.co/stx8m7r/Batman-Arkham-City-Gameplay-3.jpg",
+            "https://i.ibb.co/SRt6DXg/Batman-Arkham-City-Gameplay-2.jpg",
+            "https://i.ibb.co/c1NKfGg/Batman-Arkham-City-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® XP",
+                cpu: "Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 4800+",
+                gpu: "NVIDIA 8800 series or ATI 3800 512MB video memory",
+                ram: "2 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windows® 7 64-bit",
+                cpu: "Dual core CPU 2.5 GHz",
+                gpu: "NVIDIA GeForce GTX 460 or ATI Radeon HD 6850 with 768MB+ (DX 11 compatible)",
+                ram: "4 GB",
+                directX: "Version 9.0",
+            }
+        }
+    },
+
+    {
+        title: "Batman: Arkham Origins",
+        genre: "Action, Beat 'em up, Stealth",
+        publisher: "Warner Bros. Interactive Entertainment",
+        platform: "PC",
+        size: "27.9 GB",
+        logoLink: "https://i.ibb.co/rZGP1DY/Batman-Arkham-Origins-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/MZ1DPj4/Batman-Arkham-Origins-Gameplay-4.jpg",
+            "https://i.ibb.co/18q0WwT/Batman-Arkham-Origins-Gameplay-2.jpg",
+            "https://i.ibb.co/LYs41PQ/Batman-Arkham-Origins-Gameplay-3.jpg",
+            "https://i.ibb.co/ZLKYK3d/Batman-Arkham-Origins-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7",
+                cpu: "Intel Core Duo, 2.4 GHz | AMD Athlon X2, 2.8 GHz",
+                gpu: "NVIDIA GeForce 8800 GTS | AMD Radeon 3850",
+                ram: "2 GB",
+                directX: "Version 10",
+            },
+            recommend: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i5 750, 2.67 GHz | AMD Phenom II X4 965, 3.4 GHz",
+                gpu: "NVIDIA GeForce GTX 560 | AMD Radeon HD 6950",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Sniper Elite 4",
         genre: "Action, Adventure, TPS",
         publisher: "Rebellion",
@@ -614,6 +769,68 @@ gameData = [
                 os: "Windows® 10 64-bit",
                 cpu: "Intel CPU Core i7-3770 or AMD equivalent",
                 gpu: "Nvidia GPU GeForce GTX 970 / AMD GPU Radeon RX 480",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Sniper Elite 3",
+        genre: "Action, Adventure, TPS",
+        publisher: "Rebellion",
+        platform: "PC",
+        size: "19.5 GB",
+        logoLink: "https://i.ibb.co/cvD59kW/Sniper-Elite-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/PQHCxy8/Sniper-Elite-3-Gameplay-4.jpg",
+            "https://i.ibb.co/VCBKxr0/Sniper-Elite-3-Gameplay-3.jpg",
+            "https://i.ibb.co/NF6mRGt/Sniper-Elite-3-Gameplay-2.jpg",
+            "https://i.ibb.co/wN9py3b/Sniper-Elite-3-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit ( Windows XP Not Supported )",
+                cpu: "Dual-core CPU with SSE3 (Intel® Pentium® D 3GHz / AMD Athlon™ 64 X2 4200) or better",
+                gpu: "Microsoft DirectX 10.0 compatible graphics card with 256 MB of memory",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit ( Windows XP Not Supported )",
+                cpu: "Dual-core CPU with SSE3 (Intel® Pentium® D 3GHz / AMD Athlon™ 64 X2 4200) or better",
+                gpu: "Microsoft DirectX 10.0 compatible graphics card with 256 MB of memory",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Sniper Elite V2 Remastered",
+        genre: "Action",
+        publisher: "Rebellion",
+        platform: "PC",
+        size: "10.2 GB",
+        logoLink: "https://i.ibb.co/Bsd2hKB/Sniper-Elite-V2-Remastered-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/3CCBY1V/Sniper-Elite-V2-Remastered-Gameplay-4.jpg",
+            "https://i.ibb.co/hLcXbYx/Sniper-Elite-V2-Remastered-Gameplay-3.jpg",
+            "https://i.ibb.co/xm7bhfW/Sniper-Elite-V2-Remastered-Gameplay-2.jpg",
+            "https://i.ibb.co/ZhLYfc3/Sniper-Elite-V2-Remastered-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit ( Windows XP Not Supported )",
+                cpu: "Intel CPU Core i3-2100 or AMD A8-5600K",
+                gpu: "AMD Radeon HD 5570 (2GB) or NVIDIA GeForce GTX 650 (2GB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit ( Windows XP Not Supported )",
+                cpu: "AMD Ryzen 5 1500X or Intel CPU Core i7-3770",
+                gpu: "AMD Radeon RX 570 or Nvidia GPU GeForce GTX 1070",
                 ram: "8 GB",
                 directX: "Version 11",
             }
@@ -2145,6 +2362,68 @@ gameData = [
     },
 
     {
+        title: "Rise of the Tomb Raider",
+        genre: "Action, Adventure",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "23.8 GB",
+        logoLink: "https://i.ibb.co/k1NvD0C/Rise-Of-The-Tomb-Raider-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/ChVhGF6/Rise-Of-The-Tomb-Raider-Gameplay-4.jpg",
+            "https://i.ibb.co/b6Zfxdv/Rise-Of-The-Tomb-Raider-Gameplay-3.jpg",
+            "https://i.ibb.co/3R52pgG/Rise-Of-The-Tomb-Raider-Gameplay-2.jpg",
+            "https://i.ibb.co/XkB97CD/Rise-Of-The-Tomb-Raider-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64 bit",
+                cpu: "Intel Core i3-2100 or AMD equivalent",
+                gpu: "NVIDIA GTX 650 2 GB or AMD HD 7770 2 GB",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-bit",
+                cpu: "Intel Core i7-3770K",
+                gpu: "NVIDIA GTX 980Ti 2560x1440 or NVIDIA GTX 970 1920x1080",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Hellblade: Senua's Sacrifice",
+        genre: "Action, Adventure",
+        publisher: "Ninja Theory",
+        platform: "PC",
+        size: "12.4 GB",
+        logoLink: "https://i.ibb.co/c3K1MSB/Hellblade-Senua-s-Sacrifice-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/dJLsZDR/Hellblade-Senua-s-Sacrifice-Gameplay-4.jpg",
+            "https://i.ibb.co/8MFkb4x/Hellblade-Senua-s-Sacrifice-Gameplay-3.jpg",
+            "https://i.ibb.co/zXJx61x/Hellblade-Senua-s-Sacrifice-Gameplay-2.jpg",
+            "https://i.ibb.co/By2mFvB/Hellblade-Senua-s-Sacrifice-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64 bit",
+                cpu: "Intel i5 3570K / AMD FX-8350",
+                gpu: "GTX 770 with 2GB VRAM / Radeon R9 280X 3GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64 bit",
+                cpu: "Intel i5 3570K / AMD FX-8350",
+                gpu: "GTX 770 with 2GB VRAM / Radeon R9 280X 3GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Tom Clancy's Ghost Recon Wildlands",
         genre: "Action, Tactical shooter",
         publisher: "Ubisoft",
@@ -2331,6 +2610,68 @@ gameData = [
     },
 
     {
+        title: "Far Cry 4",
+        genre: "Action, Adventure, FPS",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "23.2 GB",
+        logoLink: "https://i.ibb.co/10m6X3R/Farcry-4-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/Ny8Prwk/Farcry-4-Gameplay-4.jpg",
+            "https://i.ibb.co/PcS0XGF/Farcry-4-Gameplay-3.jpg",
+            "https://i.ibb.co/cxVS2Nq/Farcry-4-Gameplay-2.jpg",
+            "https://i.ibb.co/wQyvf7z/Farcry-4-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "2.6 GHz Intel® Core™ i5-750 or 3.2 GHz AMD Phenom™ II X4 955",
+                gpu: "NVIDIA GeForce GTX 460 or AMD Radeon HD5850 (1GB VRAM)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit",
+                cpu: "2.5 GHz Intel® Core™ i5-2400S or 4.0 GHz AMD FX-8350 or better",
+                gpu: "NVIDIA GeForce GTX 680 or AMD Radeon R9 290X or better (2GB VRAM)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Far Cry 5",
+        genre: "Action, Adventure, FPS",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "34.8 GB",
+        logoLink: "https://i.ibb.co/10m6X3R/Farcry-4-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/Ny8Prwk/Farcry-4-Gameplay-4.jpg",
+            "https://i.ibb.co/PcS0XGF/Farcry-4-Gameplay-3.jpg",
+            "https://i.ibb.co/cxVS2Nq/Farcry-4-Gameplay-2.jpg",
+            "https://i.ibb.co/wQyvf7z/Farcry-4-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel Core i5-2400 @ 3.1 GHz or AMD FX-6300 @ 3.5 GHz or equivalent",
+                gpu: "NVIDIA GeForce GTX 670 or AMD R9 270 (2GB VRAM with Shader Model 5.0 or better)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "Intel Core i7-4770 @ 3.4 GHz or AMD Ryzen 5 1600 @ 3.2 GHz or equivalent",
+                gpu: "NVIDIA GeForce GTX 970 or AMD R9 290X (4GB VRAM with Shader Model 5.0 or better)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Call of Duty: WWII",
         genre: "Action, FPS",
         publisher: "Activision",
@@ -2480,6 +2821,99 @@ gameData = [
                 cpu: "AMD Ryzen 3 1300X / Intel Core i7 4790 or equivalent",
                 gpu: "NVIDIA GeForce® GTX 1060 6GB / AMD Radeon™ RX 580 8GB",
                 ram: "12 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Arma 3",
+        genre: "Action, FPS, Tactical shooter",
+        publisher: "Bohemia Interactive",
+        platform: "PC",
+        size: "84.4 GB",
+        logoLink: "https://i.ibb.co/Php9F8S/Arma-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/ChT8px8/Arma-3-Gameplay-4.jpg",
+            "https://i.ibb.co/2FqGM6R/Arma-3-Gameplay-3.jpg",
+            "https://i.ibb.co/YbpqWJm/Arma-3-Gameplay-1.jpg",
+            "https://i.ibb.co/pXbWMQR/Arma-3-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz",
+                gpu: "NVIDIA GeForce 8800GT or AMD Radeon HD 3850 or Intel HD Graphics 4000 with 512 MB VRAM",
+                ram: "2 GB",
+                directX: "Version 10",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "Intel Core i5-2300 or AMD Phenom II X4 940 or better",
+                gpu: "NVIDIA GeForce GTX 560 or AMD Radeon HD 7750 with 1 GB VRAM or better",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Fallout 3",
+        genre: "Action, Role-playing game",
+        publisher: "Bethesda Softworks",
+        platform: "PC",
+        size: "7.06 GB",
+        logoLink: "https://i.ibb.co/vYSgdLF/Fallout-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/1TMmB22/Fallout-3-Gameplay-4.jpg",
+            "https://i.ibb.co/DV1khfN/Fallout-3-Gameplay-3.jpg",
+            "https://i.ibb.co/720L6W1/Fallout-3-Gameplay-2.jpg",
+            "https://i.ibb.co/nwN1CMQ/Fallout-3-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "2.4 Ghz Intel Pentium 4 or equivalent processor",
+                gpu: "Direct X 9.0c compliant video card with 256MB RAM (NVIDIA 6800 or better/ATI X850 or better)*",
+                ram: "2 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "Intel Core 2 Duo processor",
+                gpu: "Direct X 9.0c compliant video card with 512MB RAM (NVIDIA 8800 series, ATI 3800 series)*",
+                ram: "2 GB",
+                directX: "Version 9.0",
+            }
+        }
+    },
+
+    {
+        title: "Fallout 4",
+        genre: "Action, Adventure, Role-playing game",
+        publisher: "Bethesda Softworks",
+        platform: "PC",
+        size: "30 GB",
+        logoLink: "https://i.ibb.co/pL94d43/Fallout-4-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/LgBySdR/Fallout-4-Gameplay-4.png",
+            "https://i.ibb.co/tBx1GKw/Fallout-4-Gameplay-3.jpg",
+            "https://i.ibb.co/vZhq14m/Fallout-4-Gameplay-2.jpg",
+            "https://i.ibb.co/vHpNjfH/Fallout-4-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel Core i5-2300 2.8 GHz/AMD Phenom II X4 945 3.0 GHz or equivalent",
+                gpu: "NVIDIA GTX 550 Ti 2GB/AMD Radeon HD 7870 2GB or equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "Intel Core i7 4790 3.6 GHz/AMD FX-9590 4.7 GHz or equivalent",
+                gpu: "NVIDIA GTX 780 3GB/AMD Radeon R9 290X 4GB or equivalent",
+                ram: "8 GB",
                 directX: "Version 11",
             }
         }
@@ -3480,6 +3914,37 @@ gameData = [
     },
 
     {
+        title: "Command & Conquer: Red Alert 3",
+        genre: "Strategy, RTS",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "4.3 GB",
+        logoLink: "https://i.ibb.co/RbhgBHf/Command-And-Conquer-Red-Alert-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/JrL6M4w/Command-And-Conquer-Red-Alert-3-Gameplay-4.jpg",
+            "https://i.ibb.co/c163fw2/Command-And-Conquer-Red-Alert-3-Gameplay-3.jpg",
+            "https://i.ibb.co/8XQpPRZ/Command-And-Conquer-Red-Alert-3-Gameplay-2.jpg",
+            "https://i.ibb.co/34B2wZt/Command-And-Conquer-Red-Alert-3-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64 Bit",
+                cpu: "XP: 2.0 GHz (Intel Pentium 4; AMD Athlon 2000+; Multiple Cores)",
+                gpu: "NVIDIA GeForce 6800, ATI Radeon X1800 or higher end DirectX 9.0c compatible gfx card",
+                ram: "1 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windows 7 64 Bit",
+                cpu: "XP: 2.0 GHz (Intel Pentium 4; AMD Athlon 2000+; Multiple Cores)",
+                gpu: "NVIDIA GeForce 6800, ATI Radeon X1800 or higher end DirectX 9.0c compatible gfx card",
+                ram: "1 GB",
+                directX: "Version 9.0",
+            }
+        }
+    },
+
+    {
         title: "Bully Scholarship Edition",
         genre: "Action, Adventure",
         publisher: "Rockstar Games",
@@ -3598,6 +4063,68 @@ gameData = [
                 cpu: "Intel Core i7-3770 3.4GHz / AMD FX-8350 4.2GHz",
                 gpu: "NVIDIA GeForce GTX 1080 / AMD Radeon RX 5700",
                 ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Mafia III: Definitive Edition",
+        genre: "Action, Adventure",
+        publisher: "2K Games",
+        platform: "PC",
+        size: "43.5 GB",
+        logoLink: "https://i.ibb.co/yRfdPLy/Mafia-3-Definitive-Edition-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/LSfNkW9/Mafia-3-Definitive-Edition-Gameplay-4.jpg",
+            "https://i.ibb.co/1rXrwrf/Mafia-3-Definitive-Edition-Gameplay-3.jpg",
+            "https://i.ibb.co/db3KgFb/Mafia-3-Definitive-Edition-Gameplay-2.jpg",
+            "https://i.ibb.co/M6JcWF4/Mafia-3-Definitive-Edition-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64",
+                cpu: "Intel I5-2500K, AMD FX-8120",
+                gpu: "2GB of Video Memory & NVIDIA GeForce GTX 660, AMD Radeon HD7870",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 - 64bit",
+                cpu: "Intel I7-3770, AMD FX-8350 4.0 Ghz",
+                gpu: "4GB of Video Memory & NVIDIA Gefore GTX 780 or GeForce GTX 1060, AMD Radeon R9 290X",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Metro Exodus",
+        genre: "Action, FPS",
+        publisher: "Deep Silver",
+        platform: "PC",
+        size: "76.7 GB",
+        logoLink: "https://i.ibb.co/vv4NhBn/Metro-Exodus-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/3h6bkXF/Metro-Exodus-Gameplay-4.jpg",
+            "https://i.ibb.co/3cr4bvP/Metro-Exodus-Gameplay-3.jpg",
+            "https://i.ibb.co/4Kwv4Xs/Metro-Exodus-Gameplay-2.jpg",
+            "https://i.ibb.co/2vqtybL/Metro-Exodus-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64",
+                cpu: "INTEL CORE I5-4440 or equivalent",
+                gpu: "2 GB VRAM, GEFORCE GTX 670 | GEFORCE GTX 1050 | AMD RADEON HD 7870",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 - 64bit",
+                cpu: "INTEL CORE I7-4770K or equivalent",
+                gpu: "8 GB VRAM, GEFORCE GTX 1070 | GEFORCE RTX 2060 | AMD RX VEGA 56",
+                ram: "8 GB",
                 directX: "Version 11",
             }
         }
@@ -4032,6 +4559,37 @@ gameData = [
                 cpu: "Intel Core i5 3.00GHz or higher",
                 gpu: "Nvidia GeForce GTX960 or higher",
                 ram: "6 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Creaks",
+        genre: "Adventure, Platformer, Puzzle",
+        publisher: "Amanita Design",
+        platform: "PC",
+        size: "2.23 GB",
+        logoLink: "https://i.ibb.co/PGCxmc1/Creaks-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/M5kBQyK/Creaks-Gameplay-4.jpg",
+            "https://i.ibb.co/0Mq9xtZ/Creaks-Gameplay-3.jpg",
+            "https://i.ibb.co/7ypDYnW/Creaks-Gameplay-1.jpg",
+            "https://i.ibb.co/wpJdfnn/Creaks-Gameplay-2.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 64-bit",
+                cpu: "2 GHz Intel i5 or better",
+                gpu: "DirectX 11 compatible GPU",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10, 64-bit",
+                cpu: "2 GHz Intel i5 or better",
+                gpu: "DirectX 11 compatible GPU",
+                ram: "4 GB",
                 directX: "Version 11",
             }
         }
