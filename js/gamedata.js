@@ -342,6 +342,37 @@ gameData = [
     },
 
     {
+        title: "Yakuza: Like a Dragon",
+        genre: "Action, Adventure, Role-playing game, Jap",
+        publisher: "SEGA",
+        platform: "PC",
+        size: "50 GB",
+        logoLink: "https://i.ibb.co/VjJLNYS/Yakuza-Lika-A-Dragon-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/f2mYgVq/Yakuza-Lika-A-Dragon-Gameplay-1.jpg",
+            "https://i.ibb.co/4tJpJ4n/Yakuza-Lika-A-Dragon-Gameplay-2.jpg",
+            "https://i.ibb.co/xhMmxs9/Yakuza-Lika-A-Dragon-Gameplay-3.jpg",
+            "https://i.ibb.co/wrjD7y1/Yakuza-Lika-A-Dragon-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3470 | AMD FX-8350",
+                gpu: "Nvidia GeForce GTX 660, 2 GB | AMD Radeon HD 7870, 2 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-6700 | AMD Ryzen 5 1400",
+                gpu: "Nvidia GeForce GTX 1060, 3 GB | AMD Radeon RX 580, 4 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Red Dead Redemption 2",
         genre: "Action, Adventure",
         publisher: "Rockstar Games",
