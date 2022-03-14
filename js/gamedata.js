@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "WWE 2K22",
+        genre: "Simulation, Sports",
+        publisher: "2K Sports",
+        platform: "PC",
+        size: "49.7 GB",
+        logoLink: "https://i.ibb.co/zQxsncx/WWE-2-K22-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/xsjybcd/WWE-2-K22-Gameplay-3.png",
+            "https://i.ibb.co/zF42vqc/WWE-2-K22-Gameplay-4.jpg",
+            "https://i.ibb.co/c8bf0wN/WWE-2-K22-Gameplay-2.jpg",
+            "https://i.ibb.co/8zYP4kW/WWE-2-K22-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3550 / AMD FX 8150",
+                gpu: "GeForce GTX 1060 / Radeon RX 480, At least 4 GB Video Memory",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i7-4790 / AMD FX 8350 (AVX - Compatible processor)",
+                gpu: "GeForce GTX 1070 / Radeon RX 580, At least 6 GB Video Memory",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Elden Ring",
         genre: "Action, Role-playing game, Souls-like",
         publisher: "Bandai Namco Entertainment, FromSoftware",
@@ -25,6 +56,68 @@ gameData = [
                 os: "Windows® 10 64-bit",
                 cpu: "Intel Core i7-8700K or AMD Ryzen 5 3600X",
                 gpu: "NVIDIA GeForce GTX 1070, 8 GB or AMD Radeon RX Vega 56, 8 GB",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Shadow Warrior 3",
+        genre: "Action, Adventure, FPS",
+        publisher: "Devolver Digital",
+        platform: "PC",
+        size: "22.7 GB",
+        logoLink: "https://i.ibb.co/6RZtLr7/Shadow-Warriror-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/zNQN12M/Shadow-Warriror-3-Gameplay-4.jpg",
+            "https://i.ibb.co/FWCN5cn/Shadow-Warriror-3-Gameplay-3.jpg",
+            "https://i.ibb.co/18ypY50/Shadow-Warriror-3-Gameplay-2.jpg",
+            "https://i.ibb.co/BCKGpdZ/Shadow-Warriror-3-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD Ryzen 7 2700 (8 * 3200) or equivalent. Intel Core i7-6950X (10 * 3000) or equivalent",
+                gpu: "Radeon RX 5700 (8192 VRAM) or equivalent. GeForce GTX 1080 (8192 MB) or equivalent",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD Ryzen 7 2700 (8 * 3200) or equivalent. Intel Core i7-6950X (10 * 3000) or equivalent",
+                gpu: "Radeon RX 5700 (8192 VRAM) or equivalent. GeForce GTX 1080 (8192 MB) or equivalent",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "ELEX II",
+        genre: "Action, Adventure, Role-playing game",
+        publisher: "THQ Nordic",
+        platform: "PC",
+        size: "35.4 GB",
+        logoLink: "https://i.ibb.co/KFx7t40/Elex-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/PrDQk7v/Elex-2-Gameplay-4.jpg",
+            "https://i.ibb.co/5MSqc5w/Elex-2-Gameplay-3.jpg",
+            "https://i.ibb.co/zZx9qyf/Elex-2-Gameplay-2.jpg",
+            "https://i.ibb.co/4f8L5My/Elex-2-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD Ryzen 3 3100 / Intel Core i5-7400",
+                gpu: "Radeon RX 5600 XT / Geforce GTX 1060",
+                ram: "12 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD Ryzen 7 2700 / Intel Core i5-9500F",
+                gpu: "Radeon RX 5700 XT / Geforce RTX 2060",
                 ram: "16 GB",
                 directX: "Version 12",
             }
@@ -647,6 +740,37 @@ gameData = [
                 gpu: "NVIDIA® GeForce® GTX 1060 3GB / AMD Radeon™ RX 580",
                 ram: "8 GB",
                 directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "DYNASTY WARRIORS 7: Xtreme Legends",
+        genre: "Action",
+        publisher: "KOEI TECMO GAMES CO., LTD.",
+        platform: "PC",
+        size: "17.0 GB",
+        logoLink: "https://i.ibb.co/5cLPzfd/Dynasty-Warriors-7-Xtreme-Legend-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/sbY50gb/Dynasty-Warriors-7-Xtreme-Legend-Gameplay-4.jpg",
+            "https://i.ibb.co/8ckSxTQ/Dynasty-Warriors-7-Xtreme-Legend-Gameplay-3.jpg",
+            "https://i.ibb.co/t26k28m/Dynasty-Warriors-7-Xtreme-Legend-Gameplay-2.jpg",
+            "https://i.ibb.co/vsFQ82q/Dynasty-Warriors-7-Xtreme-Legend-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 8.1/10 (32bit/64bit)",
+                cpu: "Pentium4 2.0GHz or better",
+                gpu: "VRAM 128MB or better, 3D accelerator chip required(DirectX 9.0c or better/Pixel Shader 3.0 or better)",
+                ram: "2 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 8.1/10 (32bit/64bit)",
+                cpu: "Core2Duo 2.4GHz or better",
+                gpu: "VRAM 256MB or better, 3D accelerator chip required(DirectX 9.0c or better/Pixel Shader 3.0 or better)",
+                ram: "4 GB",
+                directX: "Version 9",
             }
         }
     },
@@ -1766,6 +1890,37 @@ gameData = [
                 gpu: "GeForce® 7800 256 MB / Radeon™ X1800 256 MB",
                 ram: "2 GB",
                 directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "Internet Cafe Simulator 2",
+        genre: "Action, Adventure, Casual, Indie, Simulation, Strategy",
+        publisher: "Cheesecake Dev",
+        platform: "PC",
+        size: "3.16 GB",
+        logoLink: "https://i.ibb.co/vQjkBsC/Internet-Cafe-Simulator-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/r4kKHpq/Internet-Cafe-Simulator-2-Gameplay-4.png",
+            "https://i.ibb.co/RCc5Syv/Internet-Cafe-Simulator-2-Gameplay-3.jpg",
+            "https://i.ibb.co/zXGrd6t/Internet-Cafe-Simulator-2-Gameplay-2.jpg",
+            "https://i.ibb.co/QrcM5dn/Internet-Cafe-Simulator-2-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7",
+                cpu: "2 GHz Dual Core CPU",
+                gpu: "Intel HD Graphics 4000 or better",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "2.5 GHz Dual Core CPU",
+                gpu: "Geforce GTX 970/Radeon RX470 or better",
+                ram: "6 GB",
+                directX: "Version 11",
             }
         }
     },
