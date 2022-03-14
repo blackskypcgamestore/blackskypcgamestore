@@ -2765,6 +2765,37 @@ gameData = [
     },
 
     {
+        title: "Valheim",
+        genre: "Action, Survival",
+        publisher: "Coffee Stain Publishing",
+        platform: "PC",
+        size: "1 GB",
+        logoLink: "https://i.ibb.co/Zh83W01/VALHEIM-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/6JPjLsH/VALHEIM-Gameplay-4.jpg",
+            "https://i.ibb.co/DYWhSTv/VALHEIM-Gameplay-3.jpg",
+            "https://i.ibb.co/dcw6Y8Z/VALHEIM-Gameplay-2.jpg",
+            "https://i.ibb.co/MBy7gp2/VALHEIM-Gameplay-1.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64-Bit",
+                cpu: "2.6 GHz Quad Core or similar",
+                gpu: "GeForce GTX 950 or Radeon HD 7970",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "i5 3GHz or Ryzen 5 3GHz",
+                gpu: "GeForce GTX 1060 or Radeon RX 580",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Crysis Remastered",
         genre: "Action, FPS",
         publisher: "Crytek",
