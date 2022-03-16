@@ -528,6 +528,37 @@ gameData = [
     },
 
     {
+        title: "Anno 1800",
+        genre: "Simulation, Strategy, City builder",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "33.6 GB",
+        logoLink: "https://i.ibb.co/bNM9ngr/Anno-1800-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/MD5KBJt/Anno-1800-Gameplay-1.jpg",
+            "https://i.ibb.co/zNmFFPX/Anno-1800-Gameplay-2.jpg",
+            "https://i.ibb.co/Fx6Wsjn/Anno-1800-Gameplay-3.jpg",
+            "https://i.ibb.co/Y8VCBy4/Anno-1800-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel i5 3470, AMD FX 6350",
+                gpu: "Nvidia GTX 670 - 2GB, AMD Radeon R9 270X - 2GB, Shader Model 5.0",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i5 4690k, AMD Ryzen 5 1400",
+                gpu: "Nvidia GTX 970 - 4GB, AMD Radeon R9 290X - 4GB, Shader Model 5.1",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Age of Empires IV",
         genre: "Strategy, RTS",
         publisher: "Xbox Game Studios",
@@ -1174,6 +1205,68 @@ gameData = [
                 cpu: "Intel Core i3-3240 (2 * 3400) or equivalent",
                 gpu: "GeForce GTX 560 (1024 MB), Intel Iris Pro 5200 (shared), Radeon HD 5850 (1024 MB)",
                 ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Jurassic World Evolution 2",
+        genre: "Simulation, Construction and management simulation",
+        publisher: "Frontier Developments",
+        platform: "PC",
+        size: "8 GB",
+        logoLink: "https://i.ibb.co/zSNcT1F/Jurassic-World-Evolution-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/H2DTFyb/Jurassic-World-Evolution-2-Gameplay-1.jpg",
+            "https://i.ibb.co/T1z7CT0/Jurassic-World-Evolution-2-Gameplay-2.jpg",
+            "https://i.ibb.co/hmkgkH6/Jurassic-World-Evolution-2-Gameplay-3.jpg",
+            "https://i.ibb.co/FsGLCHR/Jurassic-World-Evolution-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel i5-4590/AMD FX 8370",
+                gpu: "(4GB VRAM) NVIDIA GeForce GTX 1050Ti (Legacy GPU: GeForce GTX 960)",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i7-5775C/AMD Ryzen 5 1500X",
+                gpu: "(6GB VRAM) NVIDIA GeForce GTX 1070",
+                ram: "12 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Ancestors: The Humankind Odyssey",
+        genre: "Action, Adventure, Role-playing game, Survival",
+        publisher: "Private Division",
+        platform: "PC",
+        size: "8.75 GB",
+        logoLink: "https://i.ibb.co/RCpJw92/Ancestors-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/Yj0v62D/Ancestors-Gameplay-1.jpg",
+            "https://i.ibb.co/P9pd6fC/Ancestors-Gameplay-2.jpg",
+            "https://i.ibb.co/tbycHgS/Ancestors-Gameplay-3.jpg",
+            "https://i.ibb.co/H4YfNV8/Ancestors-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i5-2500K or AMD Phenom II X6 1100T",
+                gpu: "GeForce GTX 760 (4GB) or Radeon HD 7950 (3GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-4770K or AMD Ryzen 5 1600",
+                gpu: "GeForce GTX 980 (4GB) or Radeon RX 480 (8GB)",
+                ram: "8 GB",
                 directX: "Version 11",
             }
         }
