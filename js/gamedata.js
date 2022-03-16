@@ -373,6 +373,37 @@ gameData = [
     },
 
     {
+        title: "Life is Strange 2 Complete Edition",
+        genre: "Adventure",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "41.8 GB",
+        logoLink: "https://i.ibb.co/94pVCQx/Life-Is-Strange-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/tqsJgqW/Life-Is-Strange-2-Gameplay-1.jpg",
+            "https://i.ibb.co/v3jsM15/Life-Is-Strange-2-Gameplay-2.png",
+            "https://i.ibb.co/xgDcy8h/Life-Is-Strange-2-Gameplay-3.jpg",
+            "https://i.ibb.co/tXJrqn6/Life-Is-Strange-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7/8/10 (64 bits)",
+                cpu: "Intel Core i3-2100 (3.1GHz) or AMD Phenom X4 945 (3.0GHz)",
+                gpu: "Nvidia GeForce GTX 650 2GB or AMD Radeon HD 7770 2GB",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 ( 64 bit )",
+                cpu: "Intel Core i5 3470, (3.20 Ghz) or AMD FX-8350, (4.00 Ghz)",
+                gpu: "Nvidia GeForce GTX 970 4GB or AMD Radeon R9 280X 3GB",
+                ram: "6 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Final Fantasy VII Remake",
         genre: "Role-playing game, Japanese RPG",
         publisher: "Square Enix",
@@ -1738,37 +1769,6 @@ gameData = [
             }
         }
     } , 
-
-    {
-        title: "Life is Strange 2 Complete Edition",
-        genre: "Adventure",
-        publisher: "Square Enix",
-        platform: "PC",
-        size: "41.8 GB",
-        logoLink: "https://i.ibb.co/94pVCQx/Life-Is-Strange-2-Logo.jpg",
-        gameplayLinks: [
-            "https://i.ibb.co/tqsJgqW/Life-Is-Strange-2-Gameplay-1.jpg",
-            "https://i.ibb.co/v3jsM15/Life-Is-Strange-2-Gameplay-2.png",
-            "https://i.ibb.co/xgDcy8h/Life-Is-Strange-2-Gameplay-3.jpg",
-            "https://i.ibb.co/tXJrqn6/Life-Is-Strange-2-Gameplay-4.jpg"
-        ],
-        systemRequirements: {
-            minimum: {
-                os: "Windows 7/8/10 (64 bits)",
-                cpu: "Intel Core i3-2100 (3.1GHz) or AMD Phenom X4 945 (3.0GHz)",
-                gpu: "Nvidia GeForce GTX 650 2GB or AMD Radeon HD 7770 2GB",
-                ram: "4 GB",
-                directX: "Version 11",
-            },
-            recommend: {
-                os: "Windows 10 ( 64 bit )",
-                cpu: "Intel Core i5 3470, (3.20 Ghz) or AMD FX-8350, (4.00 Ghz)",
-                gpu: "Nvidia GeForce GTX 970 4GB or AMD Radeon R9 280X 3GB",
-                ram: "6 GB",
-                directX: "Version 11",
-            }
-        }
-    },
 
     {
         title: "A Plague Tale: Innocence",
