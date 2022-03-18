@@ -4906,6 +4906,37 @@ gameData = [
     // },
 
     {
+        title: "TUNIC",
+        genre: "Action, Adventure",
+        publisher: "Finji",
+        platform: "PC",
+        size: "1.29 GB",
+        logoLink: "https://i.ibb.co/HFqZcXv/Tunic-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/JQfCW4y/Tunic-Gameplay-1.jpg",
+            "https://i.ibb.co/p3XXCgx/Tunic-Gameplay-2.jpg",
+            "https://i.ibb.co/JdXh4wV/Tunic-Gameplay-3.jpg",
+            "https://i.ibb.co/KbB21NX/Tunic-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64-bit",
+                cpu: "Intel i5 Quad-Core, 2.7 GHz",
+                gpu: "GTX 660 / RX 460",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10, 64-bit",
+                cpu: "Intel i5 Quad-Core, 3 GHz",
+                gpu: "GTX 1080 Ti / RX Vega 64",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Time Master",
         genre: "Indie",
         publisher: "MorpheusZ",
