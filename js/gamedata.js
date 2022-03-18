@@ -435,6 +435,37 @@ gameData = [
     },
 
     {
+        title: "THE KING OF FIGHTERS XV",
+        genre: "Action, Fighting",
+        publisher: "SNK CORPORATION",
+        platform: "PC",
+        size: "30 GB",
+        logoLink: "https://i.ibb.co/bmj9dgy/King-Of-Fighters-XV-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/0rm6zcL/King-Of-Fighters-XV-Gameplay-1.jpg",
+            "https://i.ibb.co/1fd9rk1/King-Of-Fighters-XV-Gameplay-2.jpg",
+            "https://i.ibb.co/Cwwz7TD/King-Of-Fighters-XV-Gameplay-3.jpg",
+            "https://i.ibb.co/d2jYfb3/King-Of-Fighters-XV-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i5",
+                gpu: "Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7",
+                gpu: "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Tales of Arise",
         genre: "Action, Role-playing game, Japanese RPG",
         publisher: "Bandai Namco Entertainment",
@@ -833,6 +864,37 @@ gameData = [
                 gpu: "VRAM 256MB or better, 3D accelerator chip required(DirectX 9.0c or better/Pixel Shader 3.0 or better)",
                 ram: "4 GB",
                 directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "DYNASTY WARRIORS 9 Empires",
+        genre: "Action, Simulation, Strategy",
+        publisher: "Koei Tecmo",
+        platform: "PC",
+        size: "33.7 GB",
+        logoLink: "https://i.ibb.co/gWDXDvB/Dynasty-Warriors-9-Empires-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/qMp3MzW/Dynasty-Warriors-9-Empires-Gameplay-1.jpg",
+            "https://i.ibb.co/3Y8nWY7/Dynasty-Warriors-9-Empires-Gameplay-2.jpg",
+            "https://i.ibb.co/TrSt56C/Dynasty-Warriors-9-Empires-Gameplay-3.jpg",
+            "https://i.ibb.co/wCCPVyV/Dynasty-Warriors-9-Empires-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 8.1/10 (32bit/64bit)",
+                cpu: "Intel Core i5-4460 or over",
+                gpu: "NVIDIA GeForce GTX 760 (2GB) / AMD Radeon R7 370 (4GB) or over",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 8.1/10 (32bit/64bit)",
+                cpu: "Intel Core i7-3770 / AMD Ryzen 5 2600 or over",
+                gpu: "NVIDIA GeForce GTX 1660 / AMD Radeon RX 5600 XT or over, VRAM 6GB or over",
+                ram: "8 GB",
+                directX: "Version 11",
             }
         }
     },
