@@ -900,6 +900,37 @@ gameData = [
     },
 
     {
+        title: "Dark Souls III",
+        genre: "Action, Role-playing game",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "24.7 GB",
+        logoLink: "https://i.ibb.co/9cLGzHf/Dark-Souls-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/ZVZrcGv/Dark-Souls-3-Gameplay-1.jpg",
+            "https://i.ibb.co/MV7NpwM/Dark-Souls-3-Gameplay-2.jpg",
+            "https://i.ibb.co/G9JXmB1/Dark-Souls-3-Gameplay-3.jpg",
+            "https://i.ibb.co/S70HLxR/Dark-Souls-3-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 (32bit/64bit)",
+                cpu: "Intel Core i3-2100 / AMD® FX-6300",
+                gpu: "NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64bit",
+                cpu: "Intel Core i7-3770 / AMD® FX-8350",
+                gpu: "NVIDIA® GeForce GTX 970 / ATI Radeon R9 series",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Batman: Arkham Knight",
         genre: "Action, Adventure",
         publisher: "Warner Bros. Interactive Entertainment",
