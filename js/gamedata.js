@@ -1614,6 +1614,99 @@ gameData = [
     },
 
     {
+        title: "NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst",
+        genre: "Fighting",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "32.5 GB",
+        logoLink: "https://i.ibb.co/4mPfqvK/Naruto-Ultimate-Ninja-Storm-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/y0bjzHp/Naruto-Ultimate-Ninja-Storm-3-Gameplay-1.jpg",
+            "https://i.ibb.co/1bF5CDJ/Naruto-Ultimate-Ninja-Storm-3-Gameplay-2.jpg",
+            "https://i.ibb.co/QJmMFhG/Naruto-Ultimate-Ninja-Storm-3-Gameplay-3.jpg",
+            "https://i.ibb.co/sWVCXtJ/Naruto-Ultimate-Ninja-Storm-3-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz",
+                gpu: "1024 MB video card",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz",
+                gpu: "1024 MB video card",
+                ram: "2 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "NARUTO SHIPPUDEN: Ultimate Ninja STORM 2",
+        genre: "Action, Adventure, Fighting",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "37 GB",
+        logoLink: "https://i.ibb.co/Xb7rQVc/Naruto-Ultimate-Ninja-Storm-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/WG1pmWR/Naruto-Ultimate-Ninja-Storm-2-Gameplay-1.jpg",
+            "https://i.ibb.co/RSjw19K/Naruto-Ultimate-Ninja-Storm-2-Gameplay-2.jpg",
+            "https://i.ibb.co/XxTWDdN/Naruto-Ultimate-Ninja-Storm-2-Gameplay-3.jpg",
+            "https://i.ibb.co/j6NgvQ8/Naruto-Ultimate-Ninja-Storm-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz",
+                gpu: "1024 MB video card",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz",
+                gpu: "1024 MB video card",
+                ram: "2 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "NARUTO: Ultimate Ninja STORM",
+        genre: "Action, Adventure, Fighting",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "8 GB",
+        logoLink: "https://i.ibb.co/P4NcsL9/Naruto-Ultimate-Ninja-Storm-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/wLrMgVv/Naruto-Ultimate-Ninja-Storm-Gameplay-1.jpg",
+            "https://i.ibb.co/NNtqrtb/Naruto-Ultimate-Ninja-Storm-Gameplay-2.jpg",
+            "https://i.ibb.co/yfrm2ZM/Naruto-Ultimate-Ninja-Storm-Gameplay-3.jpg",
+            "https://i.ibb.co/M2XN7wy/Naruto-Ultimate-Ninja-Storm-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz",
+                gpu: "1024 MB video card",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz",
+                gpu: "1024 MB video card",
+                ram: "2 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "The Smurfs: Mission Vileaf",
         genre: "Action, Adventure",
         publisher: "Microids",
@@ -2292,6 +2385,37 @@ gameData = [
                 cpu: "Intel i5-8400 | AMD Ryzen 5 1500X",
                 gpu: "NVIDIA GTX 970 | AMD Radeon RX 590, 4 GB VRAM",
                 ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "ACE COMBAT 7: SKIES UNKNOWN",
+        genre: "Action, Simulation",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "45 GB",
+        logoLink: "https://i.ibb.co/zbM2ZN4/Ace-Combat-7-Skies-Unknown-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/bJr1BQt/Ace-Combat-7-Skies-Unknown-Gameplay-1.jpg",
+            "https://i.ibb.co/RDSsCCp/Ace-Combat-7-Skies-Unknown-Gameplay-2.png",
+            "https://i.ibb.co/n14MTRV/Ace-Combat-7-Skies-Unknown-Gameplay-3.png",
+            "https://i.ibb.co/8dGkdF7/Ace-Combat-7-Skies-Unknown-Gameplay-4.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 x64",
+                cpu: "Intel Core i3-7100",
+                gpu: "NVIDIA GeForce GTX 750Ti (2GB)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 x64",
+                cpu: "Intel Core i5-7500",
+                gpu: "NVIDIA GeForce GTX 1060 (3GB)",
+                ram: "8 GB",
                 directX: "Version 11",
             }
         }
@@ -4031,6 +4155,37 @@ gameData = [
                 os: "Windows 7/8/10 (64-bit OS required)",
                 cpu: "Intel Core i5-4690 3.5 GHz or equivalent",
                 gpu: "NVIDIA GeForce GTX 1060 equivalent or higher ",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Street Fighter V",
+        genre: "Action, Fighting",
+        publisher: "CAPCOM",
+        platform: "PC",
+        size: "50 GB",
+        logoLink: "https://i.ibb.co/LzHnG3Y/Street-Fighter-5-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/5v4pFfq/Street-Fighter-5-Gameplay-1.jpg",
+            "https://i.ibb.co/jgMhJR5/Street-Fighter-5-Gameplay-2.jpg",
+            "https://i.ibb.co/frFfDvx/Street-Fighter-5-Gameplay-3.jpg",
+            "https://i.ibb.co/7KZ5jL6/Street-Fighter-5-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7/8/10 (64-bit OS required)",
+                cpu: "Intel Core i3-4160 @ 3.60GHz",
+                gpu: "NVIDIA® GeForce® GTX 480, GTX 570, GTX 670, or better",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7/8/10 (64-bit OS required)",
+                cpu: "Intel Core i5-4690K @3.50GHz or AMD FX-9370",
+                gpu: "NVIDIA® GeForce® GTX 960 or AMD Radeon R7 370",
                 ram: "8 GB",
                 directX: "Version 11",
             }
