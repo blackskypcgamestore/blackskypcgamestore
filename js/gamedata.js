@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "GhostWire: Tokyo",
+        genre: "Action, First-person",
+        publisher: "Bethesda Softworks",
+        platform: "PC",
+        size: "20 GB",
+        logoLink: "https://i.ibb.co/L6KpxfG/Ghostwire-Tokyo-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/M8Sw1L1/Ghostwire-Tokyo-Gameplay-1.jpg",
+            "https://i.ibb.co/jJZzk6K/Ghostwire-Tokyo-Gameplay-2.jpg",
+            "https://i.ibb.co/KDkL0pj/Ghostwire-Tokyo-Gameplay-3.jpg",
+            "https://i.ibb.co/0YWw9cV/Ghostwire-Tokyo-Gameplay-4.jpg",
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "CORE I7-4770K @ 3.5GHZ OR AMD RYZEN 5 2600",
+                gpu: "NVIDIA GTX 1060 OR AMD RX 5500 XT (VRAM 6 GB OR HIGHER)",
+                ram: "12 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "CORE I7-6700 @ 3.4GHZ OR AMD RYZEN 5 2600",
+                gpu: "NVIDIA GTX 1080 OR AMD RX 5600 XT (VRAM 6 GB OR HIGHER)",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "WWE 2K22",
         genre: "Simulation, Sports",
         publisher: "2K Sports",
@@ -621,6 +652,37 @@ gameData = [
     },
 
     {
+        title: "King's Bounty II",
+        genre: "Adventure, Role-playing game, Strategy",
+        publisher: "1C Entertainment, Prime Matter",
+        platform: "PC",
+        size: "19.5 GB",
+        logoLink: "https://i.ibb.co/kM4ScNt/King-Bounty-2-Duke-Edition-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/fkK9Zj9/King-Bounty-2-Duke-Edition-Gameplay-1.jpg",
+            "https://i.ibb.co/HG1dB92/King-Bounty-2-Duke-Edition-Gameplay-2.jpg",
+            "https://i.ibb.co/K2PhPDf/King-Bounty-2-Duke-Edition-Gameplay-3.jpg",
+            "https://i.ibb.co/X5vbNJ7/King-Bounty-2-Duke-Edition-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-4690 or AMD FX-9370",
+                gpu: "GeForce GTX 970 or AMD Radeon RX 480 (4 GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-7400 or AMD Ryzen 7 1700X",
+                gpu: "GeForce GTX 1060 or Radeon RX 580 (6 GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Age of Empires IV",
         genre: "Strategy, RTS",
         publisher: "Xbox Game Studios",
@@ -864,6 +926,37 @@ gameData = [
                 gpu: "VRAM 256MB or better, 3D accelerator chip required(DirectX 9.0c or better/Pixel Shader 3.0 or better)",
                 ram: "4 GB",
                 directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "DYNASTY WARRIORS 9",
+        genre: "Action, Hack and Slash",
+        publisher: "Koei Tecmo",
+        platform: "PC",
+        size: "31.9 GB",
+        logoLink: "https://i.ibb.co/hZZkg3s/Dynasty-Warriors-9-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/ZMC02dv/Dynasty-Warriors-9-Gameplay-1.jpg",
+            "https://i.ibb.co/mb67hyQ/Dynasty-Warriors-9-Gameplay-2.jpg",
+            "https://i.ibb.co/Ykv0qL3/Dynasty-Warriors-9-Gameplay-3.jpg",
+            "https://i.ibb.co/nmGVV8M/Dynasty-Warriors-9-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 8.1/10 (64bit)",
+                cpu: "Core i5 2400 or over",
+                gpu: "NVIDIA GeForce GTX 660 or over",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 8.1/10 (64bit)",
+                cpu: "Core i7 3770 or over",
+                gpu: "NVIDIA GeForce GTX 1060 or over",
+                ram: "8 GB",
+                directX: "Version 11",
             }
         }
     },
@@ -1957,6 +2050,37 @@ gameData = [
     } , 
 
     {
+        title: "Sherlock Holmes Chapter One",
+        genre: "Action, Adventure",
+        publisher: "Frogwares",
+        platform: "PC",
+        size: "26.1 GB",
+        logoLink: "https://i.ibb.co/hMn7CCm/Sherlock-Holmes-Chapter-One-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/pRTMkxz/Sherlock-Holmes-Chapter-One-Gameplay-1.jpg",
+            "https://i.ibb.co/sVcT57r/Sherlock-Holmes-Chapter-One-Gameplay-2.jpg",
+            "https://i.ibb.co/1b77msh/Sherlock-Holmes-Chapter-One-Gameplay-3.jpg",
+            "https://i.ibb.co/XjHh8SW/Sherlock-Holmes-Chapter-One-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7/8/10 (64 bits)",
+                cpu: "Intel Core i5-6600 or AMD Ryzen 5 2600",
+                gpu: "Nvidia GeForce GTX 960, 4 GB or AMD Radeon R9 380, 4 GB",
+                ram: "12 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10/8/7 ( 64 bit )",
+                cpu: "Intel Core i5-8400 or AMD Ryzen 5 3600",
+                gpu: "Nvidia GeForce GTX 1070, 8 GB or AMD Radeon RX 5600 XT",
+                ram: "12 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "A Plague Tale: Innocence",
         genre: "Survival game",
         publisher: "Focus Entertainment",
@@ -2734,6 +2858,37 @@ gameData = [
     },
 
     {
+        title: "Need For Speed Most Wanted (2012)",
+        genre: "Action, Racing",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "5.46 GB",
+        logoLink: "https://i.ibb.co/p0kMW3K/Need-For-Speed-Most-Wanted-2012-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/HBMvJL7/Need-For-Speed-Most-Wanted-2012-Gameplay-1.jpg",
+            "https://i.ibb.co/9ggkPQX/Need-For-Speed-Most-Wanted-2012-Gameplay-2.jpg",
+            "https://i.ibb.co/pRbqXLd/Need-For-Speed-Most-Wanted-2012-Gameplay-3.jpg",
+            "https://i.ibb.co/9NDyhW4/Need-For-Speed-Most-Wanted-2012-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows Vista SP2 32-bit",
+                cpu: "Quad-core CPU",
+                gpu: "NVIDIA GeForce GTX 560 or ATI Radeon 6950",
+                ram: "4 GB",
+                directX: "Version 10",
+            },
+            recommend: {
+                os: "Windows 7 SP1 64-bit",
+                cpu: "3.0 GHz Intel Core 2 Quad or equal AMD",
+                gpu: "1024 MB RAM ATI Radeon 6950 1024 MB RAM NVIDIA GeForce GTX560",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Ori And The Will Of The Wisps",
         genre: "Action, Adventure, Platform",
         publisher: "Xbox Game Studios",
@@ -3197,6 +3352,100 @@ gameData = [
             }
         }
     },
+
+    {
+        title: "Far Cry New Dawn",
+        genre: "Action, Adventure, FPS",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "15.9 GB",
+        logoLink: "https://i.ibb.co/dpdysgK/Farcry-New-Dawn-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/8jQ2K8c/Farcry-New-Dawn-Gameplay-1.jpg",
+            "https://i.ibb.co/M7pMcLq/Farcry-New-Dawn-Gameplay-2.jpg",
+            "https://i.ibb.co/FJJRRh9/Farcry-New-Dawn-Gameplay-3.jpg",
+            "https://i.ibb.co/dDx33gj/Farcry-New-Dawn-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel Core i5 2400 @ 3.1 GHz or AMD FX 6350 @ 3.9 GHz",
+                gpu: "NVIDIA GeForce GTX 670 (2GB) or AMD Radeon R9 270X (2GB) or better",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "Intel Core i7-4790 @ 3.6 GHz or AMD Ryzen 5 1600 @ 3.2 GHz",
+                gpu: "NVIDIA GeForce GTX 970 (4GB) or AMD Radeon R9 290X (4GB) or better",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Far Cry Primal",
+        genre: "Action, Adventure, FPS",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "13.6 GB",
+        logoLink: "https://i.ibb.co/BcXR1cQ/Farcry-Primal-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/9Nbc98S/Farcry-Primal-Gameplay-1.jpg",
+            "https://i.ibb.co/ZXkMk8m/Farcry-Primal-Gameplay-2.jpg",
+            "https://i.ibb.co/3FfG28c/Farcry-Primal-Gameplay-3.jpg",
+            "https://i.ibb.co/2YgyYbv/Farcry-Primal-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel Core i3-550 | AMD Phenom II X4 955 or equivalent",
+                gpu: "NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "Intel Core i7-2600K | AMD FX-8350 or equivalent",
+                gpu: "NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Borderlands 2",
+        genre: "Action, Role-playing game, FPS",
+        publisher: "2K Games",
+        platform: "PC",
+        size: "20 GB",
+        logoLink: "https://i.ibb.co/kMn7mcV/Borderlands-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/Gpg5d66/Borderlands-2-Gameplay-1.jpg",
+            "https://i.ibb.co/dDq4F1m/Borderlands-2-Gameplay-2.jpg",
+            "https://i.ibb.co/TrnRpYF/Borderlands-2-Gameplay-3.jpg",
+            "https://i.ibb.co/ZcyM4gN/Borderlands-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows XP SP3/Vista/Win 7",
+                cpu: "2.4 GHz Dual Core Processor",
+                gpu: "256 MB, NVIDIA GeForce 8500 /ATI Radeon HD 2600",
+                ram: "2 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows XP SP3/Vista/Win 7",
+                cpu: "2.3 GHz Quad Core processor",
+                gpu: "512MB, NVIDIA GeForce GTX 560 / ATI Radeon HD 5850",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
 
     {
         title: "Call of Duty: WWII",
@@ -3907,6 +4156,37 @@ gameData = [
                 os: "Windows 8.1 / 10, 64-bit",
                 cpu: "Intel Core i5 4690k / AMD Ryzen 5 1600X",
                 gpu: "NVIDIA GeForce GTX 970 or AMD Radeon RX 580x (4GB VRAM)",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Sniper Ghost Warrior Contracts 2",
+        genre: "Action, FPS, Tactical shooter",
+        publisher: "CI Games",
+        platform: "PC",
+        size: "13.5 GB",
+        logoLink: "https://i.ibb.co/dJGH1j0/Sniper-Ghost-Warriors-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/K7fgptL/Sniper-Ghost-Warriors-2-Gameplay-1.jpg",
+            "https://i.ibb.co/fMP03zT/Sniper-Ghost-Warriors-2-Gameplay-2.jpg",
+            "https://i.ibb.co/qnMkTpB/Sniper-Ghost-Warriors-2-Gameplay-3.jpg",
+            "https://i.ibb.co/pxJZCrc/Sniper-Ghost-Warriors-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 8.1 / 10, 64-bit",
+                cpu: "Intel Core i5 7600 / AMD Ryzen 5 1600",
+                gpu: "Nvidia Geforce 970 / Radeon RX 580",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 8.1 / 10, 64-bit",
+                cpu: "Intel Core i7 7700 / AMD Ryzen 7 1700",
+                gpu: "NVIDIA GeForce GTX 1070 or AMD Radeon 5600 XT",
                 ram: "16 GB",
                 directX: "Version 11",
             }
