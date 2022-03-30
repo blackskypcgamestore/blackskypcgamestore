@@ -1800,6 +1800,99 @@ gameData = [
     },
 
     {
+        title: "Dragon Ball Z: Kakarot",
+        genre: "Action, Role-playing game, Fighting",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "38.3 GB",
+        logoLink: "https://i.ibb.co/jGFV6sG/Dragonball-Z-Kakarot-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/WBvVnJp/Dragonball-Z-Kakarot-Gameplay-1.jpg",
+            "https://i.ibb.co/yVYT3QV/Dragonball-Z-Kakarot-Gameplay-2.jpg",
+            "https://i.ibb.co/QH3kfZW/Dragonball-Z-Kakarot-Gameplay-3.jpg",
+            "https://i.ibb.co/HtRYbSG/Dragonball-Z-Kakarot-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i5-2400 or AMD Phenom II X6 1100T",
+                gpu: "GeForce GTX 750 Ti or Radeon HD 7950",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3470 or AMD Ryzen 3 1200",
+                gpu: "GeForce GTX 960 or Radeon R9 280X",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Dragon Ball Xenoverse 2",
+        genre: "Action, Adventure, Fighting, MMO",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "18.7 GB",
+        logoLink: "https://i.ibb.co/kXjwJDm/Dragonball-Xenoverse-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/fXxBdFR/Dragonball-Xenoverse-2-Gameplay-1.jpg",
+            "https://i.ibb.co/qnYZyDM/Dragonball-Xenoverse-2-Gameplay-2.jpg",
+            "https://i.ibb.co/vv82b7M/Dragonball-Xenoverse-2-Gameplay-3.jpg",
+            "https://i.ibb.co/0CnBf4R/Dragonball-Xenoverse-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "AMD Phenom II X2 550, 3.1GHz | Intel Pentium G4400, 3.30GHz",
+                gpu: "GeForce GT 650 | Radeon HD 6570",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3470, 3.20GHz | AMD FX-6300, 3.5Ghz",
+                gpu: "GeForce GT 660 | Radeon HD 7770",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "DRAGON BALL FighterZ",
+        genre: "Action, Fighting",
+        publisher: "Bandai Namco Entertainment",
+        platform: "PC",
+        size: "5.87 GB",
+        logoLink: "https://i.ibb.co/GddFYgk/Dragonball-Fighter-Z-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/0CqGhzt/Dragonball-Fighter-Z-Gameplay-1.jpg",
+            "https://i.ibb.co/PwkDzs9/Dragonball-Fighter-Z-Gameplay-2.png",
+            "https://i.ibb.co/L5GcqmY/Dragonball-Fighter-Z-Gameplay-3.png",
+            "https://i.ibb.co/2kxff9V/Dragonball-Fighter-Z-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "AMD FX-4350, 4.2 GHz / Intel Core i5-3470, 3.20 GHz",
+                gpu: "Radeon HD 6870, 1 GB / GeForce GTX 650 Ti, 1 GB",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "AMD Ryzen 5 1400, 3.2 GHz / Intel Core i7-3770, 3.40 GHz",
+                gpu: "Radeon HD 7870, 2 GB / GeForce GTX 660, 2 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "The Smurfs: Mission Vileaf",
         genre: "Action, Adventure",
         publisher: "Microids",
@@ -4839,6 +4932,37 @@ gameData = [
                 cpu: "Intel Pentium 4 or AMD Athlon XP Processor",
                 gpu: "128MB (or greater) Video Card (Geforce 6 Series Recommended)",
                 ram: "384 MB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Grand Theft Auto: The Trilogy",
+        genre: "Action, Adventure",
+        publisher: "Rockstar Games",
+        platform: "PC",
+        size: "35 GB",
+        logoLink: "https://i.ibb.co/5rN6PGL/GTA-Trilogy-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/gg8RMfb/GTA-Trilogy-Gameplay-1.jpg",
+            "https://i.ibb.co/GVdnyBV/GTA-Trilogy-Gameplay-2.jpg",
+            "https://i.ibb.co/0MNRPz0/GTA-Trilogy-Gameplay-3.jpg",
+            "https://i.ibb.co/h1xxrmQ/GTA-Trilogy-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 2000 or Windows XP",
+                cpu: "Intel® Core™ i5-6600K / AMD FX-6300",
+                gpu: "Nvidia GeForce GTX 760 2GB / AMD Radeon R9 280 3GB",
+                ram: "8 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7",
+                cpu: "Intel® Core™ i7-2700K / AMD Ryzen 5 2600",
+                gpu: "Nvidia GeForce GTX 970 4GB / AMD Radeon RX 570 4GB",
+                ram: "16 GB",
                 directX: "Version 11",
             }
         }
