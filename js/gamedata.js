@@ -1,6 +1,68 @@
 gameData = [
 
     {
+        title: "Deathloop",
+        genre: "Action, Adventure, FPS",
+        publisher: "Bethesda Softworks",
+        platform: "PC",
+        size: "30 GB",
+        logoLink: "https://i.ibb.co/0qpqNfr/Deathloop-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/D8s3JQ3/Deathloop-Gameplay-1.jpg",
+            "https://i.ibb.co/PZXh7Rh/Deathloop-Gameplay-2.jpg",
+            "https://i.ibb.co/JqkZTsR/Deathloop-Gameplay-3.jpg",
+            "https://i.ibb.co/sJnGrdM/Deathloop-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64 bit Windows 10 version 1909 or higher",
+                cpu: "Intel Core i5-8400 @ 2.80GHz or AMD Ryzen 5 1600",
+                gpu: "Nvidia GTX 1060 (6GB) or AMD Radeon RX 580 (8GB)",
+                ram: "12 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "64 bit Windows 10 version 1909 or higher",
+                cpu: "Intel Core i7-9700K @ 3.60GHz or AMD Ryzen 7 2700X",
+                gpu: "Nvidia RTX 2060 (6GB) or AMD Radeon RX 5700 (8GB)",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "LEGO Star Wars: The Skywalker Saga",
+        genre: "Action, Adventure",
+        publisher: "Warner Bros. Games",
+        platform: "PC",
+        size: "30 GB",
+        logoLink: "https://i.ibb.co/MpKQZY2/Lego-Star-Wars-The-Sky-Walker-Saga-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/L9WFfYL/Lego-Star-Wars-The-Sky-Walker-Saga-Gameplay-1.jpg",
+            "https://i.ibb.co/5LXbfSk/Lego-Star-Wars-The-Sky-Walker-Saga-Gameplay-2.jpg",
+            "https://i.ibb.co/qRw7qH8/Lego-Star-Wars-The-Sky-Walker-Saga-Gameplay-3.jpg",
+            "https://i.ibb.co/5WVj4Tk/Lego-Star-Wars-The-Sky-Walker-Saga-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-2400 or AMD Ryzen 3 1200",
+                gpu: "GeForce GTX 750 Ti or Radeon HD 7850",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-6600 or AMD Ryzen 3 3100",
+                gpu: "GeForce GTX 780 or Radeon R9 290",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "GhostWire: Tokyo",
         genre: "Action, First-person",
         publisher: "Bethesda Softworks",
@@ -616,6 +678,68 @@ gameData = [
                 gpu: "GTX 1060 6GB / GTX 1660 Super or Radeon RX 590",
                 ram: "12 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Star Wars Jedi: Fallen Order",
+        genre: "Action, Adventure",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "49.1 GB",
+        logoLink: "https://i.ibb.co/bbcHHKv/Star-Wars-Jedi-Fallen-Order-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/kg4T61X/Star-Wars-Jedi-Fallen-Order-Gameplay-1.jpg",
+            "https://i.ibb.co/hx0tTdK/Star-Wars-Jedi-Fallen-Order-Gameplay-2.jpg",
+            "https://i.ibb.co/VwtG14h/Star-Wars-Jedi-Fallen-Order-Gameplay-3.jpg",
+            "https://i.ibb.co/bsRtjgY/Star-Wars-Jedi-Fallen-Order-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD FX-6100 or Equivalent / Intel i3-3220 or Equivalent",
+                gpu: "AMD Radeon HD 7750 or Equivalent / NVIDIA GeForce GTX 650 or Equivalent",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD Ryzen 7 1700 or Equivalent / Intel i7-6700K or Equivalent",
+                gpu: "AMD RX Vega 56, Nvidia GTX 1070/GTX 1660 Ti or Equivalent",
+                ram: "16 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Star Wars Battlefront 2",
+        genre: "Action, FPS, TPS",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "54.2 GB",
+        logoLink: "https://i.ibb.co/bbcHHKv/Star-Wars-Jedi-Fallen-Order-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/kg4T61X/Star-Wars-Jedi-Fallen-Order-Gameplay-1.jpg",
+            "https://i.ibb.co/hx0tTdK/Star-Wars-Jedi-Fallen-Order-Gameplay-2.jpg",
+            "https://i.ibb.co/VwtG14h/Star-Wars-Jedi-Fallen-Order-Gameplay-3.jpg",
+            "https://i.ibb.co/bsRtjgY/Star-Wars-Jedi-Fallen-Order-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64-bit Windows 7/8.1/10",
+                cpu: "AMD FX-6350 / Intel Core i5 6600K",
+                gpu: "AMD Radeon™ HD 7850 2GB / NVIDIA GeForce® GTX 660 2GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "64-bit Windows 10 or later",
+                cpu: "AMD FX 8350 Wraith / Intel Core i7 6700 or equivalent",
+                gpu: "AMD Radeon™ RX 480 4GB / NVIDIA GeForce® GTX 1060 3GB",
+                ram: "16 GB",
+                directX: "Version 11",
             }
         }
     },
