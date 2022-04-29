@@ -719,12 +719,12 @@ gameData = [
         publisher: "Electronic Arts",
         platform: "PC",
         size: "54.2 GB",
-        logoLink: "https://i.ibb.co/bbcHHKv/Star-Wars-Jedi-Fallen-Order-Logo.jpg",
+        logoLink: "https://i.ibb.co/XsX6rrc/wp2277094-star-wars-battlefront-ii-wallpapers.png",
         gameplayLinks: [
-            "https://i.ibb.co/kg4T61X/Star-Wars-Jedi-Fallen-Order-Gameplay-1.jpg",
-            "https://i.ibb.co/hx0tTdK/Star-Wars-Jedi-Fallen-Order-Gameplay-2.jpg",
-            "https://i.ibb.co/VwtG14h/Star-Wars-Jedi-Fallen-Order-Gameplay-3.jpg",
-            "https://i.ibb.co/bsRtjgY/Star-Wars-Jedi-Fallen-Order-Gameplay-4.jpg"
+            "https://i.ibb.co/MyHJ4t3/Star-Wars-Battlefront-2-Gameplay-1.jpg",
+            "https://i.ibb.co/PW4BT0C/Star-Wars-Battlefront-2-Gameplay-2.jpg",
+            "https://i.ibb.co/XpXGb5R/Star-Wars-Battlefront-2-Gameplay-3.jpg",
+            "https://i.ibb.co/xHcNFqk/Star-Wars-Battlefront-2-Gameplay-4.jpg"
         ],
         systemRequirements: {
             minimum: {
