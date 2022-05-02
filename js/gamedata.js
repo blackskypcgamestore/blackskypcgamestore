@@ -3509,6 +3509,37 @@ gameData = [
     },
 
     {
+        title: "Far Cry 3",
+        genre: "Action, Adventure, FPS",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "6.66 GB",
+        logoLink: "https://i.ibb.co/qr3qC7d/Farcry-3-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/SXyN9ZR/Farcry-3-Gameplay-1.jpg",
+            "https://i.ibb.co/M66K74g/Farcry-3-Gameplay-2.jpg",
+            "https://i.ibb.co/XYzRyN6/Farcry-3-Gameplay-3.jpg",
+            "https://i.ibb.co/GVz54SP/Farcry-3-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® XP (with SP3) or Windows Vista® (with SP2)",
+                cpu: "Intel® Core®2 Duo E6700 @ 2.6 GHz or better",
+                gpu: "512 MB DirectX® 9.0c compliant card with Shader Model 3.0 or higher",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64-Bit",
+                cpu: "Intel® Core®i3-530 @ 2.9 GHz or better, AMD™ Phenom™II X2 @ 3.1 GHz or better",
+                gpu: "1024 MB DirectX® 11.0 compliant card with Shader Model 5.0 or higher",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Far Cry 4",
         genre: "Action, Adventure, FPS",
         publisher: "Ubisoft",
@@ -3663,33 +3694,32 @@ gameData = [
         }
     },
 
-
     {
-        title: "Call of Duty: WWII",
+        title: "Call of Duty: Black Ops II",
         genre: "Action, FPS",
         publisher: "Activision",
         platform: "PC",
-        size: "70 GB",
-        logoLink: "https://i.ibb.co/KKW7Dmt/Call-Of-Duty-World-War-2-Logo.png",
+        size: "21 GB",
+        logoLink: "https://i.ibb.co/fpyDGbP/Call-Of-Duty-Black-Ops-2-Logo.jpg",
         gameplayLinks: [
-            "https://i.ibb.co/PcYRw11/Call-Of-Duty-World-War-2-Gameplay-1.jpg",
-            "https://i.ibb.co/SP3pbfS/Call-Of-Duty-World-War-2-Gameplay-2.png",
-            "https://i.ibb.co/PZ6qHd4/Call-Of-Duty-World-War-2-Gameplay-3.jpg",
-            "https://i.ibb.co/19tVr5W/Call-Of-Duty-World-War-2-Gameplay-4.jpg"
+            "https://i.ibb.co/tHwQWyf/Call-Of-Duty-Black-Ops-2-Gameplay-1.jpg",
+            "https://i.ibb.co/wJ5SY44/Call-Of-Duty-Black-Ops-2-Gameplay-2.jpg",
+            "https://i.ibb.co/qBYhSK1/Call-Of-Duty-Black-Ops-2-Gameplay-3.jpg",
+            "https://i.ibb.co/0yrNxs8/Call-Of-Duty-Black-Ops-2-Gameplay-4.jpg"
         ],
         systemRequirements: {
             minimum: {
-                os: "Windows 7 64-Bit or later",
-                cpu: "Intel® Core™ i3 3225 3.3 GHz or AMD Ryzen™ 5 1400",
-                gpu: "NVIDIA® GeForce® GTX 660 @ 2 GB / GTX 1050 or ATI® Radeon™ HD 7850 @ 2GB",
-                ram: "8 GB",
+                os: "Windows Vista SP2 or Windows 7",
+                cpu: "Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz",
+                gpu: "Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB",
+                ram: "2 GB",
                 directX: "Version 11",
             },
             recommend: {
-                os: "Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit",
-                cpu: "Intel® Core™ i5-2400 / AMD Ryzen R5 1600X",
-                gpu: "NVIDIA® GeForce® GTX 970 / GTX 1060 @ 6GB or AMD Radeon™ R9 390",
-                ram: "12 GB",
+                os: "Windows Vista SP2 or Windows 7",
+                cpu: "Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz",
+                gpu: "Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB",
+                ram: "4 GB",
                 directX: "Version 11",
             }
         }
@@ -3752,6 +3782,37 @@ gameData = [
                 cpu: "Intel Core i3-3225 @ 3.30GHz or equivalent",
                 gpu: "NVIDIA GeForce GTX 660 2GB / AMD Radeon HD 7850 2GB",
                 ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Call of Duty: WWII",
+        genre: "Action, FPS",
+        publisher: "Activision",
+        platform: "PC",
+        size: "70 GB",
+        logoLink: "https://i.ibb.co/KKW7Dmt/Call-Of-Duty-World-War-2-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/PcYRw11/Call-Of-Duty-World-War-2-Gameplay-1.jpg",
+            "https://i.ibb.co/SP3pbfS/Call-Of-Duty-World-War-2-Gameplay-2.png",
+            "https://i.ibb.co/PZ6qHd4/Call-Of-Duty-World-War-2-Gameplay-3.jpg",
+            "https://i.ibb.co/19tVr5W/Call-Of-Duty-World-War-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel® Core™ i3 3225 3.3 GHz or AMD Ryzen™ 5 1400",
+                gpu: "NVIDIA® GeForce® GTX 660 @ 2 GB / GTX 1050 or ATI® Radeon™ HD 7850 @ 2GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit",
+                cpu: "Intel® Core™ i5-2400 / AMD Ryzen R5 1600X",
+                gpu: "NVIDIA® GeForce® GTX 970 / GTX 1060 @ 6GB or AMD Radeon™ R9 390",
+                ram: "12 GB",
                 directX: "Version 11",
             }
         }
