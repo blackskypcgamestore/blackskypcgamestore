@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Vampire: The Masquerade - Swansong",
+        genre: "Role-playing game",
+        publisher: "Nacon",
+        platform: "PC",
+        size: "25 GB",
+        logoLink: "https://i.ibb.co/FD0hy1D/Vampire-The-Masquerade-Swansong-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/1bMgpzJ/Vampire-The-Masquerade-Swansong-Gameplay-1.jpg",
+            "https://i.ibb.co/YZDZxXb/Vampire-The-Masquerade-Swansong-Gameplay-2.jpg",
+            "https://i.ibb.co/Xz4fvQm/Vampire-The-Masquerade-Swansong-Gameplay-3.jpg",
+            "https://i.ibb.co/3FBXkMR/Vampire-The-Masquerade-Swansong-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 (64-bit)",
+                cpu: "Intel Core i5-2300, 2.80 GHz",
+                gpu: "Radeon HD 7790, 4 GB / GeForce GTX 750Ti, 4 GB",
+                ram: "6 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10 (64-bit)",
+                cpu: "Intel Core i5-3470, 3.20 GHz",
+                gpu: "GeForce GTX 1070",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Deathloop",
         genre: "Action, Adventure, FPS",
         publisher: "Bethesda Softworks",
