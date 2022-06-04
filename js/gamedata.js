@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Far Cry 6",
+        genre: "Action, Adventure, FPS",
+        publisher: "Ubisoft",
+        platform: "PC",
+        size: "85 GB",
+        logoLink: "https://i.ibb.co/tKVG48D/Far-Cry-6-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/qrQSxVn/Far-Cry-6-Gameplay-1.jpg",
+            "https://i.ibb.co/N2ZYmCb/Far-Cry-6-Gameplay-2.jpg",
+            "https://i.ibb.co/6tG0959/Far-Cry-6-Gameplay-3.jpg",
+            "https://i.ibb.co/885fhk8/Far-Cry-6-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 (64-bit)",
+                cpu: "AMD Ryzen 3 1200 – 3.1 GHZ or Intel i5-4460 – 3.2 GHZ",
+                gpu: "AMD RX 460 – 4 GB or NVIDIA GTX 960 – 4 GB",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10 (64-bit)",
+                cpu: "AMD Ryzen 5 3600X – 3.8 GHZ or Intel i7-7700 – 3.6 GHZ",
+                gpu: "AMD RX VEGA64 – 8 GB or NVIDIA GTX 1080 – 8 GB",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Vampire: The Masquerade - Swansong",
         genre: "Role-playing game",
         publisher: "Nacon",
