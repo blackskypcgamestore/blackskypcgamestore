@@ -2079,6 +2079,69 @@ gameData = [
     },
 
     {
+        title: "FIFA 19",
+        genre: "Sports",
+        publisher: "Electronic Arts",
+        platform: "PC",
+        size: "44.5 GB",
+        logoLink: "https://i.ibb.co/DkjJnFs/Fifa-19-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/J5y1pVJ/Fifa-19-Gameplay-1.jpg",
+            "https://i.ibb.co/5T1GR8W/Fifa-19-Gameplay-2.jpg",
+            "https://i.ibb.co/wW6Z9XX/Fifa-19-Gameplay-3.jpg",
+            "https://i.ibb.co/yfwY2pH/Fifa-19-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Core i3-2100 @ 3.1GHz or AMD Phenom II X4 965 @ 3.4 GHz",
+                gpu: "NVIDIA GTX 460 1GB or AMD Radeon R7 260",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel i3 6300T or AMD Athlon X4 870K or equivalent benchmark",
+                gpu: "NVIDIA GeForce GTX 670 or AMD Radeon R9 270X",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "PES 2021",
+        genre: "Sports",
+        publisher: "Konami",
+        platform: "PC",
+        size: "27.1 GB",
+        logoLink: "https://i.ibb.co/Mk4Tzbb/PES-2021-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/QH2nHY0/PES-2021-Gameplay-1.jpg",
+            "https://i.ibb.co/mNYd4Hv/PES-2021-Gameplay-2.jpg",
+            "https://i.ibb.co/FwK2Tcm/PES-2021-Gameplay-3.jpg",
+            "https://i.ibb.co/R2G2Sqk/PES-2021-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i5-3470 / AMD FX 4350",
+                gpu: "NVIDIA GTX 670 / AMD Radeon HD 7870",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Intel Core i7-3770 / AMD FX 8350",
+                gpu: "NVIDIA GTX 760 / AMD Radeon R9 270X",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+
+    {
         title: "The Smurfs: Mission Vileaf",
         genre: "Action, Adventure",
         publisher: "Microids",
@@ -2541,6 +2604,37 @@ gameData = [
                 gpu: "GeForce 8800 GT series with 512 MB RAM or ATI Radeon HD4850 with 512MB RAM",
                 ram: "2 GB",
                 directX: "Version 9"
+            }
+        }
+    },
+
+    {
+        title: "The Amazing Spider-Man 2",
+        genre: "Action, Adventure",
+        publisher: "Activision",
+        platform: "PC",
+        size: "7.7 GB",
+        logoLink: "https://i.ibb.co/JpByhGS/The-Amazing-Spiderman-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/CKw21mh/The-Amazing-Spiderman-2-Gameplay-1.jpg",
+            "https://i.ibb.co/vYmfVKW/The-Amazing-Spiderman-2-Gameplay-2.jpg",
+            "https://i.ibb.co/hBcX3gr/The-Amazing-Spiderman-2-Gameplay-3.jpg",
+            "https://i.ibb.co/YQdNH4y/The-Amazing-Spiderman-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core® 2 Duo 2.6 GHz / AMD Athlon 64 X2 3800+",
+                gpu: "512 MB 3D hardware accelerator card required",
+                ram: "3 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7, 8.1, 10 x64",
+                cpu: "Intel Core® 2 Quad 2.4 Ghz / AMD Athlon II X4 2.6 Ghz",
+                gpu: "Nvidia GeForce 285 GTX / AMD Radeon HD4830",
+                ram: "4 GB",
+                directX: "Version 9",
             }
         }
     },
@@ -3380,6 +3474,37 @@ gameData = [
                 gpu: "NVIDIA GeForce GTX970/GTX 1060 or AMD R9 390/RX480 (4GB VRAM with Shader Model 5.0 or better)",
                 ram: "8 GB",
                 directX: "Version 12",
+            }
+        }
+    },
+
+    {
+        title: "Mad Max",
+        genre: "Action, Adventure, Vehicular combat",
+        publisher: "Warner Bros",
+        platform: "PC",
+        size: "29.4 GB",
+        logoLink: "https://i.ibb.co/rkdP8DL/Mad-Max-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/s96qh7G/Mad-Max-Gameplay-1.jpg",
+            "https://i.ibb.co/nR3bGHX/Mad-Max-Gameplay-2.jpg",
+            "https://i.ibb.co/DKJ4sth/Mad-Max-Gameplay-3.jpg",
+            "https://i.ibb.co/qJT3L0J/Mad-Max-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64 bit: Vista, Win 7, Win 8",
+                cpu: "Intel Core i5-650, 3.2 GHz or AMD Phenom II X4 965, 3.4 Ghz",
+                gpu: "NVIDIA GeForce GTX 660ti (2 GB Memory or higher)",
+                ram: "6 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 (64-bit versions only)",
+                cpu: "Intel Core i7-3770, 3.4 GHz or AMD FX-8350, 4.0 GHz",
+                gpu: "NVIDIA GeForce GTX 760 (3 GB Memory or higher)",
+                ram: "8 GB",
+                directX: "Version 11",
             }
         }
     },
@@ -4844,6 +4969,37 @@ gameData = [
     },
 
     {
+        title: "Marvel's Guardians of the Galaxy: The Telltale Series",
+        genre: "Adventure",
+        publisher: "Telltale Games",
+        platform: "PC",
+        size: "17.7 GB",
+        logoLink: "https://i.ibb.co/6PcfMk9/Marvel-Guardians-Of-The-Galaxy-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/SBXfWzd/Marvel-Guardians-Of-The-Galaxy-Gameplay-1.jpg",
+            "https://i.ibb.co/rFZvBR1/Marvel-Guardians-Of-The-Galaxy-Gameplay-2.jpg",
+            "https://i.ibb.co/DY61n7f/Marvel-Guardians-Of-The-Galaxy-Gameplay-3.jpg",
+            "https://i.ibb.co/b3wTxsY/Marvel-Guardians-Of-The-Galaxy-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7",
+                cpu: "Intel Core 2 Duo 2.4GHz",
+                gpu: "Nvidia GTS 450+ with 1024MB+ VRAM (excluding GT)",
+                ram: "3 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "Intel Core 2 Duo 2.4GHz",
+                gpu: "Nvidia GTS 450+ with 1024MB+ VRAM (excluding GT)",
+                ram: "4 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
         title: "Marvel's Avengers",
         genre: "Action, Adventure, Role-playing game",
         publisher: "Square Enix",
@@ -5401,36 +5557,36 @@ gameData = [
         }
     },
 
-    {
-        title: "Monster Hunter World Iceborne",
-        genre: "Action, Adventure, RPG",
-        publisher: "CAPCOM Co., Ltd",
-        platform: "PC",
-        size: "34.7 GB",
-        logoLink: "https://i.ibb.co/HV1vZ5B/Monster-hunter-world-iceborne-logo.jpg",
-        gameplayLinks: [
-            "https://i.ibb.co/MgQR8GC/Monster-hunter-world-iceborne-gameplay-1.jpg",
-            "https://i.ibb.co/5KmTjDq/Monster-hunter-world-iceborne-gameplay-2.jpg",
-            "https://i.ibb.co/6sb0czW/Monster-hunter-world-iceborne-gameplay-3.jpg",
-            "https://i.ibb.co/ggmGhcV/Monster-hunter-world-iceborne-gameplay-4.jpg"
-        ],
-        systemRequirements: {
-            minimum: {
-                os: "Windows 7",
-                cpu: "Intel® Core™ i5-4460, 3.20GHz or AMD FX™-6300",
-                gpu: "NVIDIA® GeForce® GTX 760 or AMD Radeon™ R7 260x (VRAM 2GB)",
-                ram: "8 GB",
-                directX: "Version 11",
-            },
-            recommend: {
-                os: "Windows 10 - 64bit",
-                cpu: "Intel® Core™ i7 3770 3.4GHz or Intel® Core™ i3 8350 4GHz or AMD Ryzen™ 5 1500X",
-                gpu: "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or AMD Radeon™ RX 570 (VRAM 4GB)",
-                ram: "8 GB",
-                directX: "Version 11",
-            }
-        }
-    },
+    // {
+    //     title: "Monster Hunter World Iceborne",
+    //     genre: "Action, Adventure, RPG",
+    //     publisher: "CAPCOM Co., Ltd",
+    //     platform: "PC",
+    //     size: "34.7 GB",
+    //     logoLink: "https://i.ibb.co/HV1vZ5B/Monster-hunter-world-iceborne-logo.jpg",
+    //     gameplayLinks: [
+    //         "https://i.ibb.co/MgQR8GC/Monster-hunter-world-iceborne-gameplay-1.jpg",
+    //         "https://i.ibb.co/5KmTjDq/Monster-hunter-world-iceborne-gameplay-2.jpg",
+    //         "https://i.ibb.co/6sb0czW/Monster-hunter-world-iceborne-gameplay-3.jpg",
+    //         "https://i.ibb.co/ggmGhcV/Monster-hunter-world-iceborne-gameplay-4.jpg"
+    //     ],
+    //     systemRequirements: {
+    //         minimum: {
+    //             os: "Windows 7",
+    //             cpu: "Intel® Core™ i5-4460, 3.20GHz or AMD FX™-6300",
+    //             gpu: "NVIDIA® GeForce® GTX 760 or AMD Radeon™ R7 260x (VRAM 2GB)",
+    //             ram: "8 GB",
+    //             directX: "Version 11",
+    //         },
+    //         recommend: {
+    //             os: "Windows 10 - 64bit",
+    //             cpu: "Intel® Core™ i7 3770 3.4GHz or Intel® Core™ i3 8350 4GHz or AMD Ryzen™ 5 1500X",
+    //             gpu: "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or AMD Radeon™ RX 570 (VRAM 4GB)",
+    //             ram: "8 GB",
+    //             directX: "Version 11",
+    //         }
+    //     }
+    // },
 
     {
         title: "Dishonored 2",
@@ -5519,6 +5675,68 @@ gameData = [
                 os: "Windows 10",
                 cpu: "Intel i5 8600K (3.6 GHz) / AMD Ryzen 5 1600X (3.6 GHz)",
                 gpu: "Nvidia GeForce GTX 970 (4GB) / AMD Radeon RX 570 (4GB)",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Kao the Kangaroo",
+        genre: "Action, Adventure, Platformer",
+        publisher: "Tate Multimedia",
+        platform: "PC",
+        size: "9.18 GB",
+        logoLink: "https://i.ibb.co/5xykWNF/Kao-The-Kangaroo-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/p1G8370/Kao-The-Kangaroo-Gameplay-1.jpg",
+            "https://i.ibb.co/NyY9g11/Kao-The-Kangaroo-Gameplay-2.jpg",
+            "https://i.ibb.co/2nTKW3K/Kao-The-Kangaroo-Gameplay-3.jpg",
+            "https://i.ibb.co/bvZ4QZ1/Kao-The-Kangaroo-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 10 64bit",
+                cpu: "i5-3300 3,20 GHz 4 cores/4 threads",
+                gpu: "GeForce GTX 760, 2 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64bit",
+                cpu: "i5-3300 3,20 GHz 4 cores/4 threads",
+                gpu: "GeForce GTX 760, 2 GB",
+                ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Crash Bandicoot N. Sane Trilogy",
+        genre: "Action, Platformer",
+        publisher: "Activision",
+        platform: "PC",
+        size: "25.3 GB",
+        logoLink: "https://i.ibb.co/C7hRks6/Crash-Bandicoot-N-Sane-Trilogy-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/6J7nF90/Crash-Bandicoot-N-Sane-Trilogy-Gameplay-1.jpg",
+            "https://i.ibb.co/wzqBgpn/Crash-Bandicoot-N-Sane-Trilogy-Gameplay-2.jpg",
+            "https://i.ibb.co/92MM9P8/Crash-Bandicoot-N-Sane-Trilogy-Gameplay-3.jpg",
+            "https://i.ibb.co/CJhhBvQ/Crash-Bandicoot-N-Sane-Trilogy-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7",
+                cpu: "Intel Core i5-750 @ 2.67GHz | AMD Phenom II X4 965 @ 3.4GHz",
+                gpu: "NVIDIA GeForce GTX 660 2GB / AMD Radeon HD 7850 2GB",
+                ram: "8 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 10",
+                cpu: "Intel Core i5-750 @ 2.67GHz | AMD Phenom II X4 965 @ 3.4GHz",
+                gpu: "NVIDIA GeForce GTX 660 2GB / AMD Radeon HD 7850 2GB",
                 ram: "8 GB",
                 directX: "Version 11",
             }
