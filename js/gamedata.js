@@ -807,6 +807,37 @@ gameData = [
     },
 
     {
+        title: "Sid Meier's Civilization VI",
+        genre: "Strategy, 4X, Turn-based strategy",
+        publisher: "2K Games",
+        platform: "PC",
+        size: "12.3 GB",
+        logoLink: "https://i.ibb.co/yQmQx96/Civilization-VI-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/RSzQF7S/Civilization-VI-Gameplay-1.jpg",
+            "https://i.ibb.co/HtH2Qsy/Civilization-VI-Gameplay-2.jpg",
+            "https://i.ibb.co/nzJpg7Y/Civilization-VI-Gameplay-3.jpg",
+            "https://i.ibb.co/JHPk7P8/Civilization-VI-Gameplay-4.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® 7 64-bit",
+                cpu: "Intel Core i3 2.5 Ghz or AMD Phenom II 2.6 Ghz or greater",
+                gpu: "1 GB DirectX 11 Video Card (AMD 5570 or Nvidia 450)",
+                ram: "4 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows® 10 64-bit",
+                cpu: "Fourth generation Intel Core i5 2.5 Ghz or AMD FX8350 4.0 Ghz or greater",
+                gpu: "2 GB DirectX 11 Video Card (AMD 7970 or Nvidia 770 or greater)",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Anno 1800",
         genre: "Simulation, Strategy, City builder",
         publisher: "Ubisoft",
@@ -3107,6 +3138,37 @@ gameData = [
     },
 
     {
+        title: "Blur",
+        genre: "Racing, Vehicular combat",
+        publisher: "Activision Blizzard",
+        platform: "PC",
+        size: "5.22 GB",
+        logoLink: "https://i.ibb.co/Y8C56sh/Blur-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/gv4JMyh/Blue-Gameplay-1.jpg",
+            "https://i.ibb.co/VHd4dkw/Blue-Gameplay-2.jpg",
+            "https://i.ibb.co/SdYdB7P/Blue-Gameplay-3.jpg",
+            "https://i.ibb.co/2gwr50N/Blue-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7",
+                cpu: "Intel Pentium D Dual Core 3.4ghz or better",
+                gpu: "256 MB NVIDIA GeForce 6600GT or better",
+                ram: "1 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows 7 or higher",
+                cpu: "Intel Pentium Core 2 Duo 2.0ghz or better",
+                gpu: "256 MB NVIDIA GeForce 7800GT or better",
+                ram: "2 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
         title: "Need For Speed Heat",
         genre: "Racing",
         publisher: "Electronic Arts",
@@ -3504,6 +3566,37 @@ gameData = [
                 cpu: "Intel Core i7-3770, 3.4 GHz or AMD FX-8350, 4.0 GHz",
                 gpu: "NVIDIA GeForce GTX 760 (3 GB Memory or higher)",
                 ram: "8 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Sleeping Dogs",
+        genre: "Action, Adventure",
+        publisher: "Square Enix",
+        platform: "PC",
+        size: "7.8 GB",
+        logoLink: "https://i.ibb.co/YTtxH36/Sleeping-Dogs-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/rbm3ZHC/Sleeping-Dogs-Gameplay-1.jpg",
+            "https://i.ibb.co/0Zpm9Fw/Sleeping-Dogs-Gameplay-2.jpg",
+            "https://i.ibb.co/7KdLF5m/Sleeping-Dogs-Gameplay-3.jpg",
+            "https://i.ibb.co/0DTrmmW/Sleeping-Dogs-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64 bit: Vista, Win 7, Win 8",
+                cpu: "Core 2 Duo 2.4 GHz or Althon X2 2.7 GHz",
+                gpu: "Nvidia GeForce 8800 GT or higher",
+                ram: "2 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 7",
+                cpu: "Quad-core Intel or AMD CPU",
+                gpu: "Nvidia GeForce GTX 560",
+                ram: "4 GB",
                 directX: "Version 11",
             }
         }
@@ -4840,6 +4933,37 @@ gameData = [
                 gpu: "NVIDIA GTX 650 or better",
                 ram: "8 GB",
                 directX: "Version 9.0 or Better",
+            }
+        }
+    },
+
+    {
+        title: "My Time at Sandrock",
+        genre: "Role-playing game, Simulation, Sandbox",
+        publisher: "DMM GAMES",
+        platform: "PC",
+        size: "8 GB",
+        logoLink: "https://i.ibb.co/9NTJ8X2/My-Time-At-Sandrock-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/jg5w8v6/My-Time-At-Sandrock-Gameplay-1.jpg",
+            "https://i.ibb.co/NLK4Pgv/My-Time-At-Sandrock-Gameplay-2.jpg",
+            "https://i.ibb.co/fdss3Jm/My-Time-At-Sandrock-Gameplay-3.jpg",
+            "https://i.ibb.co/TcYKN8z/My-Time-At-Sandrock-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 64 Bit",
+                cpu: "Intel Core i3-2100 | AMD FX-6300",
+                gpu: "Nvidia GeForce GTX 760 | AMD Radeon 7950",
+                ram: "8 GB",
+                directX: "Version 9.0",
+            },
+            recommend: {
+                os: "Windows 10 64 Bit",
+                cpu: "Intel Core i7-9700K | AMD Ryzen 7 2700X",
+                gpu: "Nvidia GeForce GTX 1060 | AMD Radeon RX 580",
+                ram: "16 GB",
+                directX: "Version 11",
             }
         }
     },
