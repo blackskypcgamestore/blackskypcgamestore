@@ -4089,9 +4089,40 @@ gameData = [
                 directX: "Version 11",
             },
             recommend: {
-                os: "Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit",
+                os: "Windows 10 64 Bit",
                 cpu: "Intel® Core™ i5-2400 / AMD Ryzen R5 1600X",
                 gpu: "NVIDIA® GeForce® GTX 970 / GTX 1060 @ 6GB or AMD Radeon™ R9 390",
+                ram: "12 GB",
+                directX: "Version 11",
+            }
+        }
+    },
+
+    {
+        title: "Call of Duty: Modern Warfare 2 Campaign Remastered",
+        genre: "Action, FPS",
+        publisher: "Activision",
+        platform: "PC",
+        size: "50.2 GB",
+        logoLink: "https://i.ibb.co/whzJtZX/Call-Of-Duty-Modern-Warfare-2-Remastered-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/wwQ4vFg/Call-Of-Duty-Modern-Warfare-2-Remastered-Gameplay-1.jpg",
+            "https://i.ibb.co/6wL1nbN/Call-Of-Duty-Modern-Warfare-2-Remastered-Gameplay-2.jpg",
+            "https://i.ibb.co/FxZWBn7/Call-Of-Duty-Modern-Warfare-2-Remastered-Gameplay-3.jpg",
+            "https://i.ibb.co/tpTxPHc/Call-Of-Duty-Modern-Warfare-2-Remastered-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 7 64-Bit or later",
+                cpu: "Intel Core i3-4340 or AMD FX-6300",
+                gpu: "NVIDIA® GeForce® GTX 670 / NVIDIA® GeForce® GTX 1650 or AMD Radeon™ HD 7950",
+                ram: "8 GB",
+                directX: "Version 11",
+            },
+            recommend: {
+                os: "Windows 10 64 Bit",
+                cpu: "Intel® Core™ i5-2500K or AMD Ryzen™ R5 1600X Processor",
+                gpu: "NVIDIA® GeForce® GTX 970 / NVIDIA® GeForce® GTX 1660",
                 ram: "12 GB",
                 directX: "Version 11",
             }
