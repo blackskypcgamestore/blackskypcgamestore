@@ -3603,6 +3603,99 @@ gameData = [
     },
 
     {
+        title: "Prototype",
+        genre: "Action, Adventure",
+        publisher: "Activision",
+        platform: "PC",
+        size: "7.56 GB",
+        logoLink: "https://i.ibb.co/N2LZxZ8/Prototype-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/sVYCDhZ/Prototype-Gameplay-1.jpg",
+            "https://i.ibb.co/SP8PtXy/Prototype-Gameplay-2.jpg",
+            "https://i.ibb.co/bgCscB7/Prototype-Gameplay-3.jpg",
+            "https://i.ibb.co/Njfq79F/Prototype-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "64 bit: Vista, Win 7, Win 8",
+                cpu: "Intel® Core™2 Duo 1.86 GHz or AMD Athlon™ 64 X2 4000+ or better",
+                gpu: "All NVIDIA® GeForce® 7800 GT 256 MB and better chipsets.",
+                ram: "2 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "64 bit: Vista, Win 7, Win 8",
+                cpu: "Intel® Core™2 Duo 1.86 GHz or AMD Athlon™ 64 X2 4000+ or better",
+                gpu: "All NVIDIA® GeForce® 7800 GT 256 MB and better chipsets.",
+                ram: "2 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "Prototype 2",
+        genre: "Action, Adventure",
+        publisher: "Activision",
+        platform: "PC",
+        size: "14.83 GB",
+        logoLink: "https://i.ibb.co/Y31pVrw/Prototype-2-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/HgsG51B/Prototype-2-Gameplay-1.jpg",
+            "https://i.ibb.co/1JMQgYS/Prototype-2-Gameplay-2.jpg",
+            "https://i.ibb.co/Pzn0vcn/Prototype-2-Gameplay-3.jpg",
+            "https://i.ibb.co/XZpCV75/Prototype-2-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows® XP / Vista / 7",
+                cpu: "Intel Core 2 Duo 2.6GHz, AMD Phenom X3 8750",
+                gpu: "NVIDIA GeForce 8800 GT with 512 MB RAM",
+                ram: "2 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "64 bit: Vista, Win 7, Win 8",
+                cpu: "Intel Core 2 Quad 2.7 GHz or better, AMD Phenom II X4 3 GHz or better",
+                gpu: "NVIDIA GeForce GTX 460 (1GB) or better",
+                ram: "4 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
+        title: "Metal Gear Rising: Revengeance",
+        genre: "Action, Hack and Slash",
+        publisher: "Konami",
+        platform: "PC",
+        size: "24.4 GB",
+        logoLink: "https://i.ibb.co/10yhSJJ/Metal-Gear-Rising-Revengeance-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/VJsfX37/Metal-Gear-Rising-Revengeance-Gameplay-1.jpg",
+            "https://i.ibb.co/3p8rNb4/Metal-Gear-Rising-Revengeance-Gameplay-2.jpg",
+            "https://i.ibb.co/DVGq4CF/Metal-Gear-Rising-Revengeance-Gameplay-3.jpg",
+            "https://i.ibb.co/hfxMLGw/Metal-Gear-Rising-Revengeance-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows XP or Vista or 7 or 8",
+                cpu: "Intel Core i5 2400",
+                gpu: "Nvidia Geforce GTS 450",
+                ram: "2 GB",
+                directX: "Version 9",
+            },
+            recommend: {
+                os: "Windows XP or Vista or 7 or 8",
+                cpu: "Intel Core i7 3770",
+                gpu: "Nvidia Geforce GTX 650",
+                ram: "4 GB",
+                directX: "Version 9",
+            }
+        }
+    },
+
+    {
         title: "Just Cause 4",
         genre: "Action, Adventure",
         publisher: "Square Enix",
