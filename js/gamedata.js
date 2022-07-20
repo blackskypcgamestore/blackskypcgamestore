@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Stray",
+        genre: "Adventure",
+        publisher: "Annapurna Interactive",
+        platform: "PC",
+        size: "6.41 GB",
+        logoLink: "https://i.ibb.co/bggvbCb/Stray-Logo.png",
+        gameplayLinks: [
+            "https://i.ibb.co/RTCgf0K/Stray-Gameplay-1.jpg",
+            "https://i.ibb.co/3Rg7Q3J/Stray-Gameplay-2.jpg",
+            "https://i.ibb.co/gjrKdWn/Stray-Gameplay-3.jpg",
+            "https://i.ibb.co/y4dYpBM/Stray-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 (64-bit)",
+                cpu: "Intel Core i5-2300 | AMD FX-6350",
+                gpu: "NVIDIA GeForce GTX 650 Ti, 2 GB | AMD Radeon R7 360, 2 GB",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10 (64-bit)",
+                cpu: "Intel Core i5-8400 | AMD Ryzen 5 2600",
+                gpu: "NVIDIA GeForce GTX 780, 3 GB | AMD Radeon R9 290X, 4 GB",
+                ram: "8 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Far Cry 6",
         genre: "Action, Adventure, FPS",
         publisher: "Ubisoft",
