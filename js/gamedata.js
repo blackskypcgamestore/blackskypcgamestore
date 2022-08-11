@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Dying Light 2 Stay Human",
+        genre: "Action, Role-playing game, Survival horror",
+        publisher: "Techland",
+        platform: "PC",
+        size: "72 GB",
+        logoLink: "https://i.ibb.co/WV7rCzX/Dying-Light-2-Stay-Human-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/cLNh72K/Dying-Light-2-Stay-Human-Gameplay-1.jpg",
+            "https://i.ibb.co/fNJfXCq/Dying-Light-2-Stay-Human-Gameplay-2.jpg",
+            "https://i.ibb.co/fS509SB/Dying-Light-2-Stay-Human-Gameplay-3.jpg",
+            "https://i.ibb.co/XpP1Gr2/Dying-Light-2-Stay-Human-Gameplay-4.png"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 (64-bit)",
+                cpu: "Intel Core i3-9100 / AMD Ryzen 3 2300X",
+                gpu: "Nvidia GeForce GTX 1050 Ti / AMD Radeon RX 560 4GB VRAM",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10 (64-bit)",
+                cpu: "AMD / Intel CPU running at 3.6 GHz or higher: Intel Core i5-8600K",
+                gpu: "Nvidia GeForce RTX 2060 6GB / AMD RX Vega 56 8GB",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Stray",
         genre: "Adventure",
         publisher: "Annapurna Interactive",
