@@ -1,6 +1,37 @@
 gameData = [
 
     {
+        title: "Marvel's Spider-Man Remastered",
+        genre: "Action, Adventure",
+        publisher: "PlayStation PC",
+        platform: "PC",
+        size: "54.7 GB",
+        logoLink: "https://i.ibb.co/0hDRN2B/Marvel-s-Spiderman-Remastered-Logo.jpg",
+        gameplayLinks: [
+            "https://i.ibb.co/yqcGRvT/Marvel-s-Spiderman-Remastered-Gameplay-1.jpg",
+            "https://i.ibb.co/LdYrsbQ/Marvel-s-Spiderman-Remastered-Gameplay-2.jpg",
+            "https://i.ibb.co/vkMyLnC/Marvel-s-Spiderman-Remastered-Gameplay-3.jpg",
+            "https://i.ibb.co/6BbhRVZ/Marvel-s-Spiderman-Remastered-Gameplay-4.jpg"
+        ],
+        systemRequirements: {
+            minimum: {
+                os: "Windows 10 (64-bit)",
+                cpu: "Intel Core i3-4160, 3.6 GHz or AMD equivalent",
+                gpu: "NVIDIA GTX 950 or AMD Radeon RX 470",
+                ram: "8 GB",
+                directX: "Version 12",
+            },
+            recommend: {
+                os: "Windows 10 (64-bit)",
+                cpu: "Intel Core i5-4670, 3.4 Ghz or AMD Ryzen 5 1600, 3.2 Ghz",
+                gpu: "NVIDIA GTX 1060 6GB or AMD Radeon RX 580 8GB",
+                ram: "16 GB",
+                directX: "Version 12",
+            }
+        }
+    },
+
+    {
         title: "Dying Light 2 Stay Human",
         genre: "Action, Role-playing game, Survival horror",
         publisher: "Techland",
